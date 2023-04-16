@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Slider from '@/components/slider'
+import PdtSlider from '@/components/PdtSlider'
 
 export default function Product() {
     return (
@@ -21,7 +21,7 @@ export default function Product() {
             </div>
 
             <div className='relative h-fit lg:top-[-12rem] z-[10] py-8 md:pt-0 lg:px-10 lg:pr-12'>
-                <Slider />
+                <PdtSlider />
             </div>
         </div>
     )
