@@ -10,7 +10,7 @@ export default function Footer() {
     return (
         <div className='font-montserrat border-t-[2px] border-gray p-4 md:p-8 flex flex-col lg:flex-row gap-10 justify-between xl:items-center'>
             <div className='flex flex-col gap-8'>
-                <Image src="/gray-logo.png"
+                <Image src="/logoGray.png"
                     alt="gray-logo"
                     width={500}
                     height={500}
