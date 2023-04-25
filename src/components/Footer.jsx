@@ -8,7 +8,7 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 export default function Footer() {
     return (
-        <div className='font-montserrat border-t-[2px] border-gray p-4 md:p-8 flex flex-col lg:flex-row gap-10 justify-between xl:items-center'>
+        <div className='font-montserrat border-t-[.8px] bg-white border-gray/50 p-4 md:p-8 flex flex-col lg:flex-row gap-10 justify-between xl:items-center'>
             <div className='flex flex-col gap-8'>
                 <Image src="/logoGray.png"
                     alt="gray-logo"
@@ -29,9 +29,9 @@ export default function Footer() {
             </div>
 
             <div className='flex gap-8 flex-col md:flex-row md:items-center w-full md:justify-between'>
-                <div className='text-black/50 flex flex-col gap-2 '>
+                <div className='text-black/50 flex flex-col gap-3 xl:pl-[10rem]'>
                     <b className='text-xl'>UAE</b>
-                    <span className='flex gap-2 items-start'>
+                    <span className='flex gap- items-start'>
                         <ImLocation2 size={20} />
                         <p>SPC Free Zone <br /> Al Salama Area Sharjah <br /> 346347</p>
                     </span>
@@ -59,8 +59,8 @@ export default function Footer() {
 
                         <div className='flex gap-[1.1rem] font-medium justify-center sm:justify-end pt-6'>
                             <Link href="/" className='text-main_primary font-semibold'>Home</Link>
-                            <Link href="/">Products</Link>
-                            <Link href="/">Brands</Link>
+                            <Link href="/products">Products</Link>
+                            {/* <Link href="/">Brands</Link> */}
                             <Link href="/">About</Link>
                         </div>
                     </div>

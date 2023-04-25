@@ -1,24 +1,14 @@
-import { useRef, useLayoutEffect, useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Sling as Hamburger } from "hamburger-react";
-import { gsap } from 'gsap';
 
 export default function Header() {
 
-    const nav = useRef(null);
-
-    useLayoutEffect(() => {
-        gsap.fromTo(
-            nav.current,
-            { opacity: 0, y: -100 },
-            { opacity: 1, y: 0, duration: 1.5, delay: 0.5 }
-        );
-    }, []);
-
     const [navbar, setNavbar] = useState(false);
+
     return (
-        <header ref={nav} className='fixed top-0 w-full z-50 opacity-0'>
+        <header className='fixed top-0 w-full z-50 tramsition-all duration-300 ease-in-out'>
             <nav className={`w-full bg-white/60 shadow backdrop-blur-md`}>
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center lg:flex lg:px-8">
                     <div>
@@ -48,16 +38,16 @@ export default function Header() {
                                     <Link href="/">Home</Link>
                                 </li>
                                 <li className="Hover:bg-gray/80 p-4">
-                                    <Link href="/">Industries Served</Link>
+                                    <Link href="/Industry">Industries Served</Link>
                                 </li>
-                                <li className="Hover:bg-gray/80 p-4">
+                                {/* <li className="Hover:bg-gray/80 p-4">
                                     <Link href="/">Brands</Link>
+                                </li> */}
+                                <li className="Hover:bg-gray/80 p-4">
+                                    <Link href="/products">Product</Link>
                                 </li>
                                 <li className="Hover:bg-gray/80 p-4">
-                                    <Link href="/">Product</Link>
-                                </li>
-                                <li className="Hover:bg-gray/80 p-4">
-                                    <Link href="/">About us</Link>
+                                    <Link href="/about">About us</Link>
                                 </li>
                                 <li className={`Hover:bg-gray/80 p-4 ${navbar ? 'block' : 'hidden'}`}>
                                     <Link href="/">Contact</Link>

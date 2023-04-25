@@ -1,11 +1,16 @@
 import Image from 'next/image'
 import { gsap } from 'gsap'
 import { useEffect, useRef } from 'react'
+import Link from 'next/link';
 
 export default function Hero() {
 
   const first = useRef(null);
   const second = useRef(null);
+  const third = useRef(null);
+  const tri1 = useRef(null);
+  const tri2 = useRef(null);
+  const heroImage = useRef(null);
 
   useEffect(() => {
     gsap.fromTo(
@@ -18,16 +23,36 @@ export default function Hero() {
       { opacity: 0, y: 100 },
       { opacity: 1, y: 0, duration: 1.5, delay: 2 }
     );
+    gsap.fromTo(
+      third.current,
+      { opacity: 0, y: 100 },
+      { opacity: 1, y: 0, duration: 1.5, delay: 2.5 }
+    );
+    gsap.fromTo(
+      heroImage.current,
+      { opacity: 0, y: 100 },
+      { opacity: 1, y: 0, duration: 1.5, delay: 2.5 }
+    );
+    gsap.fromTo(
+      tri1.current,
+      { opacity: 0, x: -100 },
+      { opacity: 1, x: 0, duration: 1.5, delay: 1 }
+    );
+    gsap.fromTo(
+      tri2.current,
+      { opacity: 0, x: 100 },
+      { opacity: 1, x: 0, duration: 1.5, delay: 1 }
+    );
   }, []);
 
   return (
-    <div className='relative pt-20 md:pt-0 w-screen h-[80vh] md:h-screen flex flex-col items-center justify-center'>
+    <div className='pt-20 md:pt-0 h-screen w-screen flex flex-col items-center justify-center'>
       <div className='font-clash text-center relative top-[-1rem]'>
         <h1 ref={first} className='text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-light opacity-0'>Janitorial Paradise</h1>
         <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[5rem] font-medium relative top-[-.5rem] md:top-[-2rem] opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
       </div>
 
-      <div className='text-center flex flex-col items-center gap-1.5 font-medium font-montserrat text-[1rem] md:text-[1.5rem] relative top-[-.5rem] md:top-[-1.5rem]'>
+      <div ref={third} className='text-center z-[1] flex flex-col items-center gap-1.5 font-medium font-montserrat text-[1rem] md:text-[1.5rem] relative top-[-.5rem] md:top-[-1.5rem]'>
         <p className='flex items-center'>Sole distributor of &nbsp;
           <Image
             src="/brands/ipcLogo.png"
@@ -40,12 +65,16 @@ export default function Hero() {
         <p>products in the <b>MIDDLE EAST REGION</b> </p>
       </div>
 
-      <div className='flex flex-col items-center'>
-        {/* <button className='bg-[#FF9D42] z-[2] border-[2.5px] hover:border-gray/60 transition-all duration-300 ease-in-out text-white font-medium font-montserrat text-[1.1rem] md:text-[1.5rem] px-4 py-2.5 rounded-full'>See Details</button> */}
-        <iframe src="https://embed.lottiefiles.com/animation/9261" className='h-[4rem] md:h-[6rem] opacity-40 select-none relative xl:top-[-1rem]'></iframe>
-      </div>
+      <Link href="#About">
+        <Image src="/down.gif"
+          width={300}
+          height={300}
+          className='w-auto h-[5rem] opacity-30 z-[10] bg-transparent transition-all duration-700 ease-in cursor-pointer relative top-[-.5rem] md:top-[-1.5rem]'
+        />
+      </Link>
 
       <Image
+        ref={heroImage}
         src="/hero.png"
         alt="hero-img"
         width={1100}
@@ -55,6 +84,7 @@ export default function Hero() {
 
       <div className=''>
         <Image
+          ref={tri1}
           src="/triangle.png"
           alt="shape-1"
           width={700}
@@ -62,6 +92,7 @@ export default function Hero() {
           className='absolute bottom-[-2.5rem] left-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]'
         />
         <Image
+          ref={tri2}
           src="/triangle2.png"
           alt="shape-2"
           width={700}

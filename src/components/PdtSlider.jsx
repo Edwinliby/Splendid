@@ -1,17 +1,16 @@
 import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
-
 export default class AutoPlay extends Component {
     render() {
-        const settings = {
+        var settings = {
+            dots: true,
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
-            speed: 6000,
-            autoplaySpeed: 3500,
-            cssEase: "linear",
+            autoplaySpeed: 2000,
+            pauseOnHover: true,
 
             responsive: [{
                 breakpoint: 712,
@@ -33,24 +32,24 @@ export default class AutoPlay extends Component {
             }]
         };
         return (
-            <div className="overflow-hidden">
+            <div className="w-[85%]">
                 <Slider {...settings}>
-                    <div>
+                    <div className="">
                         <Image src="/product/one.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
-                    <div>
+                    <div className="">
                         <Image src="/product/2.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
-                    <div>
+                    <div className="">
                         <Image src="/product/3.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
-                    <div>
+                    <div className="">
                         <Image src="/product/one.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
-                    <div>
+                    <div className="">
                         <Image src="/product/2.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
-                    <div>
+                    <div className="">
                         <Image src="/product/3.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
                 </Slider>
