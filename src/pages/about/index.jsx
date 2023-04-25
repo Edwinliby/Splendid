@@ -8,7 +8,7 @@ export default function index() {
     return (
         <div>
             <Head>
-                <title>Splendid About</title>
+                <title>Splendid-About</title>
             </Head>
             <Header />
 

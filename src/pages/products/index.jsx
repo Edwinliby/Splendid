@@ -14,7 +14,7 @@ function Products(props) {
   return (
     <div className="h-fit w-screen">
       <Head>
-        <title>Splendid Products</title>
+        <title>Splendid-Products</title>
       </Head>
       <Header />
 

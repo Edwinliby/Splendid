@@ -8,11 +8,11 @@ export default function index() {
     return (
         <div>
             <Head>
-                <title>Splendid About</title>
+                <title>Splendid-Industry Served</title>
             </Head>
             <Header />
 
-            <main className='w-screen h-fit font-montserrat'>
+            <main className='w-screen h-screen font-montserrat'>
                
             </main>
 
