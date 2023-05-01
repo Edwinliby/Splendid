@@ -180,6 +180,37 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Test Product",
+      "sections": [
+        {
+          "title": "Test Product care range",
+          "desc": "Multi purpose cleaner, All purpose cleaner, Floor stripper, Heavy duty degreaser, Carpet shampoo, Glue remover, Marble polish.",
+          "product": [
+            {
+              "id": "t1",
+              "img": "/products/12.jpg",
+              "name": "Cleaning Tool"
+            },
+            {
+              "id": "t1",
+              "img": "/products/12.jpg",
+              "name": "Cleaning Tool"
+            },
+            {
+              "id": "t1",
+              "img": "/products/12.jpg",
+              "name": "Cleaning Tool"
+            },
+            {
+              "id": "t1",
+              "img": "/products/12.jpg",
+              "name": "Cleaning Tool"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

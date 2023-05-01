@@ -7,10 +7,12 @@ import LocalFont from "next/font/local";
 import "../styles/globals.css";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { motion, AnimatePresence } from 'framer-motion'
+import Loader from "@/components/Loader";
 
 const font_montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["400","500","600","700","800"],
+  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-montserrat",
 });
 
@@ -36,17 +38,44 @@ const font_clash = LocalFont({
   variable: "--font-clash",
 });
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps, router }) {
+
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3300);
+  }, []);
 
   return (
-    <>
+    loading ? <Loader /> :
+     <>
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
       </Head>
-      <main className={`${font_neue} ${font_ibm.variable} ${font_bebas.variable}  ${font_montserrat.variable}   ${font_clash.variable}
-      `}>
-        <Component {...pageProps} />
-      </main>
+      <AnimatePresence>
+        <motion.div
+          key={router.route}
+          initial="pageInitial"
+          animate="pageAnimate"
+          variants={{
+            pageInitial: {
+              opacity: 0,
+            },
+            pageAnimate: {
+              opacity: 1,
+              transition: {
+                duration: 1,
+              },
+            },
+          }}
+        >
+          <main className={`${font_neue} ${font_ibm.variable} ${font_bebas.variable}  ${font_montserrat.variable}   ${font_clash.variable}`}>
+            <Component {...pageProps} />
+          </main>
+        </motion.div>
+      </AnimatePresence>
     </>
   );
 }

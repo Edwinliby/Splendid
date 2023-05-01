@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export default function index() {
     return (
@@ -14,15 +15,28 @@ export default function index() {
 
             <main className='w-screen h-fit font-montserrat'>
                 <div className='mt-[5rem] px-4 md:mt-[6rem] py-8 lg:px-[7rem] flex flex-col lg:flex-row items-center lg:items-end gap-6'>
-                    <h1 className='text-black w-fit text-[2.2rem] md:text-[3rem] font-semibold'>
+                    <motion.h1
+                        initial={{ opacity: 0, x: -30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, amount: 0.8 }}
+                        transition={{ delay: .5 }}
+                        className='text-black w-fit text-[2.2rem] md:text-[3rem] font-semibold leading-[4rem]'>
                         Transform your living space <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500'>with our exceptional cleaning services</span>
-                    </h1>
-                    <p className='w-fit'>
+                    </motion.h1>
+                    <motion.p
+                        initial={{ opacity: 0, x: 30 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: 30 }}
+                        transition={{ delay: .5 }}
+                        className='w-fit'>
                         At Splendid, we are committed to providing our customers with the highest quality products and services.
                         Our mission is to be the premier supplier of cleaning and maintenance products in the region, delivering exceptional value and unmatched customer service.
-                    </p>
+                    </motion.p>
                 </div>
-                <Image
+                <motion.img
+                    initial={{ opacity: 0, x: 30 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: .5 }}
                     src='/assects/cleaning.png'
                     width={1000}
                     height={1000}
@@ -35,24 +49,44 @@ export default function index() {
                 </div>
 
                 <div className='px-4 lg:px-[7rem] flex flex-col lg:flex-row py-8'>
-                    <h2 className='text-[3rem] font-bold'>
+                    <motion.h2
+                        initial={{ opacity: 0, x: -30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, amount: 0.8 }}
+                        transition={{ delay: .2 }}
+                        className='text-[3rem] font-bold'>
                         Together we are strong
-                    </h2>
+                    </motion.h2>
                     <div className=' lg:w-[70%] flex flex-col gap-6'>
-                        <p className='text-black text-[1.1rem] font-semibold'>
+                        <motion.p
+                            initial={{ opacity: 0, x: 30 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true, amount: 0.8 }}
+                            transition={{ delay: .4 }}
+                            className='text-black text-[1.1rem] font-semibold'>
                             Our team of experienced professionals has many years of experience in the industry,
                             and we are passionate about helping our customers achieve their goals. We believe that a clean and well-maintained environment is essential for success,
                             and we are dedicated to providing the products and services that help our customers achieve their goals.
-                        </p>
-                        <p>
+                        </motion.p>
+                        <motion.p
+                            initial={{ opacity: 0, x: 30 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true, amount: 0.8 }}
+                            transition={{ delay: .4 }}
+                        >
                             Our Splendid is committed to becoming a leading entity in global trading, through eff ective business strategies and key alliances.
                             We prioritize customer-oriented and total quality management policies while embodying the values of trust, dedication, honesty, diligence, and dynamism.
                             We strive to make a positive impact on society through proactive participation in socio-economic activities and environmental-friendly practices. Join us on our journey towards excellence and discover the unparalleled benefi ts of partnering with us.
-                        </p>
+                        </motion.p>
                     </div>
                 </div>
 
-                <div className='px-4 lg:px-[7rem] flex flex-col lg:flex-row justify-between py-10'>
+                <motion.div
+                    initial={{ opacity: 0, y: 35 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.8 }}
+                    transition={{ delay: .5 }}
+                    className='px-4 lg:px-[7rem] flex flex-col lg:flex-row justify-between py-10'>
                     <div className='lg:w-[80%] flex flex-col gap-6'>
                         <p className='text-black text-[2rem] font-semibold'>
                             Message from <b className='text-red-500'>IPC Sales Director</b>
@@ -76,7 +110,36 @@ export default function index() {
                             className="w-[15rem] h-[15rem] rounded-full object-cover"
                         />
                     </div>
-                </div>
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 35 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.8 }}
+                    transition={{ delay: .5 }}
+                    className='px-4 lg:px-[7rem] flex flex-col justify-between pb-10'
+                >
+                    <div className='flex justify-center items-center gap-4'>
+                        <div>
+                            <Image
+                                src="/issa.png"
+                                width={1000}
+                                height={1000}
+                                alt="about"
+                                className="w-[15rem] h-[15rem]  object-contain"
+                            />
+                        </div>
+                        <p className='lg:w-[70%]'>
+                            ISSA is the worldwide cleaning industry association, serving as a platform for companies and professionals to connect, learn, and grow. With more than 10,500 members across the globe, ISSA is committed to promoting professionalism,
+                            providing educational opportunities, and advocating for the value of clean and healthy environments.
+                        </p>
+                    </div>
+
+                    <p>
+                        At Splendid, we recognize the importance of partnering with a reputable and infl uential organization like ISSA. By joining forces, we are able to leverage the resources,
+                        knowledge, and expertise of ISSA to provide our customers with cutting-edge solutions and best practices in the industry.
+                    </p>
+                </motion.div>
             </main>
 
             <Footer />

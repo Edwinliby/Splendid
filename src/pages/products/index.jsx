@@ -20,22 +20,20 @@ function Products(props) {
 
       <main>
 
-        <div className='relative top-[4.5rem] lg:top-0 lg:block'>
-          <div className="flex overflow-x-auto lg:flex-col fixed w-full lg:w-[15rem] h-[4rem] justify-center lg:h-screen bg-white border-b lg:border-r border-gray/50 text-black">
+        <div className="text-black w-full h-fit md:pt-[5rem] flex flex-col lg:flex-row">
+          <div className="flex overflow-x-auto sticky top-[4.5rem] w-full h-[4rem] lg:flex-col min-w-[13rem] lg:w-[15rem] lg:justify-center lg:h-screen bg-white border-b lg:border-b-0 lg:border-r border-gray/50 text-black">
             {tabs.map((tab, i) => (
               <span
                 key={i}
-                className="flex items-center bg-slate-100 text-[.8rem] md:text-base px-4 py-3 z-[1] hover:bg-black/20 w-full transition-all border-r border-gray/50 lg:border-0 duration-500 ease-in-out"
+                className="flex items-center text-[.8rem] md:text-base px-4 py-3 z-[1] hover:bg-black/20 w-full transition-all border-r border-gray/50 lg:border-0 duration-500 ease-in-out"
                 style={{ background: index === i ? "rgb(134 136 136 / 0.3)" : "none" }}
                 onClick={() => setIndex(i)}>
                 {tab.name}
               </span>
             ))}
           </div>
-        </div>
 
-        <div className="p-5 lg:pl-[15rem] text-black w-full h-fit py-16 pt-[8rem] md:pt-[5rem] flex flex-warp">
-          <div className="flex flex-col gap-10 lg:px-[6rem] md:pt-6 ">
+          <div className="flex flex-col gap-10 px-4 lg:px-[6rem] md:pt-6 py-16">
             {tabs[index].sections.map((section) => (
               <div key={section.id}>
                 <h1 className=" font-clash uppercase font-semibold text-4xl py-4">
@@ -49,7 +47,7 @@ function Products(props) {
                   {section.product.map((pdt) => (
                     <div
                       key={pdt.id}
-                      className=" shadow-2xl hover:shadow-main_primary transition-all duration-500 ease-in-out">
+                      className=" shadow-2xl hover:shadow-main_primary/75 transition-all duration-500 ease-in-out">
                       <div>
                         <Image
                           src={pdt.img}

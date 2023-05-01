@@ -97,7 +97,7 @@ export default function About() {
   return (
     <div className="flex flex-col lg:flex-row relative font-clash">
 
-      <div className=" lg:sticky bg-transparent top-0 left-0 flex flex-col grow-[1] lg:max-w-[45%] h-fit lg:h-[100vh] justify-center p-4 lg:p-10 lg:pl-16 gap-4">
+      <div className=" lg:sticky bg-transparent top-0 left-0 flex flex-col grow-[1] lg:max-w-[45%] h-fit lg:h-[100vh] justify-center p-4  lg:pl-16 gap-4">
         <h1 className="flex items-center font-medium text-[2.5rem] gap-4">
           What is{" "}
           <img src="/logo.png" alt="logo" width={500} height={500} className="w-auto h-[5rem]" />

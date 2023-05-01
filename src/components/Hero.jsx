@@ -49,7 +49,7 @@ export default function Hero() {
     <div className='pt-20 md:pt-0 h-screen w-screen flex flex-col items-center justify-center'>
       <div className='font-clash text-center relative top-[-1rem]'>
         <h1 ref={first} className='text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-light opacity-0'>Janitorial Paradise</h1>
-        <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[5rem] font-medium relative top-[-.5rem] md:top-[-2rem] opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
+        <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5.5rem] font-medium relative top-[-.5rem] md:top-[-2rem] opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
       </div>
 
       <div ref={third} className='text-center z-[1] flex flex-col items-center gap-1.5 font-medium font-montserrat text-[1rem] md:text-[1.5rem] relative top-[-.5rem] md:top-[-1.5rem]'>
