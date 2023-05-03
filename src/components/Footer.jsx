@@ -33,15 +33,15 @@ export default function Footer() {
                     <b className='text-xl'>UAE</b>
                     <span className='flex gap- items-start'>
                         <ImLocation2 size={20} />
-                        <p>SPC Free Zone <br /> Al Salama Area Sharjah <br /> 346347</p>
+                        <p>Splendid Cleaning Material Trading LLC <br /> Industrial area #4, P.O.Box : 67619 <br /> Sharjah, UAE</p>
                     </span>
                     <span className='flex gap-2 items-center'>
                         <FaPhoneAlt size={20} />
-                        <Link href="tel:+971 6 543 0000">+971 6 543 0000</Link>
+                        <Link href="tel:+971 6 543 0000">+971 6 5398390</Link>
                     </span>
                     <span className='flex gap-2 items-center'>
                         <IoMail size={20} />
-                        <Link href="mailto:">mailhere.com</Link>
+                        <Link href="mailto:">info@splendiduae.com</Link>
                     </span>
                 </div>
 
@@ -61,7 +61,7 @@ export default function Footer() {
                             <Link href="/" className='text-main_primary font-semibold'>Home</Link>
                             <Link href="/products">Products</Link>
                             {/* <Link href="/">Brands</Link> */}
-                            <Link href="/">About</Link>
+                            <Link href="/about">About</Link>
                         </div>
                     </div>
                 </div>

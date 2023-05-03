@@ -63,7 +63,7 @@ export default function Header() {
                             </ul>
                         </div>
                     </div>
-                    <Link href="/" className="hidden lg:block font-montserrat font-medium rounded-full px-6 py-2 border-[2px]   border-black hover:bg-black/70 hover:text-white transition-all duration-300 ease-in-out">Contact</Link>
+                    <Link href="/contact" className="hidden lg:block font-montserrat font-medium rounded-full px-6 py-2 border-[2px]   border-black hover:bg-black/70 hover:text-white transition-all duration-300 ease-in-out">Contact</Link>
                 </div>
             </nav>
             <motion.div

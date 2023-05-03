@@ -32,7 +32,7 @@ function Home() {
       </section>
 
       <Footer />
-      <span className='w-full text-black/60 flex justify-end text-[.8rem] xl:pl-6 py-3 pr-8 xl:pr-10'>
+      <span className='w-full bg-white text-black/60 flex justify-end text-[.8rem] xl:pl-6 py-3 pr-8 xl:pr-10'>
         <b className='text-black hidden lg:visible'>English</b>
         <p>2023 ©️ All rights reserved</p>
       </span>

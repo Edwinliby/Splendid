@@ -16,7 +16,7 @@ module.exports = {
         clash: ["var(--font-clash)"],
       },
       colors: {
-        soothing_black: "#0E1111",
+        soothing_white: "#E2E3E4",
         main_primary: "#5D6BEA",
         primary: "#1E0B37",
         gray: "#868888",

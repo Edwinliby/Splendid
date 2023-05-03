@@ -53,8 +53,7 @@ export default function index() {
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true, amount: 0.8 }}
-                        transition={{ delay: .2 }}
-                        className='text-[3rem] font-bold'>
+                        className='text-black text-[2.2rem] md:text-[3rem] font-semibold leading-[4rem]'>
                         Together we are strong
                     </motion.h2>
                     <div className=' lg:w-[70%] flex flex-col gap-6'>
@@ -62,7 +61,6 @@ export default function index() {
                             initial={{ opacity: 0, x: 30 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, amount: 0.8 }}
-                            transition={{ delay: .4 }}
                             className='text-black text-[1.1rem] font-semibold'>
                             Our team of experienced professionals has many years of experience in the industry,
                             and we are passionate about helping our customers achieve their goals. We believe that a clean and well-maintained environment is essential for success,
@@ -72,7 +70,6 @@ export default function index() {
                             initial={{ opacity: 0, x: 30 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, amount: 0.8 }}
-                            transition={{ delay: .4 }}
                         >
                             Our Splendid is committed to becoming a leading entity in global trading, through eff ective business strategies and key alliances.
                             We prioritize customer-oriented and total quality management policies while embodying the values of trust, dedication, honesty, diligence, and dynamism.
@@ -85,7 +82,6 @@ export default function index() {
                     initial={{ opacity: 0, y: 35 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.8 }}
-                    transition={{ delay: .5 }}
                     className='px-4 lg:px-[7rem] flex flex-col lg:flex-row justify-between py-10'>
                     <div className='lg:w-[80%] flex flex-col gap-6'>
                         <p className='text-black text-[2rem] font-semibold'>
@@ -117,9 +113,8 @@ export default function index() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.8 }}
                     transition={{ delay: .5 }}
-                    className='px-4 lg:px-[7rem] flex flex-col justify-between pb-10'
-                >
-                    <div className='flex justify-center items-center gap-4'>
+                    className='px-4 lg:px-[7rem] flex flex-col justify-between pb-10'>
+                    <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4'>
                         <div>
                             <Image
                                 src="/issa.png"
