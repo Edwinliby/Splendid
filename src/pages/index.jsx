@@ -9,10 +9,11 @@ import Footer from '@/components/Footer'
 
 function Home() {
   return (
-    <div className='h-screen w-screen'>
+    <div className='h-screen w-full'>
       <Head>
         <title>Splendid</title>
       </Head>
+      
       <Header />
 
       <section>

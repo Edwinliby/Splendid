@@ -13,7 +13,7 @@ export default function index() {
             </Head>
             <Header />
 
-            <main className='w-screen h-fit font-montserrat'>
+            <main className='w-full h-fit font-montserrat'>
                 <div className='mt-[5rem] px-4 md:mt-[6rem] py-8 lg:px-[7rem] flex flex-col lg:flex-row items-center lg:items-end gap-6'>
                     <motion.h1
                         initial={{ opacity: 0, x: -30 }}

@@ -12,7 +12,7 @@ export default function index() {
             </Head>
             <Header />
 
-            <main className='w-screen h-screen font-montserrat'>
+            <main className='w-full h-screen font-montserrat'>
              
             </main>
 

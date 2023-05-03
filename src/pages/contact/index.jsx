@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Head from 'next/head'
 import Header from '@/components/Header'
@@ -17,7 +16,7 @@ export default function contact() {
             </Head>
             <Header />
 
-            <main className='pt-[5rem] mb-8 w-screen h-fit font-montserrat'>
+            <main className='pt-[5rem] mb-8 w-full h-fit font-montserrat'>
                 <h1 className='text-white text-center text-[3.5rem] font-montserrat font-bold'>Have any Questions?</h1>
                 <p className='text-center tracking-wider text-white/90'>Any questions or remarks? Just write us a message!</p>
 
@@ -29,24 +28,26 @@ export default function contact() {
                         </div>
                         <div className='flex flex-col gap-8'>
                             <p className='flex gap-4'>
-                                <BsFillTelephoneFill size={20} className='text-orange-400' /> <span>+971 6 5398390</span>
+                                <BsFillTelephoneFill size={20} className='text-orange-400' /> <span>+97165398390</span>
                             </p>
                             <p className='flex gap-4'>
                                 <GrMail size={20} className='text-orange-400' /> <span>info@splendiduae.com</span>
                             </p>
                             <p className='flex gap-4'>
                                 <IoLocationSharp size={20} className='text-orange-400' />
-                                <span>Splendid Cleaning Material Trading LLC, <br />
+                                <span>
+                                    Splendid Cleaning Material Trading LLC, <br />
                                     Industrial area #4, P.O.Box : 67619, <br />
-                                    Sharjah, UAE</span>
+                                    Sharjah, UAE
+                                </span>
                             </p>
                         </div>
 
                         <div className='flex w-full gap-7 items-center justify-start'>
-                            <Link href="/" className='rounded-full  hover:bg-orange-400 p-2 '><FaFacebookF size={25} /></Link>
-                            <Link href="/" className='rounded-full  hover:bg-orange-400 p-2 '><FaTwitter size={25} /></Link>
-                            <Link href="/" className='rounded-full  hover:bg-orange-400 p-2 '><FaInstagram size={25} /></Link>
-                            <Link href="/" className='rounded-full  hover:bg-orange-400 p-2 '><FaLinkedinIn size={25} /></Link>
+                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaFacebookF size={25} /></Link>
+                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaTwitter size={25} /></Link>
+                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaInstagram size={25} /></Link>
+                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaLinkedinIn size={25} /></Link>
                         </div>
                     </div>
 

@@ -12,7 +12,7 @@ function Products(props) {
   const tabs = props.tabs;
 
   return (
-    <div className="h-fit w-screen">
+    <div className="h-fit w-full">
       <Head>
         <title>Splendid-Products</title>
       </Head>
@@ -71,9 +71,7 @@ function Products(props) {
         </div>
       </main>
 
-      <div className="absolute w-full">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
