@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import { gsap } from 'gsap'
-import { useEffect, useRef } from 'react'
-import Link from 'next/link';
+import Image from "next/image";
+import { gsap } from "gsap";
+import { useEffect, useRef } from "react";
+import Link from "next/link";
 
 export default function Hero() {
-
   const first = useRef(null);
   const second = useRef(null);
   const third = useRef(null);
@@ -52,24 +51,31 @@ export default function Hero() {
         <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5.5rem] font-medium relative top-[-.5rem] md:top-[-2rem] opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
       </div>
 
-      <div ref={third} className='text-center z-[1] flex flex-col items-center gap-1.5 font-medium font-montserrat text-[1rem] md:text-[1.5rem] relative top-[-.5rem] md:top-[-1.5rem]'>
-        <p className='flex items-center'>Sole distributor of &nbsp;
+      <div
+        ref={third}
+        className="text-center z-[1] flex flex-col items-center gap-1.5 font-medium font-montserrat text-[1rem] md:text-[1.5rem] relative top-[-.5rem] md:top-[-1.5rem]"
+      >
+        <p className="flex items-center">
+          Sole distributor of &nbsp;
           <Image
             src="/brands/ipcLogo.png"
             alt="ipc-logo"
             width={300}
             height={300}
-            className=' h-[2.5rem] w-auto'
+            className=" h-[2.5rem] w-auto"
           />
         </p>
-        <p>products in the <b>MIDDLE EAST REGION</b> </p>
+        <p>
+          products in the <b>MIDDLE EAST REGION</b>{" "}
+        </p>
       </div>
 
       <Link href="#About">
-        <Image src="/down.gif"
+        <Image
+          src="/down.gif"
           width={300}
           height={300}
-          className='w-auto h-[5rem] opacity-30 z-[10] bg-transparent transition-all duration-700 ease-in cursor-pointer relative top-[-.5rem] md:top-[-1.5rem]'
+          className="w-auto h-[5rem] opacity-30 z-[10] bg-transparent transition-all duration-700 ease-in cursor-pointer relative top-[-.5rem] md:top-[-1.5rem]"
         />
       </Link>
 
@@ -79,17 +85,17 @@ export default function Hero() {
         alt="hero-img"
         width={1100}
         height={1100}
-        className='absolute bottom-5 md:bottom-[0rem] w-[20rem] sm:w-[22rem] md:w-[35rem] xl:w-[60rem] z-[1]'
+        className="absolute bottom-5 md:bottom-[0rem] w-[20rem] sm:w-[22rem] md:w-[35rem] xl:w-[60rem] z-[1]"
       />
 
-      <div className=''>
+      <div className="">
         <Image
           ref={tri1}
           src="/triangle.png"
           alt="shape-1"
           width={700}
           height={700}
-          className='absolute bottom-[-2.5rem] left-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]'
+          className="absolute bottom-[-2.5rem] left-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
         />
         <Image
           ref={tri2}
@@ -97,9 +103,9 @@ export default function Hero() {
           alt="shape-2"
           width={700}
           height={700}
-          className='absolute bottom-[-2.5rem] right-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]'
+          className="absolute bottom-[-2.5rem] right-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
         />
       </div>
     </div>
-  )
+  );
 }

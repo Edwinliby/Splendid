@@ -1,6 +1,6 @@
-import React from 'react'
-import Link from 'next/link'
-import PdtSlider from '@/components/PdtSlider'
+import React from "react";
+import Link from "next/link";
+import PdtSlider from "@/components/PdtSlider";
 
 export default function Product() {
     return (
@@ -17,9 +17,9 @@ export default function Product() {
                 </div>
             </div>
 
-            <div className='w-full flex justify-center ab top-[-2.5rem]'>
-                <PdtSlider />
-            </div>
-        </div>
-    )
+      <div className="w-full flex justify-center ab top-[-2.5rem]">
+        <PdtSlider />
+      </div>
+    </div>
+  );
 }
