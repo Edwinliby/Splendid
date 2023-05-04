@@ -6,16 +6,10 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 export default function About() {
 
-  const leftDivRef = useRef(null);
   const image1 = useRef(null);
   const image2 = useRef(null);
   const image3 = useRef(null);
   const image4 = useRef(null);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -89,32 +83,25 @@ export default function About() {
     );
   }, []);
 
-
-  const handleScroll = (e) => {
-    const leftDiv = leftDivRef.current;
-  };
-
   return (
     <div className="flex flex-col lg:flex-row relative font-clash">
 
-      <div className=" lg:sticky bg-transparent top-0 left-0 flex flex-col grow-[1] lg:max-w-[45%] h-fit lg:h-[100vh] justify-center p-4  lg:pl-16 gap-4">
-        <h1 className="flex items-center font-medium text-[2.5rem] gap-4">
-          What is{" "}
-          <img src="/logo.png" alt="logo" width={500} height={500} className="w-auto h-[5rem]" />
-        </h1>
-        <p className="text-black/80 text-[1.1rem]">
-          SPLENDID CLEANING MATERIAL TRADING LLC is one of the most acclaimed
-          Janitorial supplies Company headquartered in UAE supplying cleaning
-          and hygiene products to a multitude of industries. Since inception
-          we have been involved in major projects in the region.
-        </p>
-        <Link href="/about"
-          className="bg-[#FF9D42] w-fit z-[2] border-[2.5px] hover:border-gray/50 transition-all duration-300 ease-in-out text-white font-medium font-montserrat text-[1rem]  px-4 py-2 rounded-full">
-          More Details
-        </Link>
+      <div className="relative lg:sticky z-[2] bg-transparent top-0 left-0 flex flex-col lg:w-[70%] h-fit lg:h-[100vh] justify-center p-4  lg:pl-16 gap-4">
+        <div className='blob1 hidden lg:block absolute top-16 left-12 w-[10rem] h-[10rem]'></div>
+        <div className="flex flex-col justify-center items-center gap-4">
+          <h1 className="flex items-center font-medium text-[2.5rem] gap-3">
+            What is{" "}
+            <Image src="/BigLogo.png" alt="logo" width={1500} height={1500} className="w-auto h-[4.5rem]" />
+          </h1>
+          <Link href="/about"
+            className="bg-[#FF9D42] hidden lg:block text-white w-fit z-[2] border-[2.5px] hover:border-gray/50 transition-all duration-300 ease-in-out font-medium font-montserrat text-[1rem] px-4 py-2 rounded-full">
+            More Details
+          </Link>
+        </div>
+        <div className='blob1 hidden lg:block absolute right-12 bottom-1 w-[14rem] h-[15rem]'></div>
       </div>
 
-      <div className="z-[3] flex flex-col lg:pr-12 w-full" ref={leftDivRef}>
+      <div className="z-[3] flex flex-col lg:pr-12 w-full">
 
         <div ref={image1} className="h-fit lg:h-[90vh] p-4 flex flex-col justify-center gap-4">
           <div className="flex items-center gap-6">

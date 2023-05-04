@@ -45,7 +45,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='pt-20 md:pt-0 h-screen w-full flex flex-col items-center justify-center'>
+    <div className='relative pt-20 md:pt-0 h-[90vh] md:h-screen w-full flex flex-col items-center justify-center bg-[url("/gradient.png")]'>
       <div className='font-clash text-center relative top-[-1rem]'>
         <h1 ref={first} className='text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-light opacity-0'>Janitorial Paradise</h1>
         <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5.5rem] font-medium relative top-[-.5rem] md:top-[-2rem] opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
@@ -57,16 +57,18 @@ export default function Hero() {
       >
         <p className="flex items-center">
           Sole distributor of &nbsp;
-          <Image
-            src="/brands/ipcLogo.png"
-            alt="ipc-logo"
-            width={300}
-            height={300}
-            className=" h-[2.5rem] w-auto"
-          />
+          <Link href="https://www.ipcworldwide.com/in/">
+            <Image
+              src="/brands/ipcLogo.png"
+              alt="ipc-logo"
+              width={300}
+              height={300}
+              className=" h-[2.5rem] w-auto"
+            />
+          </Link>
         </p>
         <p>
-          products in the <b>MIDDLE EAST REGION</b>{" "}
+          products in the <b className="">MIDDLE EAST REGION</b>{" "}
         </p>
       </div>
 

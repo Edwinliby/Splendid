@@ -6,30 +6,41 @@ import React from "react";
 import About from "@/components/About";
 import Product from "@/components/Product";
 import Footer from "@/components/Footer";
+import MainAbout from "@/components/MainAbout";
+import Image from "next/image";
 
 function Home() {
   return (
-    <div className='h-screen w-full'>
+    <div className='h-screen w-full scroll-smooth'>
       <Head>
         <title>Splendid</title>
       </Head>
-      
+
       <Header />
 
       <section>
         <Hero />
       </section>
 
-      <section className="overflow-hidden flex justify-center">
+      <section id="About" className="overflow-hidden flex justify-center">
         <Marque />
       </section>
 
-      <section id="About">
+      <MainAbout/>
+
+      <section >
         <About />
       </section>
 
       <section>
-        <Product className="z-[1]" />
+        <Image
+          src="/big.png"
+          alt="logo"
+          width={2500}
+          height={2500}
+          className="w-full relative top-[.5rem] z-[1]"
+        />
+        <Product />
       </section>
 
       <Footer />

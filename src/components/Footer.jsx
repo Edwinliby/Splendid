@@ -21,10 +21,10 @@ export default function Footer() {
                     and boring if you have a right cleaning partner!
                 </p>
                 <div className='flex w-full gap-7 items-center justify-start'>
-                    <Link href="/" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaFacebookF size={35} /></Link>
-                    <Link href="/" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaTwitter size={35} /></Link>
-                    <Link href="/" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaInstagram size={35} /></Link>
-                    <Link href="/" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaLinkedin size={35} /></Link>
+                    <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaFacebookF size={35} /></Link>
+                    <Link href="https://twitter.com/UaeSplendid" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaTwitter size={35} /></Link>
+                    <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaInstagram size={35} /></Link>
+                    <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaLinkedin size={35} /></Link>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@ export default function Footer() {
                     </span>
                     <span className='flex gap-2 items-center'>
                         <FaPhoneAlt size={20} />
-                        <Link href="tel:+971 6 543 0000">+971 6 5398390</Link>
+                        <Link href="tel:+971 6 543 0000">+971 56 310 1817</Link>
                     </span>
                     <span className='flex gap-2 items-center'>
                         <IoMail size={20} />

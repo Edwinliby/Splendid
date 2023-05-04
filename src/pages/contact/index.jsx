@@ -17,18 +17,18 @@ export default function contact() {
             <Header />
 
             <main className='pt-[5rem] mb-8 w-full h-fit font-montserrat'>
-                <h1 className='text-white text-center text-[3.5rem] font-montserrat font-bold'>Have any Questions?</h1>
-                <p className='text-center tracking-wider text-white/90'>Any questions or remarks? Just write us a message!</p>
+                <h1 className='text-white text-center leading-[4rem] text-[3.5rem] font-montserrat font-bold'>Have any Questions?</h1>
+                <p className='text-center pt-2 tracking-wider text-white/90'>Any questions or remarks? Just write us a message!</p>
 
                 <div className='flex flex-wrap justify-center lg:flex-row px-4 lg:px-[6rem] py-[2rem]'>
-                    <div className='glass bg-main_primary/50 rounded-l-lg flex flex-col text-white justify-between p-5 lg:w-[40%] h-[30rem]'>
+                    <div className='glass bg-main_primary/50 rounded-l-lg flex flex-col text-white justify-between p-5 lg:w-[40%]'>
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-[2rem] font-medium'>Contact Information</h2>
-                            <p className='text-white/80 w-[80%]'>Fill up the form and our Team will get back to you within 24 hours.</p>
+                            <p className='text-white/80'>Fill up the form and our Team will get back to you within 24 hours.</p>
                         </div>
-                        <div className='flex flex-col gap-8'>
+                        <div className='flex flex-col gap-8 py-6'>
                             <p className='flex gap-4'>
-                                <BsFillTelephoneFill size={20} className='text-orange-400' /> <span>+97165398390</span>
+                                <BsFillTelephoneFill size={20} className='text-orange-400' /> <span>+971 56 310 1817</span>
                             </p>
                             <p className='flex gap-4'>
                                 <GrMail size={20} className='text-orange-400' /> <span>info@splendiduae.com</span>
@@ -44,45 +44,38 @@ export default function contact() {
                         </div>
 
                         <div className='flex w-full gap-7 items-center justify-start'>
-                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaFacebookF size={25} /></Link>
-                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaTwitter size={25} /></Link>
-                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaInstagram size={25} /></Link>
-                            <Link href="/" className='rounded-full hover:bg-orange-400 p-2 '><FaLinkedinIn size={25} /></Link>
+                            <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full hover:bg-orange-400 p-2 '><FaFacebookF size={25} /></Link>
+                            <Link href="https://twitter.com/UaeSplendid" className='rounded-full hover:bg-orange-400 p-2 '><FaTwitter size={25} /></Link>
+                            <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full hover:bg-orange-400 p-2 '><FaInstagram size={25} /></Link>
+                            <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full hover:bg-orange-400 p-2 '><FaLinkedinIn size={25} /></Link>
                         </div>
                     </div>
 
                     <div className='flex justify-center items-center border-[1.5px] w-full bg-black/30 border-gray/50 rounded-b-lg lg:rounded-r-lg lg:w-[60%] glass'>
                         <form className='flex flex-col gap-5 p-8 w-full'>
                             <div className='flex flex-col gap-10 w-full text-white'>
-                                <div className='flex flex-col md:flex-row gap-6 w-full'>
-                                    <div className='flex flex-col w-full'>
-                                        <label htmlFor='name'>First Name</label>
-                                        <input type='text' name='name' id='name' placeholder='Enter first name' className='bg-transparent border-b border-white/40 p-2' />
-                                    </div>
-
-                                    <div className='flex flex-col w-full'>
-                                        <label htmlFor='name'>Last Name</label>
-                                        <input type='text' name='name' id='name' placeholder='Enter last name' className='bg-transparent border-b border-white/40 p-2' />
-                                    </div>
+                                <div className='flex flex-col w-full lg:w-[50%]'>
+                                    <label htmlFor='name'>Name</label>
+                                    <input type='text' name='name' id='name' placeholder='Enter your name' className='bg-transparent border-b border-white/40 p-2' />
                                 </div>
-                                <div className='flex flex-col md:flex-row gap-6'>
-                                    <div className='flex flex-col w-full'>
+                                <div className='flex flex-wrap flex-col gap-6'>
+                                    <div className='flex flex-col w-full lg:w-[50%]'>
                                         <label htmlFor='name'>Email</label>
                                         <input type='email' name='name' id='name' placeholder='Enter email here' className='bg-transparent border-b border-white/40 p-2' />
                                     </div>
 
-                                    <div className='flex flex-col w-full'>
+                                    <div className='flex flex-col w-full lg:w-[50%]'>
                                         <label htmlFor='name'>Phone Number</label>
                                         <input type='tel' name='name' id='name' placeholder='Enter ph:no here' className='bg-transparent border-b border-white/40 p-2' />
                                     </div>
                                 </div>
 
-                                <div className='flex flex-col w-full'>
+                                <div className='flex flex-col '>
                                     <label htmlFor='name'>Message</label>
                                     <textarea name='name' id='name' placeholder='Write your messgae here ...' className='bg-transparent border-b border-white/40 p-2' />
                                 </div>
 
-                                <div className='w-full flex justify-end'>
+                                <div className=' flex justify-end'>
                                     <button className='bg-main_primary w-[10rem] text-white rounded-md p-2'>Send Message</button>
                                 </div>
                             </div>
