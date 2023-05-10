@@ -54,6 +54,7 @@ export default function MyApp({ Component, pageProps, router }) {
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
       </Head>
+
       <AnimatePresence>
         <motion.div
           key={router.route}
@@ -76,6 +77,7 @@ export default function MyApp({ Component, pageProps, router }) {
           </main>
         </motion.div>
       </AnimatePresence>
+      
     </>
   );
 }

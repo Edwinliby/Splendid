@@ -45,16 +45,14 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='relative pt-20 md:pt-0 h-[90vh] md:h-screen w-full flex flex-col items-center justify-center bg-[url("/gradient.png")]'>
-      <div className='font-clash text-center relative top-[-1rem]'>
+    <div className='relative pt-20 md:pt-0 h-[90vh] lg:h-screen flex flex-col items-center justify-center bg-[url("/gradient.png")] bg-no-repeat bg-cover'>
+      <div className='font-clash text-center'>
         <h1 ref={first} className='text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-light opacity-0'>Janitorial Paradise</h1>
-        <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5.5rem] font-medium relative top-[-.5rem] md:top-[-2rem] opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
+        <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5.5rem] font-medium leading-10 opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
       </div>
 
-      <div
-        ref={third}
-        className="text-center z-[1] flex flex-col items-center gap-1.5 font-medium font-montserrat text-[1rem] md:text-[1.5rem] relative top-[-.5rem] md:top-[-1.5rem]"
-      >
+      <div ref={third}
+        className="text-center z-[1] flex flex-col items-center gap-1.5 font-medium font-montserrat lg:pt-10 text-[1rem] md:text-[1.5rem]">
         <p className="flex items-center">
           Sole distributor of &nbsp;
           <Link href="https://www.ipcworldwide.com/in/">
@@ -77,7 +75,7 @@ export default function Hero() {
           src="/down.gif"
           width={300}
           height={300}
-          className="w-auto h-[5rem] opacity-30 z-[10] bg-transparent transition-all duration-700 ease-in cursor-pointer relative top-[-.5rem] md:top-[-1.5rem]"
+          className="w-auto h-[5rem] opacity-30 z-[20] bg-transparent transition-all duration-700 ease-in cursor-pointer"
         />
       </Link>
 
