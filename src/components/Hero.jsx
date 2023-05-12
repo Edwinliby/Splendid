@@ -29,8 +29,8 @@ export default function Hero() {
     );
     gsap.fromTo(
       heroImage.current,
-      { opacity: 0, y: 100 },
-      { opacity: 1, y: 0, duration: 1.5, delay: 2.5 }
+      { opacity: 0, },
+      { opacity: 1, duration: 2.5, delay: 3.5 }
     );
     gsap.fromTo(
       tri1.current,
@@ -70,12 +70,12 @@ export default function Hero() {
         </p>
       </div>
 
-      <Link href="#About">
+      <Link href="#About" className="z-[30] opacity-30">
         <Image
           src="/down.gif"
           width={300}
           height={300}
-          className="w-auto h-[5rem] opacity-30 z-[20] bg-transparent transition-all duration-700 ease-in cursor-pointer"
+          className="w-auto h-[5rem]"
         />
       </Link>
 

@@ -8,6 +8,7 @@ import Product from "@/components/Product";
 import Footer from "@/components/Footer";
 import MainAbout from "@/components/MainAbout";
 import Image from "next/image";
+import Issa from "@/components/Issa";
 
 function Home() {
   return (
@@ -42,6 +43,8 @@ function Home() {
         />
         <Product />
       </section>
+
+      <Issa/>
 
       <Footer />
       <span className="w-full bg-white text-black/60 flex justify-end text-[.8rem] xl:pl-6 py-3 pr-8 xl:pr-10">

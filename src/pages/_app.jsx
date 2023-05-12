@@ -45,7 +45,7 @@ export default function MyApp({ Component, pageProps, router }) {
   React.useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3300);
+    }, 2000);
   }, []);
 
   return (
