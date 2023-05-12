@@ -5,11 +5,6 @@ import { motion } from "framer-motion";
 
 export default function About() {
 
-  const image1 = useRef(null);
-  const image2 = useRef(null);
-  const image3 = useRef(null);
-  const image4 = useRef(null);
-
   const content = [
     {
       "id": 1,
@@ -60,7 +55,7 @@ export default function About() {
           content.map((item) => (
             <motion.div
               key={item.id}
-              initial={{ opacity: 0, y: -50 }}
+              initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ delay: .5 }}
