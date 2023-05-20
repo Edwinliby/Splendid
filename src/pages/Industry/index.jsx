@@ -7,6 +7,40 @@ import { FaHospitalUser, FaCity } from 'react-icons/fa'
 import { MdHealthAndSafety } from 'react-icons/md'
 import { BsFillBuildingsFill } from 'react-icons/bs'
 
+const boxContent = [
+    {
+        icon: <FaHospitalUser size={50} className='text-main_primary' />,
+        title: 'Hospitality',
+        desc: 'The cleaning and janitorial services form a major part of the housekeeping.',
+        id: "#Hospitality"
+    },
+    {
+        icon: <FaHospitalUser size={50} className='text-main_primary' />,
+        title: 'Education',
+        desc: 'The cleaning and janitorial services form a major part of the housekeeping.',
+        id: "#Education"
+    },
+    {
+        icon: <MdHealthAndSafety size={50} className='text-main_primary' />,
+        title: 'Health Care',
+        desc: 'The cleaning and janitorial services form a major part of the housekeeping.',
+        id: "#HealthCare"
+    },
+    {
+        icon: <FaCity size={50} className='text-main_primary' />,
+        title: 'Facility Management',
+        desc: 'The cleaning and janitorial services form a major part of the housekeeping.',
+        id: "#FacilityManagement"
+    },
+    {
+        icon: <BsFillBuildingsFill size={50} className='text-main_primary' />,
+        title: 'Commercial',
+        desc: 'The cleaning and janitorial services form a major part of the housekeeping.',
+        id: "#Commercial"
+    },
+]
+
+
 export default function index() {
     return (
         <div>
@@ -14,7 +48,7 @@ export default function index() {
                 <title>Splendid-Industry Served</title>
             </Head>
 
-            <Header/>
+            <Header />
             <main className='w-full h-screen pt-[4.5rem]'>
                 <div className='relative h-fit'>
                     <Image
@@ -22,7 +56,7 @@ export default function index() {
                         alt="Picture of the author"
                         width={1920}
                         height={1080}
-                        className='object-cover h-[15rem] lg:h-[23rem]' 
+                        className='object-cover h-[15rem] lg:h-[23rem]'
                     />
                     <div className='absolute flex flex-wrap xl:w-[50%] top-8 left-4 right-4 lg:top-[6rem] lg:left-[6rem] font-clash'>
                         <h1 className='text-[2rem] lg:text-[4rem] text-white uppercase font-semibold'>Industry Served</h1>
@@ -33,34 +67,125 @@ export default function index() {
                     </div>
                 </div>
 
-                <div className='flex flex-wrap gap-4 justify-center py-4'>
-                    <div className='flex flex-col p-4 w-[19rem] border border-gray/50 rounded-md hover:bg-gray/10'>
-                        <FaHospitalUser size={50} className='text-main_primary' />
-                        <h2 className='font-semibold text-[1.5rem]'>Hospitality</h2>
-                        <p className='pt-2'>The cleaning and janitorial services form a major part of the housekeeping.</p>
-                    </div>
-                    <div className='flex flex-col p-4 w-[19rem] border border-gray/50 rounded-md hover:bg-gray/10'>
-                        <MdHealthAndSafety size={50} className='text-main_primary' />
-                        <h2 className='font-semibold text-[1.5rem]'>Health Care</h2>
-                        <p className='pt-2'>The cleaning and janitorial services form a major part of the housekeeping.</p>
-                    </div>
-                    <div className='flex flex-col p-4 w-[19rem] border border-gray/50 rounded-md hover:bg-gray/10'>
-                        <FaCity size={50} className='text-main_primary' />
-                        <h2 className='font-semibold text-[1.5rem]'>Facility Management</h2>
-                        <p className='pt-2'>The cleaning and janitorial services form a major part of the housekeeping.</p>
-                    </div>
-                    <div className='flex flex-col p-4 w-[19rem] border border-gray/50 rounded-md hover:bg-gray/10'>
-                        <BsFillBuildingsFill size={50} className='text-main_primary' />
-                        <h2 className='font-semibold text-[1.5rem]'>Commercial</h2>
-                        <p className='pt-2'>The cleaning and janitorial services form a major part of the housekeeping.</p>
-                    </div>
+                <div className='flex flex-col xl:flex-row gap-2 p-4 lg:mx-[4rem] lg:px-[3rem]'>
+                    {
+                        boxContent.map((item, index) => (
+                            <a href={item.id}>
+                                <div key={index} className='flex flex-col justify-center p-4 h-[15rem] border border-gray/50 rounded-md hover:bg-gray/10'>
+                                    {item.icon}
+                                    <h2 className='font-semibold text-[1.5rem]'>{item.title}</h2>
+                                    <p className='pt-2'>{item.desc}</p>
+                                </div>
+                            </a>
+                        ))
+                    }
                 </div>
 
-                <Footer/>
+                <div className='flex flex-col font-montserrat gap-4 justify-center p-4 lg:mx-[4rem] lg:px-[3rem]'>
+
+                    <p className='text-[1.1rem] py-4'><b>SPLENDID</b> is a leading provider of high-quality commercial cleaning solutions, with industry-specific expertise and a 'value-added' approach.
+                        We work with a diverse range of industries and segments, offering tailored cleaning solutions to meet unique requirements. Our core markets include Hospitality,
+                        Education, Health care, Facility Management, and Commercial sectors. Contact us today to experience the SPLENDID difference.
+                    </p>
+
+                    <div id='Hospitality'>
+                        <h2 className='font-bold text-[2.2rem]'>Hospitality</h2>
+                        <p className='pt-2'>
+                            SPLENDID recognizes that maintaining a clean and hygienic hotel environment is a daunting task, especially with diverse guest preferences.
+                            We offer comprehensive hotel housekeeping cleaning products and disinfectant solutions, coupled with unparalleled service and expert training,
+                            to provide the best public space and hotel cleaning experience. Our wide range of housekeeping and janitorial supplies is specially designed to help you achieve the best results.
+                            Our laundry, ware washing, floor care, and ready-to-use products, along with reliable representatives, ensure mechanical operations run smoothly and can accommodate all hospitality needs.
+                        </p>
+                        <br />
+                        <p>
+                            We understand the importance of consistent, reliable service, and offer scheduled service visits to ensure we meet your business needs.
+                            Our customers, including international hotel chains, high-end restaurants, and catering establishments,
+                            have provided us with a long list of worldwide references. Trust SPLENDID to be your go-to resource for all your hotel cleaning needs.
+                        </p>
+                    </div>
+
+                    <div id='Education'>
+                        <h2 className='font-bold text-[2.2rem] text-right'>Education</h2>
+                        <p className='pt-2'>
+                            SPLENDID recognizes the importance of using environmentally friendly cleaning products in the educational sector.
+                            Our range of eco-friendly cleaning solutions and microfiber cleaning tools produce better outcomes than traditional products while improving indoor air quality,
+                            resulting in a reduction in absenteeism caused by asthma and allergies.
+                        </p>
+                        <br />
+                        <p>
+                            Our microfiber cloths and mops have revolutionized the cleaning industry, providing superior cleaning results while saving money and promoting a healthier environment.
+                            With only small amounts of non-toxic chemicals and water needed for tougher areas,
+                            our cleaning staff can efficiently clean without the need for heavy buckets.
+                        </p>
+                        <br />
+                        <p>
+                            At SPLENDID, we supply top-quality microfiber cloths, microfiber mops, cleaning trolleys, and paper products from Italy that are specially designed for the educational sector.
+                            Our products are tailored to reduce the spread of germs and viruses,
+                            making them ideal for use in both government and private educational institutions in the UAE.
+                        </p>
+                    </div>
+
+                    <div id='HealthCare'>
+                        <h2 className='font-bold text-[2.2rem]'>Health care</h2>
+                        <p className='pt-2'>
+                            At SPLENDID, we recognize that maintaining a clean and safe environment is crucial for healthcare facilities.
+                            Our goal is to provide top-quality cleaning products and services that are tailored to the unique needs of each facility.
+                            We understand that hospitals have strict requirements for cleanliness and infection prevention and control.
+                            Therefore, we offer a range of products that are specially formulated for hospitals, including Brix trolleys,
+                            janitorial and custodial supplies, sanitisers, disinfectants, and medical exam gloves.
+                        </p>
+                        <br />
+                        <p>
+                            Our experienced team works closely with hospital groups to ensure that our products and services meet their high standards.
+                            We understand that healthcare facilities require intensive and frequent cleaning to maintain a low pathogenic burden and provide a healthy and safe environment for patients,
+                            families, and staff. Our solutions are designed to save time and money while providing the best possible results.
+                        </p>
+                        <br />
+                        <p>
+                            At SPLENDID, we are committed to helping healthcare facilities achieve their cleaning goals while ensuring the safety and well-being of their patients and staff.
+                            Contact us today to learn more about our healthcare cleaning solutions.
+                        </p>
+                    </div>
+
+                    <div id='Commercial'>
+                        <h2 className='font-bold text-[2.2rem] text-right'>Commercial</h2>
+                        <p className='pt-2'>
+                            Commercial cleaning is a complex process that involves various cleaning methods, chemicals, and equipment to achieve excellent results.
+                            It covers a wide range of tasks, including general cleaning, floor cleaning, window cleaning,
+                            deep cleaning of sanitary facilities and kitchens, litter picking, and graffiti removal.
+                        </p>
+                        <br />
+                        <p>
+                            At SPLENDID, we understand the needs of commercial cleaning companies and provide a comprehensive range of janitorial supplies to meet their requirements.
+                            Our high-performance products are carefully selected from around the world and combined with excellent services at competitive prices to ensure customer satisfaction.
+                            We are committed to delivering the best solutions for tough cleaning challenges and are the Smart Choice for any commercial cleaning needs.
+                        </p>
+                    </div>
+
+                    <div id="FacilityManagement">
+                        <h2 className='font-bold text-[2.2rem]'>Facility Management</h2>
+                        <p className='pt-2'>
+                            Maintaining a clean and safe commercial building is crucial for the health and well-being of employees and visitors.
+                            At SPLENDID, we understand the importance of using the right cleaning chemicals, products and equipment to achieve this goal.
+                            We offer a wide range of facility maintenance supplies that include cleaning and disinfecting products for common areas and high-touch surfaces,
+                            as well as premium chemicals, tools and equipment for floor care programs. With our extensive experience in meeting the facility service needs of various industries such as retail spaces,
+                            industrial plants and office buildings, we are well-equipped to help you keep your premises sparkling clean and safe.
+                        </p>
+                        <br />
+                        <p>
+                            Whether you need mops, brooms, cleaning chemicals, personal protective equipment, or other facility maintenance management supplies,
+                            SPLENDID is your one-stop shop for janitorial and maintenance supplies. Our commitment to providing high-quality products and excellent customer service,
+                            combined with our competitive pricing, makes us the ideal distributor for all your facility service needs.
+                        </p>
+                    </div>
+
+                </div>
+
+                <Footer />
                 <span className='w-full bg-white text-black/60 flex justify-end text-[.8rem] xl:pl-6 py-3 pr-8 xl:pr-10'>
-                <b className='text-black hidden lg:visible'>English</b>
-                <p>2023 ©️ All rights reserved</p>
-            </span>
+                    <b className='text-black hidden lg:visible'>English</b>
+                    <p>2023 ©️ All rights reserved</p>
+                </span>
             </main>
 
         </div>

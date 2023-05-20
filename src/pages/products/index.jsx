@@ -35,7 +35,7 @@ function Products(props) {
 
           <div className="flex flex-col gap-10 px-4 pt-24 lg:pt-0 lg:px-[2rem] md:pt-6 py-16">
             {tabs[index].sections.map((section) => (
-              <div key={section.id}>
+              <div key={section.title}>
                 <h1 className=" font-clash uppercase font-semibold text-4xl py-4">
                   {section.title}
                 </h1>
@@ -46,7 +46,7 @@ function Products(props) {
                 <div className="flex flex-wrap justify-center lg:justify-start gap-10 lg:gap-16 w-fit h-fit pt-6 rounded-sm">
                   {section.product.map((pdt) => (
                     <div
-                      key={pdt.id}
+                      key={pdt.name}
                       className=" shadow-2xl hover:shadow-main_primary/75 transition-all duration-500 ease-in-out">
                       <div>
                         <Image
@@ -58,7 +58,7 @@ function Products(props) {
                         />
                       </div>
                       <div className="flex flex-col p-2 bg-white/50 ">
-                        <h1 className=" text-black font-chakra font-semibold text-[1.5rem] ">
+                        <h1 className=" text-black font-chakra font-semibold text-[1.5rem] uppercase">
                           {pdt.name}
                         </h1>
                       </div>

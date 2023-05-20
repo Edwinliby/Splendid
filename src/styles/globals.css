@@ -6,6 +6,11 @@
     display: none;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
 .glass {
     background: rgba(0, 0, 0, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
