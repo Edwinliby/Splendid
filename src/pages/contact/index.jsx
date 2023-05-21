@@ -84,12 +84,12 @@ export default function contact() {
 
                 </div>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7212.216281238144!2d55.403385!3d25.334152!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5bb79980c3a1%3A0x581fc2ac8803491c!2sAl%20Joory%20Hyderabadi%20Restaurant%20(Biryani%20House)!5e0!3m2!1sen!2sae!4v1683111849544!5m2!1sen!2sae"
-                    width="600"
-                    height="450"
-                    className='w-full h-[25rem] rounded-lg px-4 lg:px-[6rem]'
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7212.216281238144!2d55.403385!3d25.334152!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f594e2e0465f9%3A0x411403f1af2c520!2sSplendid%20Cleaning%20Material%20Trading%20LLC!5e0!3m2!1sen!2sae!4v1684681624627!5m2!1sen!2sae"
+                    width="600" height="450"
                     allowfullscreen=""
-                    referrerpolicy="no-referrer-when-downgrade">
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    className='w-full h-[25rem] rounded-lg px-4 lg:px-[6rem]'>
                 </iframe>
             </main>
 
