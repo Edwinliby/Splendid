@@ -22,20 +22,20 @@ export default function About() {
       "id": 3,
       "head": "Technical expertise",
       "para": "Our team of highly skilled and experienced technicians is trained to provide technical support and maintenance for all our cleaning equipment. We off er installation, repair, and maintenance services to ensure that our equipment is always in top condition.",
-      "img": "/assects/ab-3.png"
+      "img": "/assects/ab-33.png"
     },
     {
       "id": 4,
       "head": "Training and education",
       "para": "We understand the importance of proper training and education for our clients. Therefore, we off er training and education programs to ensure that our customers can use our cleaning equipment and supplies safely and eff ectively. Our training programs focus on the proper use and maintenance of our products to ensure that customers get the most out of their investments.",
-      "img": "/assects/ab-4.png"
+      "img": "/assects/ab-44.png"
     }
   ]
 
   return (
     <div className="flex flex-col lg:flex-row relative font-clash">
 
-      <div className="relative lg:sticky z-[2] bg-transparent top-0 left-0 flex flex-col lg:w-[70%] h-fit lg:h-[100vh] justify-center p-4  lg:pl-16 gap-4">
+      <div className="relative lg:sticky z-[2] bg-transparent top-0 left-0 flex flex-col lg:w-[70%] h-fit lg:h-[100vh] justify-center p-4 lg:pl-16 gap-4">
         <div className='blob1 hidden lg:block absolute top-16 left-12 w-[10rem] h-[10rem]'></div>
         <div className="flex flex-col justify-center items-center gap-4">
           <h1 className="flex items-center font-medium text-[2.5rem] gap-3">
@@ -59,7 +59,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ delay: .5 }}
-              className="h-fit lg:h-[90vh] p-4 flex flex-col justify-center gap-4">
+              className="h-fit lg:h-[100vh] my-4 p-4 flex flex-col justify-center gap-4">
               <div className="flex items-center gap-6">
                 <div className="flex relative">
                   <div className="w-9 h-8 bg-black rounded-full border-[2px] border-black/50"></div>

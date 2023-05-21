@@ -45,7 +45,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='relative pt-20 md:pt-0 h-[90vh] lg:h-screen flex flex-col items-center justify-center bg-[url("/gradient.png")] bg-no-repeat bg-cover'>
+    <div className='relative pt-20 md:pt-0 h-[45rem] flex flex-col items-center justify-center bg-[url("/gradient.png")] bg-no-repeat bg-cover'>
       <div className='font-clash text-center'>
         <h1 ref={first} className='text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-light opacity-0'>Janitorial Paradise</h1>
         <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5.5rem] font-medium leading-10 opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>

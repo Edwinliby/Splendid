@@ -5,10 +5,23 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaPhoneAlt } from 'rea
 import { ImLocation2 } from 'react-icons/im'
 import { IoMail } from 'react-icons/io5'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { FiArrowDownRight } from 'react-icons/fi'
 
 export default function Footer() {
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
+
     return (
-        <div className='font-montserrat border-t-[.8px] bg-white border-gray/50 p-4 md:p-8 flex flex-col lg:flex-row gap-10 justify-between xl:items-center'>
+        <div className='relative font-montserrat border-t-[.8px] bg-white border-gray/50 p-4 md:p-8 flex flex-col lg:flex-row gap-10 justify-between xl:items-center'>
+
+            <div className="text-main_primary absolute top-[-1.25rem] right-4 lg:right-10 hover:scale-125 bg-white border rounded-2xl -rotate-[135deg] transform transition-all duration-500 ease-in-out">
+                <FiArrowDownRight onClick={scrollToTop} size="2.5rem" />
+            </div>
+
             <div className='flex flex-col gap-8'>
                 <Image src="/logoGray.png"
                     alt="gray-logo"

@@ -48,6 +48,55 @@ export default function index() {
                     <span className='w-[85%] rounded-xl h-1 mt-16 bg-gray/50 block'></span>
                 </div>
 
+                <motion.div
+                    // initial={{ opacity: 0, y: 35 }}
+                    // whileInView={{ opacity: 1, y: 0 }}
+                    // viewport={{ once: true, amount: 0.8 }}
+                    className='p-4 lg:px-[7rem]'>
+
+                    <Image
+                        src="/assects/vinod.png"
+                        width={1000}
+                        height={1000}
+                        alt="about"
+                        className="w-[20rem] h-[20rem] lg:float-left object-cover p-4 mr-4 lg:mr-0 lg:pt-0"
+                    />
+
+                    <div className=' '>
+                        <p className='text-black text-[2rem] font-semibold'>
+                            Message from <b className='text-red-500'>Managing Director</b>
+                        </p>
+                        <p>
+                            “On behalf of the Board of Directors, I would like to thank our team for their incredible support and dedication.
+                            We are humbled and grateful for everything you have done and the sacrifices you have made to fight for and preserve our company's business model and reputation.
+                            We are fortunate to have experienced professionals in our team who are fully immersed in the market and stay up-to-date with the new launches.
+                            It is only because of our combined efforts that we are one of the top companies dealing in Janitorial Supplies in the Asian and Middle East Region.
+
+                            <br /><br />
+
+                            Cleaning practices are front and center for about 85% of the population.
+                            In the post-pandemic world, all are craving a human touch in their interactions with brands and <b>SPLENDID</b> always keeps its fingers on the pulse of the customers.
+                            Giving great customer service consistently is never easy and we always make sure to make it happen.
+                            We are even more dedicated and committed to provide customers where value, service, and quality go hand-in-hand.
+                            On behalf of all of us at <b>SPLENDID</b> we want to sincerely thank our customers for everything they do in support of <b>SPLENDID</b>.
+
+                            <br /><br />
+
+                            Our hundreds of business associates around the globe have shown the region what we are all about,
+                            you have our deepest gratitude, respect, and appreciation. Special mention goes to <a href="https://www.ipcworldwide.com/in/"><b className='underline'>IPC EUROMOP</b></a>, for being our most trusted supplier.
+                            Together, we will move forward to strengthen our reputation of being a truly <b>JANITORIAL PARADISE</b>.
+
+                            <br /><br />
+
+                            <b>SPLENDID</b> is in the people business first, and looks forward in serving various industries and its cleaning needs for many years to come.
+                            We are customers. We are associates. We are vendors and we are <b>SPLENDID</b>”
+                        </p>
+                        <b>
+                            K.A.VINOD KUMAR
+                        </b>
+                    </div>
+                </motion.div>
+
                 <div className='px-4 lg:px-[7rem] flex flex-col lg:flex-row py-8'>
                     <motion.h2
                         initial={{ opacity: 0, x: -30 }}

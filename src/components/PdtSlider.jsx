@@ -35,22 +35,22 @@ export default class AutoPlay extends Component {
             <div className="w-[85%]">
                 <Slider {...settings}>
                     <div className="">
-                        <Image src="/product/one.png" alt="shape-1" width={500} height={500} className="px-2" />
+                        <Image src="/product/sm1.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
                     <div className="">
-                        <Image src="/product/2.png" alt="shape-1" width={500} height={500} className="px-2" />
+                        <Image src="/product/sm2.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
                     <div className="">
-                        <Image src="/product/3.png" alt="shape-1" width={500} height={500} className="px-2" />
+                        <Image src="/product/sm3.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
                     <div className="">
-                        <Image src="/product/one.png" alt="shape-1" width={500} height={500} className="px-2" />
+                        <Image src="/product/sm4.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
                     <div className="">
-                        <Image src="/product/2.png" alt="shape-1" width={500} height={500} className="px-2" />
+                        <Image src="/product/sm5.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
                     <div className="">
-                        <Image src="/product/3.png" alt="shape-1" width={500} height={500} className="px-2" />
+                        <Image src="/product/sm6.png" alt="shape-1" width={500} height={500} className="px-2" />
                     </div>
                 </Slider>
             </div>

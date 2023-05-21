@@ -9,6 +9,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { motion, AnimatePresence } from 'framer-motion'
 import Loader from "@/components/Loader";
+import WhatsappBtn from "@/components/WhatsappBtn";
 
 const font_montserrat = Montserrat({
   subsets: ["latin"],
@@ -78,6 +79,7 @@ export default function MyApp({ Component, pageProps, router }) {
         </motion.div>
       </AnimatePresence>
       
+      <WhatsappBtn/>
     </>
   );
 }

@@ -9,7 +9,7 @@ export default function Issa() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.8 }}
             transition={{ delay: .5 }}
-            className='px-4 font-clash lg:px-[7rem] flex flex-col justify-between pb-10'>
+            className='px-4 font-clash lg:px-[7rem] flex flex-col justify-between lg:mt-[-7rem] py-10'>
             <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4'>
                 <div>
                     <Image
@@ -17,7 +17,7 @@ export default function Issa() {
                         width={1000}
                         height={1000}
                         alt="about"
-                        className="w-[15rem] h-[15rem]  object-contain"
+                        className="w-[15rem] h-[15rem] object-contain"
                     />
                 </div>
                 <p className='lg:w-[70%]'>
