@@ -58,7 +58,7 @@ export default function index() {
                         src="/assects/Vinod.png"
                         width={1000}
                         height={1000}
-                        alt="about"
+                        alt="MD"
                         className="w-[20rem] h-[26rem] rounded-md lg:float-left object-cover mr-4  lg:pt-0"
                     />
 
@@ -120,7 +120,7 @@ export default function index() {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, amount: 0.8 }}
                         >
-                            Our Splendid is committed to becoming a leading entity in global trading, through eff ective business strategies and key alliances.
+                            Our <b>Splendid</b> is committed to becoming a leading entity in global trading, through eff ective business strategies and key alliances.
                             We prioritize customer-oriented and total quality management policies while embodying the values of trust, dedication, honesty, diligence, and dynamism.
                             We strive to make a positive impact on society through proactive participation in socio-economic activities and environmental-friendly practices. Join us on our journey towards excellence and discover the unparalleled benefi ts of partnering with us.
                         </motion.p>
