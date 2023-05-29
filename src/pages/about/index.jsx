@@ -120,7 +120,7 @@ export default function index() {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, amount: 0.8 }}
                         >
-                            Our <b>Splendid</b> is committed to becoming a leading entity in global trading, through eff ective business strategies and key alliances.
+                            At <b>Splendid</b> we are committed to becoming a leading entity in global trading, through eff ective business strategies and key alliances.
                             We prioritize customer-oriented and total quality management policies while embodying the values of trust, dedication, honesty, diligence, and dynamism.
                             We strive to make a positive impact on society through proactive participation in socio-economic activities and environmental-friendly practices. Join us on our journey towards excellence and discover the unparalleled benefi ts of partnering with us.
                         </motion.p>
@@ -128,7 +128,7 @@ export default function index() {
                 </div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 35 }}
+                    initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.8 }}
                     className='px-4 lg:px-[7rem] flex flex-col lg:flex-row justify-between py-10'>

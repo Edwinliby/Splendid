@@ -7,8 +7,6 @@ export default function Hero() {
   const first = useRef(null);
   const second = useRef(null);
   const third = useRef(null);
-  const tri1 = useRef(null);
-  const tri2 = useRef(null);
   const heroImage = useRef(null);
 
   useEffect(() => {
@@ -31,16 +29,6 @@ export default function Hero() {
       heroImage.current,
       { opacity: 0, },
       { opacity: 1, duration: 2.5, delay: 3.5 }
-    );
-    gsap.fromTo(
-      tri1.current,
-      { opacity: 0, x: -100 },
-      { opacity: 1, x: 0, duration: 1.5, delay: 1 }
-    );
-    gsap.fromTo(
-      tri2.current,
-      { opacity: 0, x: 100 },
-      { opacity: 1, x: 0, duration: 1.5, delay: 1 }
     );
   }, []);
 
@@ -85,27 +73,23 @@ export default function Hero() {
         alt="hero-img"
         width={1100}
         height={1100}
-        className="absolute bottom-5 md:bottom-[0rem] w-[20rem] sm:w-[22rem] md:w-[35rem] xl:w-[60rem] z-[1]"
+        className="absolute bottom-5 md:bottom-[0rem] w-[23rem] md:w-[35rem] xl:w-[60rem] z-[1]"
       />
 
-      <div className="">
-        <Image
-          ref={tri1}
-          src="/triangle.png"
-          alt="shape-1"
-          width={700}
-          height={700}
-          className="absolute bottom-[-2.5rem] left-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
-        />
-        <Image
-          ref={tri2}
-          src="/triangle2.png"
-          alt="shape-2"
-          width={700}
-          height={700}
-          className="absolute bottom-[-2.5rem] right-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
-        />
-      </div>
+      <Image
+        src="/triangle.png"
+        alt="shape-1"
+        width={700}
+        height={700}
+        className="absolute bottom-[-2rem] md:bottom-[-2.5rem] left-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
+      />
+      <Image
+        src="/triangle2.png"
+        alt="shape-2"
+        width={700}
+        height={700}
+        className="absolute bottom-[-2rem] md:bottom-[-2.5rem] right-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
+      />
     </div>
   );
 }

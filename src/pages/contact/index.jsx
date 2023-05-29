@@ -28,10 +28,10 @@ export default function contact() {
                         </div>
                         <div className='flex flex-col gap-8 py-6'>
                             <p className='flex gap-4'>
-                                <BsFillTelephoneFill size={20} className='text-orange-400' /> <span>+971 56 310 1817</span>
+                                <BsFillTelephoneFill size={20} className='text-orange-400' /> <Link href="tel:+971 6 543 0000">+971 56 310 1817</Link>
                             </p>
                             <p className='flex gap-4'>
-                                <GrMail size={20} className='text-orange-400' /> <span>info@splendiduae.com</span>
+                                <GrMail size={20} className='text-orange-400' /> <Link href="mailto:">info@splendiduae.com</Link>
                             </p>
                             <p className='flex gap-4'>
                                 <IoLocationSharp size={20} className='text-orange-400' />
