@@ -55,7 +55,7 @@ export default function index() {
                     className='p-4 lg:px-[7rem]'>
 
                     <Image
-                        src="/assects/Vinod.png"
+                        src="/assects/MDvinod.png"
                         width={1000}
                         height={1000}
                         alt="MD"
