@@ -73,7 +73,7 @@ export default function About() {
                 {item.para}
               </p>
               <div className="overflow-hidden">
-                <Image src={item.img} alt="logo" width={700} height={700} className="w-full h-full object-cover" />
+                <Image src={item.img} alt="logo" width={700} height={700} className="w-full h-[23rem] object-contain" />
               </div>
             </motion.div>
           ))

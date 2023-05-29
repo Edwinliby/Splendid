@@ -105,7 +105,7 @@ export default function index() {
                     </div>
 
                     <div id='Education'>
-                        <h2 className='font-bold text-[2.2rem] text-right'>Education</h2>
+                        <h2 className='font-bold text-[2.2rem]'>Education</h2>
                         <p className='pt-2'>
                             SPLENDID recognizes the importance of using environmentally friendly cleaning products in the educational sector.
                             Our range of eco-friendly cleaning solutions and microfiber cleaning tools produce better outcomes than traditional products while improving indoor air quality,
@@ -148,7 +148,7 @@ export default function index() {
                     </div>
 
                     <div id='Commercial'>
-                        <h2 className='font-bold text-[2.2rem] text-right'>Commercial</h2>
+                        <h2 className='font-bold text-[2.2rem]'>Commercial</h2>
                         <p className='pt-2'>
                             Commercial cleaning is a complex process that involves various cleaning methods, chemicals, and equipment to achieve excellent results.
                             It covers a wide range of tasks, including general cleaning, floor cleaning, window cleaning,

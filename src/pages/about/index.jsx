@@ -55,11 +55,11 @@ export default function index() {
                     className='p-4 lg:px-[7rem]'>
 
                     <Image
-                        src="/assects/vinod.png"
+                        src="/assects/Vinod.png"
                         width={1000}
                         height={1000}
                         alt="about"
-                        className="w-[20rem] h-[20rem] lg:float-left object-cover p-4 mr-4 lg:mr-0 lg:pt-0"
+                        className="w-[20rem] h-[26rem] rounded-md lg:float-left object-cover mr-4  lg:pt-0"
                     />
 
                     <div className=' '>
