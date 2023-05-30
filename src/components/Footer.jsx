@@ -75,7 +75,7 @@ export default function Footer() {
                         <div className='flex gap-[1.1rem] font-medium justify-center sm:justify-end pt-6'>
                             <Link href="/" className='text-main_primary font-semibold'>Home</Link>
                             <Link href="/products">Products</Link>
-                            {/* <Link href="/">Brands</Link> */}
+                            <Link href="/blog">Blog</Link>
                             <Link href="/about">About</Link>
                         </div>
                     </div>

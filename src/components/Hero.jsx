@@ -58,14 +58,14 @@ export default function Hero() {
         </p>
       </div>
 
-      <Link href="#About" className="z-[30] opacity-30">
+      <a href="#About" className="z-[30] opacity-30">
         <Image
           src="/down.gif"
           width={300}
           height={300}
           className="w-auto h-[5rem]"
         />
-      </Link>
+      </a>
 
       <Image
         ref={heroImage}

@@ -92,8 +92,8 @@ export default function contact() {
             </main>
 
             <Footer />
-            <span className='w-full bg-white text-black/60 flex justify-end text-[.8rem] xl:pl-6 py-3 pr-8 xl:pr-10'>
-                <b className='text-black hidden lg:visible'>English</b>
+            <span className="w-full bg-white text-black/60 flex justify-between text-[.8rem] xl:pl-6 py-3 pl-4 pr-8 xl:pr-10">
+                <p>Developed by <a href="https://linktr.ee/Volshauz?ltsid=207b9289-a777-4717-8a69-f1ab494861f2" target="_blank"><b>Volshauz</b></a></p>
                 <p>2023 ©️ All rights reserved</p>
             </span>
         </div>
