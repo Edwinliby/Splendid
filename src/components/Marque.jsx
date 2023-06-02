@@ -15,6 +15,7 @@ function Marque() {
                 <Image src="/brands/4.png" alt="brand" width={500} height={500} className='h-[4rem] md:h-[6rem] w-fit object-cover pl-8' />
                 <Image src="/brands/5.png" alt="brand" width={500} height={500} className='h-[4rem] md:h-[6rem] w-fit object-cover pl-8' />
                 <Image src="/brands/6.jpg" alt="brand" width={500} height={500} className='h-[4rem] md:h-[6rem] w-fit object-cover pl-8' />
+                <Image src="/brands/ipcEuro.png" alt="brand" width={500} height={500} className='h-[2.5rem] md:h-[3.5rem] w-fit object-cover pl-8' />
             </Marquee>
         </div>
     )

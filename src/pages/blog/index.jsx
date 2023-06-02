@@ -42,7 +42,7 @@ export default function index() {
             <Header />
             <main className='w-full h-screen pt-[4.5rem]'>
                 <div className='relative h-fit'>
-
+                    
                 </div>
 
                 <Footer />

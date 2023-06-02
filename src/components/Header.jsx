@@ -11,6 +11,7 @@ const links = [
     { href: '/products', label: 'Product' },
     { href: '/about', label: 'About us' },
     { href: '/contact', label: 'Contact' },
+    { href: '/blog', label: 'Blog'}
 ];
 
 export default function Header() {

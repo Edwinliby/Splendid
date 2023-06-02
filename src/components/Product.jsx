@@ -5,7 +5,7 @@ import PdtSlider from "@/components/PdtSlider";
 export default function Product() {
   return (
     <div className='relative lg:top-[-5rem] w-full bg-[#5855E8] font-montserrat flex flex-col justify-center gap-14 pb-8'>
-      <div className='h-fit text-white z-[2] px-[1rem] lg:px-[4rem] flex justify-between items-center w-full'>
+      <div className='h-fit text-white z-[2] px-[1rem] lg:px-[4rem] flex justify-between items-center w-full relative lg:top-[-2.5rem]'>
         <h1 className='font-semibold text-[1.5rem] lg:text-5xl'>Our Products <br />& Equipment's</h1>
         <div className='flex items-center gap-4'>
           <p className='hidden xl:visible'>click to see all the products </p>
@@ -16,7 +16,7 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center ab top-[-2.5rem]">
+      <div className="w-full flex justify-center relative lg:top-[-2rem]">
         <PdtSlider />
       </div>
     </div>

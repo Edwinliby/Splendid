@@ -23,13 +23,13 @@ function Home() {
         <Hero />
       </section>
 
-      <section id="About" className="overflow-hidden flex justify-center">
+      <section className="overflow-hidden flex justify-center">
         <Marque />
       </section>
 
       <MainAbout />
 
-      <section >
+      <section id="About" >
         <About />
       </section>
 

@@ -9,20 +9,20 @@ export default function About() {
     {
       "id": 1,
       "head": "Cleaning equipment and supplies",
-      "para": "Splendid UAE, specializes in providing cleaning equipment and supplies for both commercial and residential use. Our wide range of products includes cleaning chemicals, janitorial equipment, and industrial cleaning machines.",
+      "para": "Splendid UAE specializes in providing cleaning equipment and supplies for both commercial and residential use. Our wide range of products includes cleaning chemicals, janitorial equipment, and industrial cleaning machines.",
       "img": "/assects/ab-1.png"
-    },
-    {
-      "id": 2,
-      "head": "Customized solutions",
-      "para": "We take pride in off ering customized cleaning solutions that are tailored to meet the unique needs of our clients. Our team works closely with our customers to understand their specifi c requirements and provide customized solutions that meet their needs.",
-      "img": "/assects/ab-2.png"
     },
     {
       "id": 3,
       "head": "Technical expertise",
       "para": "Our team of highly skilled and experienced technicians is trained to provide technical support and maintenance for all our cleaning equipment. We off er installation, repair, and maintenance services to ensure that our equipment is always in top condition.",
       "img": "/assects/ab-33.png"
+    },
+    {
+      "id": 2,
+      "head": "Customized solutions",
+      "para": "We take pride in off ering customized cleaning solutions that are tailored to meet the unique needs of our clients. Our team works closely with our customers to understand their specifi c requirements and provide customized solutions that meet their needs.",
+      "img": "/assects/ab-2.png"
     },
     {
       "id": 4,
@@ -55,11 +55,11 @@ export default function About() {
           content.map((item) => (
             <motion.div
               key={item.id}
-              initial={{ opacity: 0, y: 40 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ delay: .5 }}
-              className="h-fit lg:h-[100vh] my-4 p-4 flex flex-col justify-center gap-4">
+              className="h-fit lg:h-[100vh] p-4 flex flex-col justify-evenly">
               <div className="flex items-center gap-6">
                 <div className="flex relative">
                   <div className="w-9 h-8 bg-black rounded-full border-[2px] border-black/50"></div>
@@ -72,9 +72,7 @@ export default function About() {
               <p className="text-black/80 text-[1.1rem]">
                 {item.para}
               </p>
-              <div className="overflow-hidden">
-                <Image src={item.img} alt="logo" width={700} height={700} className="w-full h-[23rem] object-contain" />
-              </div>
+              <Image src={item.img} alt="logo" width={700} height={700} className="w-full h-[15rem] mt-4 lg:h-fit object-contain" />
             </motion.div>
           ))
         }

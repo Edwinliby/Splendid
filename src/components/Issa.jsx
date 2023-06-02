@@ -5,9 +5,9 @@ import { motion } from 'framer-motion'
 export default function Issa() {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 35 }}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.8 }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{ delay: .5 }}
             className='px-4 font-clash lg:px-[7rem] flex flex-col justify-between lg:mt-[-7rem] py-10'>
             <div className='flex flex-col-reverse lg:flex-row justify-center items-center gap-4'>

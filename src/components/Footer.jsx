@@ -42,17 +42,17 @@ export default function Footer() {
             </div>
 
             <div className='flex gap-8 flex-col md:flex-row md:items-center w-full md:justify-between'>
-                <div className='text-black/50 flex flex-col gap-3 xl:pl-[10rem]'>
+                <div className='text-black/50 flex flex-col gap-4 xl:pl-[10rem]'>
                     <b className='text-xl'>UAE</b>
                     <span className='flex gap- items-start'>
                         <ImLocation2 size={20} />
                         <p>Splendid Cleaning Material Trading LLC <br /> Industrial area #4, P.O.Box : 67619 <br /> Sharjah, UAE</p>
                     </span>
-                    <span className='flex gap-2 items-center'>
+                    <span className='flex gap-2 items-center mt-[.5rem]'>
                         <FaPhoneAlt size={20} />
                         <Link href="tel:+971 6 543 0000">+971 56 310 1817</Link>
                     </span>
-                    <span className='flex gap-2 items-center'>
+                    <span className='flex gap-2 items-center mt-[.5rem]'>
                         <IoMail size={20} />
                         <Link href="mailto:">info@splendiduae.com</Link>
                     </span>

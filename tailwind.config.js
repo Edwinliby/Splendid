@@ -23,7 +23,7 @@ module.exports = {
         footer: "#1B1B1B",
       },
       screens: {
-        sm: "496px",
+        sm: "390px",
         md: "712px",
         lg: "900px",
         xl: "1142px",
