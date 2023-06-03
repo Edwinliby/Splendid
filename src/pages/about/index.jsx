@@ -52,14 +52,14 @@ export default function About() {
                     initial={{ opacity: 0, y: 25 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.1 }}
-                    className='p-4 lg:px-[7rem]'>
+                    className='p-4 mt-6 lg:px-[7rem]'>
 
                     <Image
                         src="/assects/MDvinod.png"
                         width={1000}
                         height={1000}
                         alt="MD"
-                        className="w-[20rem] h-[26rem] rounded-md lg:float-left object-cover mr-4 lg:pt-0"
+                        className="w-[20rem] h-[26rem] rounded-md lg:float-left object-cover mr-5 lg:pt-0"
                     />
 
                     <div className=' '>
