@@ -61,18 +61,18 @@ export default function contact() {
                                 <div className='flex flex-wrap flex-col gap-6'>
                                     <div className='flex flex-col w-full lg:w-[50%]'>
                                         <label htmlFor='name'>Email</label>
-                                        <input type='email' name='name' id='name' placeholder='Enter email here' className='bg-transparent border-b border-white/40 p-2' />
+                                        <input type='email' name='name' id='email' placeholder='Enter email here' className='bg-transparent border-b border-white/40 p-2' />
                                     </div>
 
                                     <div className='flex flex-col w-full lg:w-[50%]'>
                                         <label htmlFor='name'>Phone Number</label>
-                                        <input type='tel' name='name' id='name' placeholder='Enter ph:no here' className='bg-transparent border-b border-white/40 p-2' />
+                                        <input type='tel' name='name' id='phno' placeholder='Enter ph:no here' className='bg-transparent border-b border-white/40 p-2' />
                                     </div>
                                 </div>
 
                                 <div className='flex flex-col '>
                                     <label htmlFor='name'>Message</label>
-                                    <textarea name='name' id='name' placeholder='Write your messgae here ...' className='bg-transparent border-b border-white/40 p-2' />
+                                    <textarea name='name' id='message' placeholder='Write your messgae here ...' className='bg-transparent border-b border-white/40 p-2' />
                                 </div>
 
                                 <div className=' flex justify-end'>

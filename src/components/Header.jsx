@@ -10,8 +10,8 @@ const links = [
     { href: '/Industry', label: 'Industries Served' },
     { href: '/products', label: 'Product' },
     { href: '/about', label: 'About us' },
-    { href: '/contact', label: 'Contact' },
-    { href: '/blog', label: 'Blog'}
+    { href: '/blog', label: 'Blog' },
+    { href: '/contact', label: 'Contact' }
 ];
 
 export default function Header() {

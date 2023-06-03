@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function MainAbout() {
     return (
-        <div className='px-4 lg:px-16 w-full h-fit pt-8 font-montserrat mb-8'>
+        <div className='px-4 lg:px-16 w-full h-fit pt-4 md:pt-8 font-montserrat mb-4 md:mb-8'>
             <h4 className='flex items-center gap-2 text-[1.2rem] italic'><span className='block h-1 w-10 bg-black'></span> About Us</h4>
             <div className='flex flex-col lg:flex-row justify-center'>
                 <div className='lg:border-b-[2px] lg:p-6 flex flex-col justify-center'>

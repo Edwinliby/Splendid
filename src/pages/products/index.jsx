@@ -27,7 +27,10 @@ function Products(props) {
                 key={i}
                 className="flex items-center text-[.8rem] md:text-base px-4 py-3 z-[1] hover:bg-black/20 w-full transition-all border-r border-gray/50 lg:border-0 duration-500 ease-in-out"
                 style={{ background: index === i ? "rgb(134 136 136 / 0.3)" : "none" }}
-                onClick={() => setIndex(i)}>
+                onClick={() => {
+                  setIndex(i);
+                  window.scrollTo(0, 0);
+                }}>
                 {tab.name}
               </span>
             ))}

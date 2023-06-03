@@ -57,27 +57,27 @@ export default function Footer() {
                         <Link href="mailto:">info@splendiduae.com</Link>
                     </span>
                 </div>
+            </div>
 
-                <div className='flex flex-col gap-4 px-4 justify-between'>
-                    <div>
-                        <div className='flex justify-end'>
-                            <Link href="/contact">
-                                <div className='flex w-[15rem] h-fit p-4 rounded-full bg-black/10 text-main_primary justify-between'>
-                                    <span className='flex gap-2 items-center'>
-                                        <IoMail size={25} />
-                                        <p className='text-black/60 text-[.8rem]'>Send enquiry</p>
-                                    </span>
-                                    <BsFillArrowRightCircleFill size={25} />
-                                </div>
-                            </Link>
-                        </div>
+            <div className='flex flex-col gap-4 px-4 justify-between'>
+                <div>
+                    <div className='flex justify-end'>
+                        <Link href="/contact">
+                            <div className='flex w-[15rem] h-fit p-4 rounded-full bg-black/10 text-main_primary justify-between'>
+                                <span className='flex gap-2 items-center'>
+                                    <IoMail size={25} />
+                                    <p className='text-black/60 text-[.8rem]'>Send enquiry</p>
+                                </span>
+                                <BsFillArrowRightCircleFill size={25} />
+                            </div>
+                        </Link>
+                    </div>
 
-                        <div className='flex gap-[1.1rem] font-medium justify-center sm:justify-end pt-6'>
-                            <Link href="/" className='text-main_primary font-semibold'>Home</Link>
-                            <Link href="/products">Products</Link>
-                            <Link href="/blog">Blog</Link>
-                            <Link href="/about">About</Link>
-                        </div>
+                    <div className='flex gap-[1.1rem] font-medium justify-center sm:justify-end pt-6'>
+                        <Link href="/" className='text-main_primary font-semibold'>Home</Link>
+                        <Link href="/products">Products</Link>
+                        <Link href="/blog">Blog</Link>
+                        <Link href="/about">About</Link>
                     </div>
                 </div>
             </div>
