@@ -64,6 +64,7 @@ export default function Hero() {
           width={300}
           height={300}
           className="w-auto h-[5rem]"
+          alt="down arrow"
         />
       </a>
 

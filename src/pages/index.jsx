@@ -23,7 +23,7 @@ function Home() {
         <Hero />
       </section>
 
-      <section className="overflow-hidden flex justify-center">
+      <section className="overflow-hidden flex justify-center ">
         <Marque />
       </section>
 

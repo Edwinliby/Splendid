@@ -8,7 +8,7 @@ import { GrMail } from 'react-icons/gr'
 import { IoLocationSharp } from 'react-icons/io5'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
-export default function contact() {
+export default function Contact() {
     return (
         <div className='bg-[url("/contact.jpg")] bg-cover bg-no-repeat'>
             <Head>
@@ -52,33 +52,35 @@ export default function contact() {
                     </div>
 
                     <div className='flex justify-center items-center border-[1.5px] w-full bg-black/30 border-gray/50 rounded-b-lg lg:rounded-r-lg lg:w-[60%] glass'>
-                        <form className='flex flex-col gap-5 p-8 w-full'>
-                            <div className='flex flex-col gap-10 w-full text-white'>
-                                <div className='flex flex-col w-full lg:w-[50%]'>
-                                    <label htmlFor='name'>Name</label>
-                                    <input type='text' name='name' id='name' placeholder='Enter your name' className='bg-transparent border-b border-white/40 p-2' />
-                                </div>
-                                <div className='flex flex-wrap flex-col gap-6'>
+                        <form className='flex flex-col gap-5 p-8 w-full' action="https://formsubmit.co/info@splendiduae.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false"></input>
+                            <input type="hidden" name="_next" value="https://splendiduae.com/thankyou"></input>
+                                <div className='flex flex-col gap-10 w-full text-white'>
                                     <div className='flex flex-col w-full lg:w-[50%]'>
-                                        <label htmlFor='name'>Email</label>
-                                        <input type='email' name='name' id='email' placeholder='Enter email here' className='bg-transparent border-b border-white/40 p-2' />
+                                        <label htmlFor='name'>Name</label>
+                                        <input type='text' name='name' id='name' placeholder='Enter your name' required className='bg-transparent border-b border-white/40 p-2' />
+                                    </div>
+                                    <div className='flex flex-wrap flex-col gap-6'>
+                                        <div className='flex flex-col w-full lg:w-[50%]'>
+                                            <label htmlFor='name'>Email</label>
+                                            <input type='email' name='name' id='email' placeholder='Enter email here' required className='bg-transparent border-b border-white/40 p-2' />
+                                        </div>
+
+                                        <div className='flex flex-col w-full lg:w-[50%]'>
+                                            <label htmlFor='name'>Phone Number</label>
+                                            <input type='tel' name='name' id='phno' placeholder='Enter ph:no here' required className='bg-transparent border-b border-white/40 p-2' />
+                                        </div>
                                     </div>
 
-                                    <div className='flex flex-col w-full lg:w-[50%]'>
-                                        <label htmlFor='name'>Phone Number</label>
-                                        <input type='tel' name='name' id='phno' placeholder='Enter ph:no here' className='bg-transparent border-b border-white/40 p-2' />
+                                    <div className='flex flex-col '>
+                                        <label htmlFor='name'>Message</label>
+                                        <textarea name='name' id='message' placeholder='Write your messgae here ...' required className='bg-transparent border-b border-white/40 p-2' />
+                                    </div>
+
+                                    <div className=' flex justify-end'>
+                                        <button className='bg-main_primary w-[10rem] text-white rounded-md p-2'>Send Message</button>
                                     </div>
                                 </div>
-
-                                <div className='flex flex-col '>
-                                    <label htmlFor='name'>Message</label>
-                                    <textarea name='name' id='message' placeholder='Write your messgae here ...' className='bg-transparent border-b border-white/40 p-2' />
-                                </div>
-
-                                <div className=' flex justify-end'>
-                                    <button className='bg-main_primary w-[10rem] text-white rounded-md p-2'>Send Message</button>
-                                </div>
-                            </div>
                         </form>
                     </div>
 

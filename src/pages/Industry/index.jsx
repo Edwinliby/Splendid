@@ -41,7 +41,7 @@ const boxContent = [
 ]
 
 
-export default function index() {
+export default function Industry() {
     return (
         <div>
             <Head>
@@ -70,8 +70,8 @@ export default function index() {
                 <div className='flex flex-col xl:flex-row gap-2 p-4 lg:mx-[4rem] lg:px-[3rem]'>
                     {
                         boxContent.map((item, index) => (
-                            <a href={item.id}>
-                                <div key={index} className='flex flex-col justify-center p-4 h-[15rem] border border-gray/50 rounded-md hover:bg-gray/10'>
+                            <a href={item.id} key={index}>
+                                <div className='flex flex-col justify-center p-4 h-[15rem] border border-gray/50 rounded-md hover:bg-gray/10'>
                                     {item.icon}
                                     <h2 className='font-semibold text-[1.5rem]'>{item.title}</h2>
                                     <p className='pt-2'>{item.desc}</p>
@@ -99,7 +99,7 @@ export default function index() {
                                 alt="Picture of the author"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] float-left'
+                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] md:float-left'
                             />
                             Our wide range of housekeeping and janitorial supplies is specially designed to help you achieve the best results.
                             <br /> <br />
@@ -118,7 +118,7 @@ export default function index() {
                                 alt="Picture of the author"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] float-right'
+                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] md:float-right'
                             />
                             Our range of eco-friendly cleaning solutions and microfiber cleaning tools produce better outcomes than traditional products while improving indoor air quality,
                             resulting in a reduction in absenteeism caused by asthma and allergies. <br /> <br />
@@ -140,7 +140,7 @@ export default function index() {
                                 alt="Picture of the Health care cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] float-left'
+                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] md:float-left'
                             />
                             We understand that hospitals have strict requirements for cleanliness and infection prevention and control.
                             Therefore, we offer a range of products that are specially formulated for hospitals, including Brix trolleys,
@@ -161,7 +161,7 @@ export default function index() {
                                 alt="Picture of commercial cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] float-right'
+                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] md:float-right'
                             />
                             It covers a wide range of tasks, including general cleaning, floor cleaning, window cleaning,
                             deep cleaning of sanitary facilities and kitchens, litter picking, and graffiti removal.<br /> <br />
@@ -180,7 +180,7 @@ export default function index() {
                                 alt="Picture of the Facility Management cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] float-left'
+                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] md:float-left'
                             />
                             We offer a wide range of facility maintenance supplies that include cleaning and disinfecting products for common areas and high-touch surfaces,
                             as well as premium chemicals, tools and equipment for floor care programs. With our extensive experience in meeting the facility service needs of various industries such as retail spaces,

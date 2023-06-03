@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
-export default function index() {
+export default function About() {
     return (
         <div>
             <Head>
@@ -49,9 +49,9 @@ export default function index() {
                 </div>
 
                 <motion.div
-                    // initial={{ opacity: 0, y: 35 }}
-                    // whileInView={{ opacity: 1, y: 0 }}
-                    // viewport={{ once: true, amount: 0.8 }}
+                    initial={{ opacity: 0, y: 25 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.1 }}
                     className='p-4 lg:px-[7rem]'>
 
                     <Image
@@ -59,7 +59,7 @@ export default function index() {
                         width={1000}
                         height={1000}
                         alt="MD"
-                        className="w-[20rem] h-[26rem] rounded-md lg:float-left object-cover mr-4  lg:pt-0"
+                        className="w-[20rem] h-[26rem] rounded-md lg:float-left object-cover mr-4 lg:pt-0"
                     />
 
                     <div className=' '>

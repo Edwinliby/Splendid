@@ -21,7 +21,7 @@ function Products(props) {
       <main className="flex lg:justify-center items-center">
 
         <div className="text-black w-full h-fit md:pt-[4.5rem] flex flex-col lg:flex-row">
-          <div className="flex overflow-x-scroll scroll-m-0 bg-white  sticky top-[5rem] lg:top-[4.5rem] w-full h-[4rem] lg:flex-col min-w-[13rem] lg:w-[15rem] lg:justify-center lg:h-screen border-b lg:border-b-0 lg:border-r border-gray/50 text-black">
+          <div className="flex overflow-x-scroll scroll-m-0 bg-white  sticky top-[4.8rem] lg:top-[4.5rem] w-full h-[4rem] lg:flex-col min-w-[13rem] lg:w-[15rem] lg:justify-center lg:h-screen border-b lg:border-b-0 lg:border-r border-gray/50 text-black">
             {tabs.map((tab, i) => (
               <span
                 key={i}
@@ -39,7 +39,7 @@ function Products(props) {
           <div className="flex flex-col gap-10 px-4 pt-24 lg:pt-0 lg:px-[2rem] md:pt-6 py-16">
             {tabs[index].sections.map((section) => (
               <div key={section.title}>
-                <h1 className=" font-clash uppercase font-semibold text-4xl py-4">
+                <h1 className=" font-clash uppercase font-semibold text-4xl py-4 tracking-wider">
                   {section.title}
                 </h1>
                 <p className="">

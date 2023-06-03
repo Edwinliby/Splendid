@@ -19,14 +19,14 @@ export default function MainAbout() {
 
                 <div className='relative border-[2px] rounded-2xl lg:rounded-es-none h-[30rem] md:min-w-[23rem] p-4 mt-4 lg:mt-0'>
                     <Link href="https://www.ipcworldwide.com/in/">
-                        <Image src='/brands/1.png' width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-4 ' />
+                        <Image src='/brands/1.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-4 ' />
                     </Link>
-                    <Image src='/brands/2.png' width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-20 right-0' />
-                    <Image src='/brands/3.png' width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-48 right-5' />
-                    <Image src='/brands/ipcEuro.png' width={500} height={500} className='updown w-fit min-h-[2.5rem] max-h-[5rem] object-contain absolute top-36 ' />
-                    <Image src='/brands/4.png' width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute bottom-32 left-0' />
-                    <Image src='/brands/5.png' width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute bottom-14' />
-                    <Image src='/brands/6.jpg' width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute bottom-16 right-8' />
+                    <Image src='/brands/2.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-20 right-0' />
+                    <Image src='/brands/3.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-48 right-5' />
+                    <Image src='/brands/ipcEuro.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[2.5rem] max-h-[5rem] object-contain absolute top-36 ' />
+                    <Image src='/brands/4.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute bottom-32 left-0' />
+                    <Image src='/brands/5.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute bottom-14' />
+                    <Image src='/brands/6.jpg' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute bottom-16 right-8' />
                     <h2 className='flex items-center gap-2 p-2 font-semibold absolute bottom-0'>Find out more about our brand<Link href="/about" className='text-[2rem] hover:translate-x-4  transition-all duration-300 ease-in-out'>⟶</Link></h2>
                 </div>
             </div>

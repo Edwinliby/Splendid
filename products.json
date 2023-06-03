@@ -1,7 +1,42 @@
 {
   "tabs": [
     {
-      "name": "Dispensers products",
+      "name": "Clearence Sale",
+      "sections": [
+        {
+          "title": "Clearence Sale",
+          "desc": "Biggest Clearance Sale! Don't Miss Out on Incredible Deals for Cleaning Equipment and Supplies. Limited stock, massive discounts. Revamp your cleaning arsenal and achieve sparkling results. Hurry, shop now before it's too late!",
+          "product": [
+            {
+              "img": "/assects/clear/11.png",
+              "name": "sp-1"
+            },
+            {
+              "img": "/assects/clear/12.png",
+              "name": "sp-2"
+            },
+            {
+              "img": "/assects/clear/13.png",
+              "name": "sp-3"
+            },
+            {
+              "img": "/assects/clear/14.png",
+              "name": "sp-4"
+            },
+            {
+              "img": "/assects/clear/15.png",
+              "name": "sp-5"
+            },
+            {
+              "img": "/assects/clear/16.png",
+              "name": "sp-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dispensers Products",
       "sections": [
         {
           "title": "Dispensers Paper Products",
@@ -100,7 +135,7 @@
       ]
     },
     {
-      "name": "Floor cleaning",
+      "name": "Floor Cleaning",
       "sections": [
         {
           "title": "Floor cleaning range",
@@ -303,7 +338,7 @@
       ]
     },
     {
-      "name": "Garbage bins",
+      "name": "Garbage Bins",
       "sections": [
         {
           "title": "Garbage bin range",
@@ -493,7 +528,7 @@
       ]
     },
     {
-      "name": "Window cleaning tools",
+      "name": "Window Cleaning Tools",
       "sections": [
         {
           "title": "Window cleaning range",

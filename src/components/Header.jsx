@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation"
 
 const links = [
     { href: '/', label: 'Home' },
-    { href: '/Industry', label: 'Industries Served' },
+    { href: '/industry', label: 'Industries Served' },
     { href: '/products', label: 'Product' },
     { href: '/about', label: 'About us' },
     { href: '/blog', label: 'Blog' },
@@ -24,12 +24,14 @@ export default function Header() {
         <header className='fixed top-0 w-full z-50 tramsition-all duration-300 ease-in-out'>
             <nav className={`w-full bg-white/60 shadow backdrop-blur-md`}>
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center lg:flex lg:px-8">
-
                     <div className="flex items-center justify-between py-3 lg:block">
                         <Link href="/">
-                            <Image src="/logo.png" alt="logo"
-                                width={100}
-                                height={100} />
+                            <Image src="/logo.png"
+                                alt="logo"
+                                width={700}
+                                height={700}
+                                className='w-full h-[3rem]'
+                            />
                         </Link>
                         <div className="lg:hidden">
                             <Hamburger
@@ -48,8 +50,8 @@ export default function Header() {
                         <ul className="items-center justify-center text-black md:flex md:space-x-6 md:space-y-0">
                             {
                                 links.map((link) => (
-                                    <li className="Hover:bg-gray/80 p-4">
-                                        <Link href={link.href} key={link.label} className='relative' >
+                                    <li className="Hover:bg-gray/80 p-4" key={link.label}>
+                                        <Link href={link.href} className='relative' >
                                             {link.label}
                                             {path === link.href && (
                                                 <motion.span
@@ -68,9 +70,8 @@ export default function Header() {
                 </div>
             </nav>
             <motion.div
-                className="fixed top-[4.7rem] left-0 right-0 h-[1.5px] bg-main_primary origin-[0%]"
-                style={{ scaleX: scrollYProgress }}
-            />
+                className="fixed top-[4.5rem] left-0 right-0 h-[1.5px] bg-main_primary origin-[0%]"
+                style={{ scaleX: scrollYProgress }} />
         </header>
     );
 }
