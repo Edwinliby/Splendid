@@ -42,7 +42,7 @@ function Products(props) {
                 <h1 className=" font-clash uppercase font-semibold text-4xl py-4 tracking-wider">
                   {section.title}
                 </h1>
-                <p className="">
+                <p className="md:text-[1.1rem]">
                   {section.desc}
                 </p>
 
@@ -57,11 +57,11 @@ function Products(props) {
                           alt={pdt.name}
                           width={300}
                           height={300}
-                          className="object-contain w-[18rem] h-[18rem] lg:w-[15rem] lg:h-[15rem] bg-white"
+                          className="object-contain w-[18rem] h-[18rem] lg:w-[12rem] lg:h-[12rem] bg-white"
                         />
                       </div>
                       <div className="flex flex-col p-2 bg-white/50 ">
-                        <h1 className=" text-black font-chakra font-semibold text-[1.5rem] uppercase">
+                        <h1 className=" text-black font-chakra font-semibold text-[1.2rem] uppercase">
                           {pdt.name}
                         </h1>
                       </div>

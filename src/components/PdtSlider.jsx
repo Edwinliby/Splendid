@@ -36,22 +36,31 @@ export default class AutoPlay extends Component {
             <div className="w-[85%]">
                 <Slider {...settings}>
                     <div className="">
-                        <Link href="/products"><Image src="/product/sm1.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                        <Link href="/products"><Image src="/product/sm11.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                     <div className="">
-                        <Link href="/products"><Image src="/product/sm2.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                        <Link href="/products"><Image src="/product/sm22.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                     <div className="">
-                        <Link href="/products"><Image src="/product/sm3.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                        <Link href="/products"><Image src="/product/sm33.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                     <div className="">
-                        <Link href="/products"><Image src="/product/sm4.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                        <Link href="/products"><Image src="/product/sm444.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                    </div>
+                    <div className="">
+                        <Link href="/products"><Image src="/product/sm44.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                     <div className="">
                         <Link href="/products"><Image src="/product/sm5.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                     <div className="">
                         <Link href="/products"><Image src="/product/sm6.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                    </div>
+                    <div className="">
+                        <Link href="/products"><Image src="/product/sm7.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                    </div>
+                    <div className="">
+                        <Link href="/products"><Image src="/product/sm8.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                 </Slider>
             </div>

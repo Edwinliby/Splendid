@@ -1,134 +1,128 @@
 {
   "tabs": [
     {
-      "name": "Clearence Sale",
-      "sections": [
-        {
-          "title": "Clearence Sale",
-          "desc": "Biggest Clearance Sale! Don't Miss Out on Incredible Deals for Cleaning Equipment and Supplies. Limited stock, massive discounts. Revamp your cleaning arsenal and achieve sparkling results. Hurry, shop now before it's too late!",
-          "product": [
-            {
-              "img": "/assects/clear/11.png",
-              "name": "sp-1"
-            },
-            {
-              "img": "/assects/clear/12.png",
-              "name": "sp-2"
-            },
-            {
-              "img": "/assects/clear/13.png",
-              "name": "sp-3"
-            },
-            {
-              "img": "/assects/clear/14.png",
-              "name": "sp-4"
-            },
-            {
-              "img": "/assects/clear/15.png",
-              "name": "sp-5"
-            },
-            {
-              "img": "/assects/clear/16.png",
-              "name": "sp-6"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Dispensers Products",
       "sections": [
         {
           "title": "Dispensers Paper Products",
-          "desc": "Dispensers products provide convenient and efficient solutions for dispensing various substances, making everyday tasks easier and more organized.",
+          "desc": "We offer an excellent line of toilet tissues, paper towels. Plus, we have all the dispensers to stock your refills economically and hygienically. For the office environment we have a varity of tabletop dispensers and for business we offer convenient wall mounted systems.",
           "product": [
             {
               "img": "/product/Dispensers _ paper products/1-C FOLD DISPENSER EUROMOP.jpeg",
-              "name": "sp-1"
+              "name": "sd1001"
             },
             {
               "img": "/product/Dispensers _ paper products/11 - CENTRAL PULL DISPENSER SUPER ZONE.jpeg",
-              "name": "sp-2"
+              "name": "sd1002"
             },
             {
               "img": "/product/Dispensers _ paper products/12 - TISSUE PAPER DISPENSER.png",
-              "name": "sp-3"
+              "name": "sd1003"
             },
             {
               "img": "/product/Dispensers _ paper products/14 - SOAP DISPENSER STAINLESS STEEL.jpg",
-              "name": "sp-4"
+              "name": "sd1004"
             },
             {
               "img": "/product/Dispensers _ paper products/18 - AUTO CUT ROLLS - 2 PLY.jpg",
-              "name": "sp-5"
+              "name": "sd1005"
             },
             {
               "img": "/product/Dispensers _ paper products/19 - C FOLD HAND TOWEL.jpg",
-              "name": "sp-6"
+              "name": "sd1006"
             },
             {
               "img": "/product/Dispensers _ paper products/2 - SOAP DISPENSER EUROMOP.jpeg",
-              "name": "sp-7"
+              "name": "sd1007"
             },
             {
               "img": "/product/Dispensers _ paper products/21 - INTERFOLD TOWEL - 1 PLY.jpg",
-              "name": "sp-8"
+              "name": "sd1008"
             },
             {
               "img": "/product/Dispensers _ paper products/22 - MAXI ROLL - 2 PLY.jpg",
-              "name": "sp-9"
+              "name": "sd1009"
             },
             {
               "img": "/product/Dispensers _ paper products/23 - TOILET ROLL PLAIN - 2 PLY.jpg",
-              "name": "sp-10"
+              "name": "sd1010"
             },
             {
               "img": "/product/Dispensers _ paper products/24 - WHITE TISSUE BOX - CUBICAL.jpg",
-              "name": "sp-11"
+              "name": "sd1011"
             },
             {
               "img": "/product/Dispensers _ paper products/5 - AUTOMATIC SANITIZER DISPENSER - EUROMOP.png",
-              "name": "sp-12"
+              "name": "sd1012"
             },
             {
               "img": "/product/Dispensers _ paper products/6 - HAND DRYER STAINLESS STEEL - EUROMOP.jpeg",
-              "name": "sp-13"
+              "name": "sd1013"
             },
             {
               "img": "/product/Dispensers _ paper products/7 - AUTOMATIC HAND DRYER - PLASTIC.jpeg",
-              "name": "sp-14"
+              "name": "sd1014"
             },
             {
               "img": "/product/Dispensers _ paper products/8 - AUTOMATIC AIR FRESHNER DISPENSER-SUPER ZONE.png",
-              "name": "sp-15"
+              "name": "sd1015"
             },
             {
               "img": "/product/Dispensers _ paper products/9 - FOAM SOAP LIQUID DISPENSER.png",
-              "name": "sp-16"
+              "name": "sd1016"
             },
             {
               "img": "/product/Dispensers _ paper products/16.jpg",
-              "name": "sp-17"
+              "name": "sd1017"
             },
             {
               "img": "/product/Dispensers _ paper products/3.jpg",
-              "name": "sp-18"
+              "name": "sd1018"
             },
             {
               "img": "/product/Dispensers _ paper products/4.jpg",
-              "name": "sp-19"
+              "name": "sd1019"
             },
             {
               "img": "/product/Dispensers _ paper products/10.png",
-              "name": "sp-20"
+              "name": "sd1020"
             },
             {
               "img": "/product/Dispensers _ paper products/13.jpg",
-              "name": "sp-21"
+              "name": "sd1021"
             },
             {
               "img": "/product/Dispensers _ paper products/15.jpg",
-              "name": "sp-22"
+              "name": "sd1022"
+            }
+          ]
+        },
+        {
+          "title": "Paper Products",
+          "product": [
+            {
+              "img": "/product/Dispensers _ paper products/18 - AUTO CUT ROLLS - 2 PLY.jpg",
+              "name": "sd-1001"
+            },
+            {
+              "img": "/product/Dispensers _ paper products/19 - C FOLD HAND TOWEL.jpg",
+              "name": "sd-1002"
+            },
+            {
+              "img": "/product/Dispensers _ paper products/21 - INTERFOLD TOWEL - 1 PLY.jpg",
+              "name": "sd-1003"
+            },
+            {
+              "img": "/product/Dispensers _ paper products/22 - MAXI ROLL - 2 PLY.jpg",
+              "name": "sd-1004"
+            },
+            {
+              "img": "/product/Dispensers _ paper products/23 - TOILET ROLL PLAIN - 2 PLY.jpg",
+              "name": "sd-1005"
+            },
+            {
+              "img": "/product/Dispensers _ paper products/24 - WHITE TISSUE BOX - CUBICAL.jpg",
+              "name": "sd-1006"
             }
           ]
         }
@@ -139,199 +133,199 @@
       "sections": [
         {
           "title": "Floor cleaning range",
-          "desc": "The floor cleaning range offers a comprehensive selection of products designed to effectively and effortlessly maintain sparkling clean floors.",
+          "desc": "We offer a varity of cleaning chemicals as well as the tools and accessories to help you get the job done right. That includes, Heavy Duty Multi Purpose Cleaners, Bathroom disinfectants, Stainless Steel Cleaners, Polishes, General All Purpose Cleaners, Fabric Softers and more.",
           "product": [
             {
               "img": "/product/floor cleaning tools/10 - ALUMINIUM HANDLE WITH COLOURED GRIP -  EUROMOP.jpg",
-              "name": "sp-23"
+              "name": "sc1001"
             },
             {
               "img": "/product/floor cleaning tools/11 - POLISHED WOODEN HANDLE WITH HOLE - EUROMOP.jpg",
-              "name": "sp-24"
+              "name": "sc1002"
             },
             {
               "img": "/product/floor cleaning tools/12 - WOODEN HANDLE -120CM.png",
-              "name": "sp-25"
+              "name": "sc1003"
             },
             {
               "img": "/product/floor cleaning tools/13 - PLAIN WOODEN HANDLE.jpg",
-              "name": "sp-26"
+              "name": "sc1004"
             },
             {
               "img": "/product/floor cleaning tools/14 - COTTON MOP - EUROMOP.jpg",
-              "name": "sp-27"
+              "name": "sc1005"
             },
             {
               "img": "/product/floor cleaning tools/15 - FLOOR MOPS-FULL SET.jpg",
-              "name": "sp-28"
+              "name": "sc1006"
             },
             {
               "img": "/product/floor cleaning tools/16 - KENTUCKY MOPS - CUT END _ LOOPED END.jpg",
-              "name": "sp-29"
+              "name": "sc1007"
             },
             {
               "img": "/product/floor cleaning tools/17 - PLASTIC CLIP MOP.jpg",
-              "name": "sp-30"
+              "name": "sc1008"
             },
             {
               "img": "/product/floor cleaning tools/18 - ROUND MOP - SPAIN.jpg",
-              "name": "sp-31"
+              "name": "sc1009"
             },
             {
               "img": "/product/floor cleaning tools/19 - MOP CLIPS-EUROMOP.png",
-              "name": "sp-32"
+              "name": "sc1010"
             },
             {
               "img": "/product/floor cleaning tools/2 - 80CM DC SLEEVE BLUE - EUROMOP.png",
-              "name": "sp-33"
+              "name": "sc1011"
             },
             {
               "img": "/product/floor cleaning tools/21 - DEWATER FULL SET EUROMOP.jpg",
-              "name": "sp-34"
+              "name": "sc1012"
             },
             {
               "img": "/product/floor cleaning tools/22 - DUSTER WITH MICROFIBER SLEEVE - EUROMOP.jpg",
-              "name": "sp-35"
+              "name": "sc1013"
             },
             {
               "img": "/product/floor cleaning tools/23 - COBWEB AND DUST COLLECTOR.jpg",
-              "name": "sp-36"
+              "name": "sc1014"
             },
             {
               "img": "/product/floor cleaning tools/24 - CURVED PIPE BRUSH.jpg",
-              "name": "sp-37"
+              "name": "sc1015"
             },
             {
               "img": "/product/floor cleaning tools/25 - CARPET BRUSH - ITALY.png",
-              "name": "sp-38"
+              "name": "sc1016"
             },
             {
               "img": "/product/floor cleaning tools/27 - SOFT BROOM - ITALY.jpg",
-              "name": "sp-39"
+              "name": "sc1017"
             },
             {
               "img": "/product/floor cleaning tools/28 - SOFT BROOM ITALY - BLACK _ WHITE.jpg",
-              "name": "sp-40"
+              "name": "sc1018"
             },
             {
               "img": "/product/floor cleaning tools/29 - STREET BROOM - GERMANY 12,18,21 INCHES-4 ROW _ 6 ROW.jpg",
-              "name": "sp-41"
+              "name": "sc1019"
             },
             {
               "img": "/product/floor cleaning tools/3 - DRY MOP FULL SET 60CM _ 80CM-EUROMOPV.jpg",
-              "name": "sp-42"
+              "name": "sc1020"
             },
             {
               "img": "/product/floor cleaning tools/30 - V SHAPED BROOM.jpg",
-              "name": "sp-43"
+              "name": "sc1021"
             },
             {
               "img": "/product/floor cleaning tools/31 - INDUSTRIL BROOM.png",
-              "name": "sp-44"
+              "name": "sc1022"
             },
             {
               "img": "/product/floor cleaning tools/32 - DUST PAN AUTO CLOSE.jpg",
-              "name": "sp-45"
+              "name": "sc1023"
             },
             {
               "img": "/product/floor cleaning tools/33 - DUST PAN WITH LONG HANDLE.png",
-              "name": "sp-46"
+              "name": "sc1024"
             },
             {
               "img": "/product/floor cleaning tools/34 - DUST PAN WITH BRUSH.jpg",
-              "name": "sp-47"
+              "name": "sc1025"
             },
             {
               "img": "/product/floor cleaning tools/35 - IRON BRUSH.png",
-              "name": "sp-48"
+              "name": "sc1026"
             },
             {
               "img": "/product/floor cleaning tools/37 - TOILET BOWL BRUSH.jpg",
-              "name": "sp-49"
+              "name": "sc1027"
             },
             {
               "img": "/product/floor cleaning tools/38 - TOILET BRUSH WITH HOLDER - WHITE.png",
-              "name": "sp-50"
+              "name": "sc1028"
             },
             {
               "img": "/product/floor cleaning tools/39 - WC - TOILET BRUSH WHITE - ITALY.jpg",
-              "name": "sp-51"
-            },
-            {
-              "img": "/product/floor cleaning tools/4 - DUPLEX FRAME EUROMOP.jpg",
-              "name": "sp-52"
-            },
-            {
-              "img": "/product/floor cleaning tools/40 - DISH BRUSH.jpg",
-              "name": "sp-53"
-            },
-            {
-              "img": "/product/floor cleaning tools/41 - MUSTIK FLOOR WIPER 45,55,75CM-IPC.png",
-              "name": "sp-54"
-            },
-            {
-              "img": "/product/floor cleaning tools/42 - POLYPROPILENE FLOOR SQUEEGEE 45CM - EUROMOP.jpg",
-              "name": "sp-55"
-            },
-            {
-              "img": "/product/floor cleaning tools/43 - FLOOR BRUSH 18 _ 24 INCHES.jpg",
-              "name": "sp-56"
-            },
-            {
-              "img": "/product/floor cleaning tools/44 - FLOOR WIPES - 45CM.png",
-              "name": "sp-57"
-            },
-            {
-              "img": "/product/floor cleaning tools/46 - FLOOR SCRAPPER STAINLESS STEEL.jpg",
-              "name": "sp-58"
-            },
-            {
-              "img": "/product/floor cleaning tools/47 - HEAVY DUTY TOILET PLUNGER.jpg",
-              "name": "sp-59"
-            },
-            {
-              "img": "/product/floor cleaning tools/48 - FEATHER DUSTER.jpg",
-              "name": "sp-60"
+              "name": "sc1029"
             },
             {
               "img": "/product/floor cleaning tools/6 - SPEED CLEAN FRAME - EUROMOP.jpeg",
-              "name": "sp-61"
+              "name": "sc1030"
+            },
+            {
+              "img": "/product/floor cleaning tools/4 - DUPLEX FRAME EUROMOP.jpg",
+              "name": "sc1031"
+            },
+            {
+              "img": "/product/floor cleaning tools/40 - DISH BRUSH.jpg",
+              "name": "sc1032"
+            },
+            {
+              "img": "/product/floor cleaning tools/41 - MUSTIK FLOOR WIPER 45,55,75CM-IPC.png",
+              "name": "sc1033"
+            },
+            {
+              "img": "/product/floor cleaning tools/42 - POLYPROPILENE FLOOR SQUEEGEE 45CM - EUROMOP.jpg",
+              "name": "sc1034"
+            },
+            {
+              "img": "/product/floor cleaning tools/43 - FLOOR BRUSH 18 _ 24 INCHES.jpg",
+              "name": "sc1035"
+            },
+            {
+              "img": "/product/floor cleaning tools/44 - FLOOR WIPES - 45CM.png",
+              "name": "sc1036"
+            },
+            {
+              "img": "/product/floor cleaning tools/46 - FLOOR SCRAPPER STAINLESS STEEL.jpg",
+              "name": "sc1037"
+            },
+            {
+              "img": "/product/floor cleaning tools/47 - HEAVY DUTY TOILET PLUNGER.jpg",
+              "name": "sc1038"
+            },
+            {
+              "img": "/product/floor cleaning tools/48 - FEATHER DUSTER.jpg",
+              "name": "sc1039"
             },
             {
               "img": "/product/floor cleaning tools/8 - BONNET MOP DOUBLE LOOPED END-EUROMOP.jpg",
-              "name": "sp-62"
+              "name": "sc1040"
             },
             {
               "img": "/product/floor cleaning tools/9 - V SWEEPER COMPLETE SET - EUROMOP.jpg",
-              "name": "sp-63"
+              "name": "sc1041"
             },
             {
               "img": "/product/floor cleaning tools/45.jpg",
-              "name": "sp-64"
+              "name": "sc1042"
             },
             {
               "img": "/product/floor cleaning tools/1.jpg",
-              "name": "sp-65"
+              "name": "sc1043"
             },
             {
               "img": "/product/floor cleaning tools/5.png",
-              "name": "sp-66"
+              "name": "sc1044"
             },
             {
               "img": "/product/floor cleaning tools/7.png",
-              "name": "sp-67"
+              "name": "sc1045"
             },
             {
               "img": "/product/floor cleaning tools/14.jpg",
-              "name": "sp-68"
+              "name": "sc1046"
             },
             {
               "img": "/product/floor cleaning tools/20.jpg",
-              "name": "sp-69"
+              "name": "sc1047"
             },
             {
               "img": "/product/floor cleaning tools/36.jpg",
-              "name": "sp-70"
+              "name": "sc1048"
             }
           ]
         }
@@ -342,91 +336,91 @@
       "sections": [
         {
           "title": "Garbage bin range",
-          "desc": "The garbage bin range offers a diverse selection of bins designed to suit different needs, ensuring effective waste management and cleanliness.",
+          "desc": "We supply a wide range of waste equipment, from pedal ad clinical bins to bags, sacks, and liners of all types. Our extensive range of bins caters for all kinds of businesses. If you're not sure which waste equipment is right for your setting, talk to our team today.",
           "product": [
             {
               "img": "/product/Garbage bins/1 - 12L-STAINLESS STEEL BIN.jpg",
-              "name": "sp-71"
+              "name": "sw1001"
             },
             {
               "img": "/product/Garbage bins/10 - 240L - TRASH BIN WITH PEDAL.jpg",
-              "name": "sp-72"
+              "name": "sw1002"
             },
             {
               "img": "/product/Garbage bins/11 - 240LGARBAGE BIN WITH IDDLE PEDAL.jpg",
-              "name": "sp-73"
+              "name": "sw1003"
             },
             {
               "img": "/product/Garbage bins/12 - 240L GARBAGE BIN WITHOUT PEDAL - YELLOW.jpg",
-              "name": "sp-74"
+              "name": "sw1004"
             },
             {
               "img": "/product/Garbage bins/13 - STAINLESS STEEL BLACK TOP BIN.jpg",
-              "name": "sp-75"
+              "name": "sw1005"
             },
             {
               "img": "/product/Garbage bins/14 - SWING TYPE GARBAGE BIN.jpg",
-              "name": "sp-76"
+              "name": "sw1006"
             },
             {
               "img": "/product/Garbage bins/15 - ASHTRAY BINS.jpg",
-              "name": "sp-77"
+              "name": "sw1007"
             },
             {
               "img": "/product/Garbage bins/17 - SANITARY.png",
-              "name": "sp-78"
+              "name": "sw1008"
             },
             {
               "img": "/product/Garbage bins/18 - DUST BIN-LION STAR.jpg",
-              "name": "sp-79"
+              "name": "sw1009"
             },
             {
               "img": "/product/Garbage bins/19 - STREET GARBAGE BIN WOODEN.jpg",
-              "name": "sp-80"
+              "name": "sw1010"
             },
             {
               "img": "/product/Garbage bins/2 - 20L-PLASTIC PEDAL BIN.jpg",
-              "name": "sp-81"
+              "name": "sw1011"
             },
             {
               "img": "/product/Garbage bins/20 - WASTE CLASSIFICATION BINS.jpg",
-              "name": "sp-82"
+              "name": "sw1012"
             },
             {
               "img": "/product/Garbage bins/21 - SECTION STAINLESS STEEL BIN.jpg",
-              "name": "sp-83"
+              "name": "sw1013"
             },
             {
               "img": "/product/Garbage bins/22 - WASTE PAPER BASKET METAL.jpg",
-              "name": "sp-84"
+              "name": "sw1014"
             },
             {
               "img": "/product/Garbage bins/23 - WASTE PAPER BASKET PLASTIC.jpg",
-              "name": "sp-85"
+              "name": "sw1015"
             },
             {
               "img": "/product/Garbage bins/24 - OUTDOOR WASTE DISPOSAL BINS - GALVANISED METAL.jpg",
-              "name": "sp-86"
+              "name": "sw1016"
             },
             {
               "img": "/product/Garbage bins/4 - 30 LTR STAINLESS STEEL BIN.jpg",
-              "name": "sp-87"
+              "name": "sw1017"
             },
             {
               "img": "/product/Garbage bins/6 - FOOT CONTROL GARBAGE BIN 30,45,68 AND 87L.jpg",
-              "name": "sp-88"
+              "name": "sw1018"
             },
             {
               "img": "/product/Garbage bins/7 - CIRCULAR GARBAGE BIN WITH WHEEL 100L.jpeg",
-              "name": "sp-89"
+              "name": "sw1019"
             },
             {
               "img": "/product/Garbage bins/8 - 70 L GARBAGE BIN WITH OUT PEDAL.jpg",
-              "name": "sp-90"
+              "name": "sw1020"
             },
             {
               "img": "/product/Garbage bins/9 - FOOT CONTROL GARBAGE BIN-120L.jpg",
-              "name": "sp-91"
+              "name": "sw1021"
             }
           ]
         }
@@ -437,91 +431,91 @@
       "sections": [
         {
           "title": "House keeping & Janitorials",
-          "desc": "Housekeeping & Janitorials encompass a wide range of products and services dedicated to maintaining cleanliness, hygiene, and order in various environments, ensuring a pleasant and welcoming atmosphere.",
+          "desc": "We're made sure our range of house keeping essentials is one of the biggest and best in U.A.E. We're carefully selected products that not only perform to a high standerd but tha are durable enough to withstand heavy demands.",
           "product": [
             {
               "img": "/product/House keeping _ janitorial trolleys/1- TOP EVOLUTION MEGA TROLLEY-EUROOP.jpeg",
-              "name": "sp-92"
+              "name": "sh1001"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/11 - 32L SIDE PRESS SINGLE WRINGER TROLLEY.jpg",
-              "name": "sp-93"
+              "name": "sh1002"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/12 - SINGLE BUCKET MINI WRINGER.jpg",
-              "name": "sp-94"
+              "name": "sh1003"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/13 - 46L SIDE PRESS DOUBLE WRINGER TROLLEY.jpeg",
-              "name": "sp-95"
+              "name": "sh1004"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/14 - MULTI PURPOSE TROLLEY WITH COVER.jpg",
-              "name": "sp-96"
+              "name": "sh1005"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/15 - STARACE TROLLEY EUROMOP.png",
-              "name": "sp-97"
+              "name": "sh1006"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/16 - JANITOR CART.jpg",
-              "name": "sp-98"
+              "name": "sh1007"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/17 - LEO TROLLEY EUROMOP.jpg",
-              "name": "sp-99"
+              "name": "sh1008"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/19 - QUADRATE LAUNDRY CART.jpeg",
-              "name": "sp-100"
+              "name": "sh1009"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/2 - ANTARES SECURITY TROLLEY A - EUROMOP.jpeg",
-              "name": "sp-101"
+              "name": "sh1010"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/21.jpg",
-              "name": "sp-102"
+              "name": "sh1012"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/22 - X SHAPED LAUNDRY CART.jpg",
-              "name": "sp-103"
+              "name": "sh1013"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/23 - WRINGER - EUROMOP.jpeg",
-              "name": "sp-104"
+              "name": "sh1014"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/24 - TROLLEY BUCKETS 6L,9L,25L - EUROMOP.png",
-              "name": "sp-105"
+              "name": "sh1015"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/3 - ECOMIX BUCKET ON WHEELS 25L - EUROMOP.jpeg",
-              "name": "sp-106"
+              "name": "sh1016"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/4 - MULTI FUNCTION JANITOR CART.png",
-              "name": "sp-107"
+              "name": "sh1017"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/5 - DOUBLE BUCKET TROLLEY 50L - EUROMOP.jpeg",
-              "name": "sp-108"
+              "name": "sh1018"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/6 -BRIX HOTEL MAXI 2.0 NEW - EUROMOP.jpg",
-              "name": "sp-109"
+              "name": "sh1019"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/7 - BRIX COMPACT - EUROMOP.jpg",
-              "name": "sp-110"
+              "name": "sh1020"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/8 - BRIX SCHOOL - EUROMOP.jpg",
-              "name": "sp-111"
+              "name": "sh1021"
             },
             {
               "img": "/product/House keeping _ janitorial trolleys/9 - DOUBLE VAT 2X15L - EUROMOP.jpg",
-              "name": "sp-112"
+              "name": "sh1022"
             }
           ]
         }
@@ -536,99 +530,99 @@
           "product": [
             {
               "img": "/product/window cleaning tools _ chemicals/1 - APPLICATOR FULL SET HANDLE + SLEEVE - 25,5,45CM.png",
-              "name": "sp-113"
+              "name": "sw1001"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/10 - RUBBER BLADE FOR GLASS WIPER-PULEX.jpg",
-              "name": "sp-114"
+              "name": "sw1002"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/11 - WINDOW CLEANING BUCKET - EUROMOP.png",
-              "name": "sp-115"
+              "name": "sw1003"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/12 - V SHAPED SCRAPPER.jpg",
-              "name": "sp-116"
+              "name": "sw1004"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/13 - SUPER FORCE.jpg",
-              "name": "sp-117"
+              "name": "sw1005"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/14 - SUPER CAR WASH.jpg",
-              "name": "sp-118"
+              "name": "sw1006"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/15 - SUPER SITTOL.jpg",
-              "name": "sp-119"
+              "name": "sw1007"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/16 - SUPER A40.png",
-              "name": "sp-120"
+              "name": "sw1008"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/17 - SUPER BREEZE.jpg",
-              "name": "sp-121"
+              "name": "sw1009"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/18 - SUPER D 20 DISINFECTANT.jpg",
-              "name": "sp-122"
+              "name": "sw1010"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/19 - SUPER HAND SOAP.jpg",
-              "name": "sp-123"
+              "name": "sw1012"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/2 - WINDOW APPLICATOR SET MICROFIBRE - PULEX.jpg",
-              "name": "sp-124"
+              "name": "sw1013"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/20 - SUPER L TOUCH.png",
-              "name": "sp-125"
+              "name": "sw1014"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/21 - SUPER LIME DISH WASHING LIQUID.jpg",
-              "name": "sp-126"
+              "name": "sw1015"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/23 - SUPER SD 20.jpg",
-              "name": "sp-127"
+              "name": "sw1016"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/24 - SUPER TC 30.jpg",
-              "name": "sp-128"
+              "name": "sw1017"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/3 -WINDOW CLEANINGFULL SET - PULEX.jpg",
-              "name": "sp-129"
+              "name": "sw1018"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/4 - GLASS WIPER 2,35,45CM - PULEX.jpg",
-              "name": "sp-130"
+              "name": "sw10019"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/5 - GLASS CLEANING  SET-PULEX.png",
-              "name": "sp-131"
+              "name": "sw1020"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/6 - HEADER - WINDOW CLEANING TOOLS - EUROMOP.jpg",
-              "name": "sp-132"
+              "name": "sw1021"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/7 - TELESCOPIC POLE.jpg",
-              "name": "sp-133"
+              "name": "sw1022"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/8 - GLASS CLEANING RUBBER PULES.jpeg",
-              "name": "sp-134"
+              "name": "sw1023"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/9 - POCKET SCRAPPER PULEX.jpg",
-              "name": "sp-135"
+              "name": "sw1024"
             },
             {
               "img": "/product/window cleaning tools _ chemicals/22.png",
-              "name": "sp-136"
+              "name": "sw1025"
             }
           ]
         }
@@ -643,167 +637,167 @@
           "product": [
             {
               "img": "/product/Other cleaning accessories/1 - J-CLOTH.jpg",
-              "name": "sp-137"
+              "name": "so1001"
             },
             {
               "img": "/product/Other cleaning accessories/10 - PYRAMID SIGN BOARD.jpg",
-              "name": "sp-138"
+              "name": "so1002"
             },
             {
               "img": "/product/Other cleaning accessories/12 - SUPERZONE METERED SPRAY.jpeg",
-              "name": "sp-139"
+              "name": "so1003"
             },
             {
               "img": "/product/Other cleaning accessories/13 - SCOURING PAD - COLORED.jpg",
-              "name": "sp-140"
+              "name": "so1004"
             },
             {
               "img": "/product/Other cleaning accessories/14 - SCOURING PAD GREEN.png",
-              "name": "sp-141"
+              "name": "so1005"
             },
             {
               "img": "/product/Other cleaning accessories/15 - SPONGE.png",
-              "name": "sp-142"
+              "name": "so1006"
             },
             {
               "img": "/product/Other cleaning accessories/16 - STEEL WOOL.jpg",
-              "name": "sp-143"
+              "name": "so1007"
             },
             {
               "img": "/product/Other cleaning accessories/17 - FLOOR PAD.jpg",
-              "name": "sp-144"
+              "name": "so1008"
             },
             {
               "img": "/product/Other cleaning accessories/18 - FAN RAKE WITH HANDLE.jpg",
-              "name": "sp-145"
+              "name": "so1009"
             },
             {
               "img": "/product/Other cleaning accessories/19 - CHANNEL BLOCKS YELLOW.png",
-              "name": "sp-146"
+              "name": "so1010"
             },
             {
               "img": "/product/Other cleaning accessories/2 - MICRO FIBRE CLOTH 40X60 CM.jpg",
-              "name": "sp-147"
+              "name": "so1011"
             },
             {
               "img": "/product/Other cleaning accessories/20 - LITTER PICKER - EUROMOP.jpg",
-              "name": "sp-148"
+              "name": "so1012"
             },
             {
               "img": "/product/Other cleaning accessories/21 - PERFUMED URINAL MAT.png",
-              "name": "sp-149"
+              "name": "so1013"
             },
             {
               "img": "/product/Other cleaning accessories/22 - MAGIC MOP.jpg",
-              "name": "sp-150"
+              "name": "so1014"
             },
             {
               "img": "/product/Other cleaning accessories/23 - SPRAYER.png",
-              "name": "sp-151"
+              "name": "so1015"
             },
             {
               "img": "/product/Other cleaning accessories/24 - SCRAPPER F _ W.jpg",
-              "name": "sp-152"
+              "name": "so1016"
             },
             {
               "img": "/product/Other cleaning accessories/25 - SUCTION PUMP.jpg",
-              "name": "sp-153"
+              "name": "so1017"
             },
             {
               "img": "/product/Other cleaning accessories/26 - PP DUSTER WITH HANDLE.jpg",
-              "name": "sp-154"
+              "name": "so1018"
             },
             {
               "img": "/product/Other cleaning accessories/27 - BRUSH HOLDER.png",
-              "name": "sp-155"
+              "name": "so1019"
             },
             {
               "img": "/product/Other cleaning accessories/28 - HAIR NET.jpg",
-              "name": "sp-156"
+              "name": "so1020"
             },
             {
               "img": "/product/Other cleaning accessories/29 - RUBBER HAND GLOVES BLACK - HEAVY DUTY.jpg",
-              "name": "sp-157"
+              "name": "so1021"
             },
             {
               "img": "/product/Other cleaning accessories/3 - MICRO FIBRE CLOTH 40X40 CM.jpg",
-              "name": "sp-158"
+              "name": "so1022"
             },
             {
               "img": "/product/Other cleaning accessories/30 - RUBBER GLOVES.png",
-              "name": "sp-159"
+              "name": "so1023"
             },
             {
               "img": "/product/Other cleaning accessories/31 - SAFETY GUMBOOTS.jpg",
-              "name": "sp-160"
+              "name": "so1024"
             },
             {
               "img": "/product/Other cleaning accessories/32 - DISPOSABLE SURGICAL FACE MASK - 3PLY.jpg",
-              "name": "sp-161"
+              "name": "so1025"
             },
             {
               "img": "/product/Other cleaning accessories/33 -NITRILEGLOVES POWDER FREE.jpg",
-              "name": "sp-162"
+              "name": "so1026"
             },
             {
               "img": "/product/Other cleaning accessories/34 - VINYL GLOVES DISPOSABLE.jpg",
-              "name": "sp-163"
+              "name": "so1027"
             },
             {
               "img": "/product/Other cleaning accessories/35 - GARBAGE -BAG-WHITE VIRGIN.jpg",
-              "name": "sp-164"
+              "name": "so1028"
             },
             {
               "img": "/product/Other cleaning accessories/36 - WIRGIN PLASTIC GARBAGE BAGS - BLACKS.jpg",
-              "name": "sp-165"
+              "name": "so1029"
             },
             {
               "img": "/product/Other cleaning accessories/4 - FLOOR CLEANING CLOTH.jpg",
-              "name": "sp-166"
+              "name": "so1030"
             },
             {
               "img": "/product/Other cleaning accessories/5 - GLASS CLOTH-WHITE.jpg",
-              "name": "sp-167"
+              "name": "so1031"
             },
             {
               "img": "/product/Other cleaning accessories/6 - KITCHEN TOWEL BIG.jpg",
-              "name": "sp-168"
+              "name": "so1032"
             },
             {
               "img": "/product/Other cleaning accessories/7 - KITCHEN TOWEL SMALL.jpg",
-              "name": "sp-169"
+              "name": "so1033"
             },
             {
               "img": "/product/Other cleaning accessories/8 - CAUTION BOARD WET FLOOR.jpg",
-              "name": "sp-170"
+              "name": "so1034"
             },
             {
               "img": "/product/Other cleaning accessories/8 - CAUTION BOARD.jpg",
-              "name": "sp-171"
+              "name": "so1035"
             },
             {
               "img": "/product/Other cleaning accessories/FAIP HIGH WATER PRESSURE MACHINE - IPC.jpg",
-              "name": "sp-172"
+              "name": "so1036"
             },
             {
               "img": "/product/Other cleaning accessories/IPC-CT15-left-side-340x340.jpg",
-              "name": "sp-173"
+              "name": "so1037"
             },
             {
               "img": "/product/Other cleaning accessories/IPC-CT30-340x340.jpg",
-              "name": "sp-174"
+              "name": "so1038"
             },
             {
               "img": "/product/Other cleaning accessories/MULTI FUNCTION SCRUBBER MACHINE - IPC.jpg",
-              "name": "sp-175"
+              "name": "so1039"
             },
             {
               "img": "/product/Other cleaning accessories/39.jpg",
-              "name": "sp-176"
+              "name": "so1040"
             },
             {
               "img": "/product/Other cleaning accessories/11.png",
-              "name": "sp-177"
+              "name": "so1041"
             }
           ]
         }

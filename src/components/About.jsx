@@ -69,7 +69,7 @@ export default function About() {
                   {item.head}
                 </h1>
               </div>
-              <p className="text-black/80 text-[1.1rem]">
+              <p className="text-black/80 sm:text-[1.1rem]">
                 {item.para}
               </p>
               <Image src={item.img} alt="logo" width={700} height={700} className="w-full h-[15rem] mt-4 lg:h-fit object-contain" />

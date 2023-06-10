@@ -1,96 +1,138 @@
+import React from "react";
 import Image from "next/image";
-import { gsap } from "gsap";
-import { useEffect, useRef } from "react";
 import Link from "next/link";
+import Slider from "react-slick";
+import { BsArrowRight } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 export default function Hero() {
-  const first = useRef(null);
-  const second = useRef(null);
-  const third = useRef(null);
-  const heroImage = useRef(null);
 
-  useEffect(() => {
-    gsap.fromTo(
-      first.current,
-      { opacity: 0, y: 100 },
-      { opacity: 1, y: 0, duration: 1.5, delay: 1.5 }
-    );
-    gsap.fromTo(
-      second.current,
-      { opacity: 0, y: 100 },
-      { opacity: 1, y: 0, duration: 1.5, delay: 2 }
-    );
-    gsap.fromTo(
-      third.current,
-      { opacity: 0, y: 100 },
-      { opacity: 1, y: 0, duration: 1.5, delay: 2.5 }
-    );
-    gsap.fromTo(
-      heroImage.current,
-      { opacity: 0, },
-      { opacity: 1, duration: 2.5, delay: 3.5 }
-    );
-  }, []);
+  var settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+
+    responsive: [{
+      breakpoint: 712,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        speed: 3500,
+        autoplaySpeed: 3500,
+      }
+    }],
+    responsive: [{
+      breakpoint: 512,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        speed: 3500,
+        autoplaySpeed: 3500,
+      }
+    }]
+  };
+
+  const bgsettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 4500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
 
   return (
-    <div className='relative pt-20 md:pt-0 h-[42rem] sm:h-[45rem] flex flex-col items-center justify-center bg-[url("/gradient.png")] bg-no-repeat bg-cover'>
-      <div className='font-clash text-center'>
-        <h1 ref={first} className='text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-light opacity-0'>Janitorial Paradise</h1>
-        <h2 ref={second} className='text-[2rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5.5rem] font-medium leading-10 opacity-0'>Cleaning made <b className='italic text-main_primary'>Simple !</b></h2>
-      </div>
+    <div className="h-screen w-full relative">
 
-      <div ref={third}
-        className="text-center z-[1] flex flex-col items-center gap-1.5 font-medium font-montserrat lg:pt-10 text-[1rem] md:text-[1.5rem]">
-        <p className="flex items-center">
-          Sole distributor of &nbsp;
-          <Link href="https://www.ipcworldwide.com/in/">
+      <div className="h-[90vh] w-full absolute top-[4.5rem] ">
+        <Slider {...bgsettings} className="m-4 ">
+          <div className="relative">
             <Image
-              src="/brands/ipcLogo.png"
-              alt="ipc-logo"
-              width={300}
-              height={300}
-              className=" h-[2.5rem] w-auto"
+              src="/HeroImg.png"
+              alt="Picture of the author"
+              width={1000}
+              height={1000}
+              className="object-cover h-[88vh] md:h-[85vh] w-full -z-10"
             />
-          </Link>
-        </p>
-        <p>
-          products in the <b className="">MIDDLE EAST REGION</b>{" "}
-        </p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.5 }}
+              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3.5rem] font-montserrat font-bold lg:w-[55%] leading-tight absolute top-[-3rem] left-5">
+              Cleaning solutions that speak <b className="text-green-400 dash italic">Green</b>
+            </motion.div>
+          </div>
+
+          <div className="relative">
+            <Image
+              src="/heroimg2.png"
+              alt="Picture of the author"
+              width={1000}
+              height={1000}
+              className="object-cover h-[88vh] md:h-[85vh] w-full"
+            />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.5 }}
+              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[4rem] font-montserrat font-bold lg:w-[85%] leading-tight absolute top-[-4rem] left-5">
+              The secret to a cleaner environment starts with <b className="italic dashed text-blue-500">our tools.</b>
+            </motion.div>
+          </div>
+        </Slider>
       </div>
 
-      <a href="#About" className="z-[30] opacity-30">
-        <Image
-          src="/down.gif"
-          width={300}
-          height={300}
-          className="w-auto h-[5rem]"
-          alt="down arrow"
-        />
-      </a>
+      <div className="flex flex-col justify-end h-screen p-7 sm:py-12 lg:p-10 relative">
 
-      <Image
-        ref={heroImage}
-        src="/hero.png"
-        alt="hero-img"
-        width={1100}
-        height={1100}
-        className="absolute bottom-5 md:bottom-[0rem] w-[24rem] md:w-[35rem] xl:w-[60rem] z-[1]"
-      />
-
-      <Image
-        src="/triangle.png"
-        alt="shape-1"
-        width={700}
-        height={700}
-        className="absolute bottom-[-2rem] md:bottom-[-2.5rem] left-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
-      />
-      <Image
-        src="/triangle2.png"
-        alt="shape-2"
-        width={700}
-        height={700}
-        className="absolute bottom-[-2rem] md:bottom-[-2.5rem] right-0 w-[13rem] sm:w-[18rem] lg:w-[24rem] xl:w-[40rem]"
-      />
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2 }}
+          className="z-10 flex flex-col gap-3">
+          <div className="flex items-center gap-3">
+            <span className="font-clash text-[1.5rem] md:text-[2rem] pl-1 font-medium">
+              Explore our products
+            </span>
+            <BsArrowRight size={35} className=" hover:translate-x-5 transition-all duration-500 ease-in-out" />
+          </div>
+          <Slider {...settings} className="lg:w-[50%]">
+            <div className="">
+              <Link href="/products"><Image src="/product/sm11.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm22.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm33.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm444.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm44.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm5.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm6.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm7.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+            <div className="">
+              <Link href="/products"><Image src="/product/sm8.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+            </div>
+          </Slider>
+        </motion.div>
+      </div>
     </div>
   );
 }
