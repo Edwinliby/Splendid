@@ -11,39 +11,6 @@ html {
     scroll-padding-top: 5rem;
 }
 
-.dash::before,
-.dashed::before {
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    position: absolute;
-    width: fit-content;
-    height: 10px;
-    bottom: 12px;
-    z-index: -1;
-    border-radius: 5px;
-}
-
-.dash::before {
-    content: "Green";
-    background: rgba(255, 255, 255, 0.7);
-}
-
-.dashed::before {
-    content: "our tools.";
-    background: rgba(34, 34, 34);
-    opacity: 0.7;
-}
-
-@media(width<450px) {
-    .dash::before {
-        height: 8px;
-        bottom: 10px;
-    }
-    .dashed::before {
-        height: 0px;
-    }
-}
-
 .updown {
     animation: updown 3s ease-in-out infinite;
 }

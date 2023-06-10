@@ -54,7 +54,7 @@ export default class AutoPlay extends Component {
                         <Link href="/products"><Image src="/product/sm5.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                     <div className="">
-                        <Link href="/products"><Image src="/product/sm6.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+                        <Link href="/products"><Image src="/product/sm66.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
                     </div>
                     <div className="">
                         <Link href="/products"><Image src="/product/sm7.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>

@@ -59,14 +59,14 @@ export default function Hero() {
               alt="Picture of the author"
               width={1000}
               height={1000}
-              className="object-cover h-[88vh] md:h-[85vh] w-full -z-10"
+              className="object-cover h-[85vh] sm:h-[88vh] md:h-[85vh] w-full -z-10 rounded-lg border-4 border-white/50"
             />
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
-              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3.5rem] font-montserrat font-bold lg:w-[55%] leading-tight absolute top-[-3rem] left-5">
-              Cleaning solutions that speak <b className="text-green-400 dash italic">Green</b>
+              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3.5rem] font-clash font-semibold lg:w-[50%] leading-tight absolute top-[-3rem] left-5">
+              Cleaning solutions that speak <b className="text-green-400 italic">Green</b>
             </motion.div>
           </div>
 
@@ -76,14 +76,14 @@ export default function Hero() {
               alt="Picture of the author"
               width={1000}
               height={1000}
-              className="object-cover h-[88vh] md:h-[85vh] w-full"
+              className="object-cover h-[85vh] sm:h-[88vh] md:h-[85vh] w-full opacity-75 rounded-lg border-4 border-white/50"
             />
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
-              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[4rem] font-montserrat font-bold lg:w-[85%] leading-tight absolute top-[-4rem] left-5">
-              The secret to a cleaner environment starts with <b className="italic dashed text-blue-500">our tools.</b>
+              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[4rem] font-clash font-semibold lg:w-[50%] leading-none absolute top-[-4rem] left-5">
+              The secret to a cleaner environment starts with <b className="italic text-blue-500">our tools.</b>
             </motion.div>
           </div>
         </Slider>
@@ -95,7 +95,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2 }}
-          className="z-10 flex flex-col gap-3">
+          className="z-10 flex flex-col gap-1">
           <div className="flex items-center gap-3">
             <span className="font-clash text-[1.5rem] md:text-[2rem] pl-1 font-medium">
               Explore our products
@@ -122,7 +122,7 @@ export default function Hero() {
               <Link href="/products"><Image src="/product/sm5.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
             </div>
             <div className="">
-              <Link href="/products"><Image src="/product/sm6.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
+              <Link href="/products"><Image src="/product/sm66.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
             </div>
             <div className="">
               <Link href="/products"><Image src="/product/sm7.png" alt="shape-1" width={500} height={500} className="px-2" /></Link>
