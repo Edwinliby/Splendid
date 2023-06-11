@@ -55,11 +55,11 @@ export default function About() {
                     className='p-4 mt-6 lg:px-[7rem]'>
 
                     <Image
-                        src="/assects/MDV.png"
+                        src="/assects/yo.png"
                         width={1000}
                         height={1000}
                         alt="MD"
-                        className="w-[20rem] h-[23rem] rounded-md lg:float-left object-cover mr-5 lg:pt-0"
+                        className="w-[20rem] h-[20rem] rounded-md lg:float-left object-contain mr-5 lg:pt-0"
                     />
 
                     <div className=' '>
@@ -115,7 +115,7 @@ export default function About() {
                             SPLENDID CLEANING MATERIAL TRADING LLC, is one of the most acclaimed Janitorial supplies Company headquartered in UAE supplying cleaning and hygiene products to a multitude of industries.
                             Since inception we have been involved in major projects in the region. Exclusive association with the world's best manufacturers from ITALY, U.K, MALAYSIA etc enable us to boast of comprehensive janitorial supply range.
                             It can be a daunting task to sort through the commercial and industrial cleaning equipment choices available today.
-                            As the sole distributor of world class brand IPC EUROMOP and master distributor of IPC PULEX, SUPER CARE and various other famous brands, the field team helps customers pick the right solutions to suit the surface application.
+                            As the sole distributor of world class brand <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC EUROMOP</a> and master distributor of <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC PULEX</a>, SUPER CARE and various other famous brands, the field team helps customers pick the right solutions to suit the surface application.
                             <br /><br />
                             We are committed to deliver exceptional, personalized, and flexible service to our international and domestic customers. Our goal at SPLENDID is to deliver clean, safe and healthy living environments made
                             easy for our customers. The ever-flowing customer base includes some of the world's largest and most prestigious companies since it aims to form long-term working relationships with the customers.
@@ -131,7 +131,7 @@ export default function About() {
                     className='px-4 lg:px-[7rem] flex flex-col justify-between'>
                     <b className='text-[1.5rem] md:text-[2.4rem] pb-4 '>Our Global Trade Partners</b>
                     <p>
-                        IPC Euromop (Italy), IPC Pulex (Italy), Cavallo ( Italy ),ACS Industries inc (USA) Nazomi (Malaysia) , Scent Pur (Malaysia), Baiyun Cleaning (Far East), New Made Cleaning (Far East),KSI ( Taiwan ),AOLQ (Far East)
+                    <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC EUROMOP</a> (Italy), <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC PULEX</a> (Italy), <a href="https://www.cavallo.it/" target='_blank' className='font-semibold'>Cavallo</a> ( Italy ),ACS Industries inc (USA) Nazomi (Malaysia) , Scent Pur (Malaysia), Baiyun Cleaning (Far East), New Made Cleaning (Far East),KSI ( Taiwan ),AOLQ (Far East)
                         <br /><br />
                         We are your ”one-stop shop” for a vast range of cleaning chemicals, hygiene disposables, consumables and equipment from our extensive stock.
                         We believe in GO GREEN and our commitment to providing high performance products, coupled with quick turnaround and top-notch services at a challenging market price,
