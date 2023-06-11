@@ -9,31 +9,31 @@ import { BsFillBuildingsFill } from 'react-icons/bs'
 
 const boxContent = [
     {
-        icon: <FaHospitalUser size={50} className='text-main_primary' />,
+        icon: <FaHospitalUser size={50} className='text-royal_blue' />,
         title: 'Hospitality',
         desc: 'Immaculate spaces, exceptional experiences: Cleaning excellence in the Hospitality industry.',
         id: "#Hospitality"
     },
     {
-        icon: <FaHospitalUser size={50} className='text-main_primary' />,
+        icon: <FaHospitalUser size={50} className='text-royal_blue' />,
         title: 'Education',
         desc: 'Education shines brighter with a clean and welcoming environment.',
         id: "#Education"
     },
     {
-        icon: <MdHealthAndSafety size={50} className='text-main_primary' />,
+        icon: <MdHealthAndSafety size={50} className='text-royal_blue' />,
         title: 'Health Care',
         desc: 'Pristine cleanliness for a healthier care environment, enhancing well-being.',
         id: "#HealthCare"
     },
     {
-        icon: <FaCity size={50} className='text-main_primary' />,
+        icon: <FaCity size={50} className='text-royal_blue' />,
         title: 'Facility Management',
         desc: 'Simplify Facility Management: Streamline Operations with Efficient and Effective Cleaning Solutions.',
         id: "#FacilityManagement"
     },
     {
-        icon: <BsFillBuildingsFill size={50} className='text-main_primary' />,
+        icon: <BsFillBuildingsFill size={50} className='text-royal_blue' />,
         title: 'Commercial',
         desc: 'Unleash the Cleaning Power for a Pristine Commercial Space, Every Single Time!',
         id: "#Commercial"

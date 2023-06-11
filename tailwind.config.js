@@ -17,6 +17,7 @@ module.exports = {
       },
       colors: {
         soothing_white: "#E2E3E4",
+        royal_blue:"#26327C",
         main_primary: "#5D6BEA",
         primary: "#1E0B37",
         gray: "#868888",

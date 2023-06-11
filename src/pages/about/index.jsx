@@ -21,7 +21,7 @@ export default function About() {
                         viewport={{ once: true, amount: 0.8 }}
                         transition={{ delay: .5 }}
                         className='text-black w-fit text-[2.2rem] md:text-[3rem] font-semibold leading-[4rem]'>
-                        Transform your living space <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500'>with our exceptional cleaning products</span>
+                        Transform your living space <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-sky-500 to-royal_blue'>with our exceptional cleaning products</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, x: 30 }}
@@ -59,7 +59,7 @@ export default function About() {
                         width={1000}
                         height={1000}
                         alt="MD"
-                        className="w-[20rem] h-[20rem] rounded-md lg:float-left object-contain mr-5 lg:pt-0"
+                        className="w-[20rem] h-[18rem] rounded-md lg:float-left object-contain lg:pt-0"
                     />
 
                     <div className=' '>
@@ -84,13 +84,13 @@ export default function About() {
                     </div>
                 </motion.div>
 
-                <div className='px-4 lg:px-[7rem] flex flex-col lg:flex-row py-8'>
+                <div className='px-4 lg:px-[7rem] flex flex-col lg:flex-row py-6'>
                     <motion.h2
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true, amount: 0.4 }}
-                        className='text-black text-[2.2rem] md:text-[3rem] uppercase text-center flex  items-center font-bold leading-[3.5rem] pb-5'>
-                        Serving communities <br /> since 1996
+                        className='text-black text-[2.2rem] md:text-[3rem] uppercase text-center flex flex-col justify-center font-bold leading-[3.5rem] pb-5'>
+                        Serving communities <div>since <b className='text-royal_blue'>1996</b></div>
                     </motion.h2>
                     <div className=' lg:w-[70%] flex flex-col gap-6'>
                         <motion.p
@@ -131,7 +131,7 @@ export default function About() {
                     className='px-4 lg:px-[7rem] flex flex-col justify-between'>
                     <b className='text-[1.5rem] md:text-[2.4rem] pb-4 '>Our Global Trade Partners</b>
                     <p>
-                    <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC EUROMOP</a> (Italy), <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC PULEX</a> (Italy), <a href="https://www.cavallo.it/" target='_blank' className='font-semibold'>Cavallo</a> ( Italy ),ACS Industries inc (USA) Nazomi (Malaysia) , Scent Pur (Malaysia), Baiyun Cleaning (Far East), New Made Cleaning (Far East),KSI ( Taiwan ),AOLQ (Far East)
+                        <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC EUROMOP</a> (Italy), <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC PULEX</a> (Italy), <a href="https://www.cavallo.it/" target='_blank' className='font-semibold'>Cavallo</a> ( Italy ),ACS Industries inc (USA) Nazomi (Malaysia) , Scent Pur (Malaysia), Baiyun Cleaning (Far East), New Made Cleaning (Far East),KSI ( Taiwan ),AOLQ (Far East)
                         <br /><br />
                         We are your ”one-stop shop” for a vast range of cleaning chemicals, hygiene disposables, consumables and equipment from our extensive stock.
                         We believe in GO GREEN and our commitment to providing high performance products, coupled with quick turnaround and top-notch services at a challenging market price,

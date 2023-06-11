@@ -18,12 +18,12 @@ export default function Footer() {
     return (
         <div className='relative font-montserrat border-t-[.8px] bg-white border-gray/50 p-4 md:p-8 flex flex-col lg:flex-row gap-10 justify-between xl:items-center'>
 
-            <div className="text-main_primary absolute top-[-1.25rem] right-4 lg:right-10 hover:scale-125 bg-white border rounded-2xl -rotate-[135deg] transform transition-all duration-500 ease-in-out">
+            <div className="text-royal_blue absolute top-[-1.25rem] right-4 lg:right-10 hover:scale-125 bg-white border rounded-2xl -rotate-[135deg] transform transition-all duration-500 ease-in-out">
                 <FiArrowDownRight onClick={scrollToTop} size="2.5rem" />
             </div>
 
             <div className='flex flex-col gap-8'>
-                <Image src="/logoGray.png"
+                <Image src="/logo.png"
                     alt="gray-logo"
                     width={500}
                     height={500}
@@ -34,10 +34,10 @@ export default function Footer() {
                     and boring if you have a right cleaning partner!
                 </p>
                 <div className='flex w-full gap-7 items-center justify-start'>
-                    <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaFacebookF size={35} /></Link>
-                    <Link href="https://twitter.com/UaeSplendid" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaTwitter size={35} /></Link>
-                    <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaInstagram size={35} /></Link>
-                    <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full border-[1.5px] border-main_primary p-2 text-main_primary'><FaLinkedin size={35} /></Link>
+                    <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaFacebookF size={35} /></Link>
+                    <Link href="https://twitter.com/UaeSplendid" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaTwitter size={35} /></Link>
+                    <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaInstagram size={35} /></Link>
+                    <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaLinkedin size={35} /></Link>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@ export default function Footer() {
             <div className='flex flex-col gap-4 px-4 justify-between'>
                 <div className='flex justify-end'>
                     <Link href="/contact">
-                        <div className='flex w-[15rem] h-fit p-4 rounded-full bg-black/10 text-main_primary justify-between'>
+                        <div className='flex w-[15rem] h-fit p-4 rounded-full bg-black/10 text-royal_blue justify-between'>
                             <span className='flex gap-2 items-center'>
                                 <IoMail size={25} />
                                 <p className='text-black/60 text-[.8rem]'>Send enquiry</p>
@@ -73,7 +73,7 @@ export default function Footer() {
                 </div>
 
                 <div className='flex gap-[1.1rem] font-medium justify-center sm:justify-end pt-6'>
-                    <Link href="/" className='text-main_primary font-semibold'>Home</Link>
+                    <Link href="/" className='text-royal_blue font-semibold'>Home</Link>
                     <Link href="/products">Products</Link>
                     <Link href="/blog">Blog</Link>
                     <Link href="/about">About</Link>

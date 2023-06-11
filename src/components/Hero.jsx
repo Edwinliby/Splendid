@@ -66,7 +66,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
               className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3.5rem] font-clash font-semibold lg:w-[50%] leading-tight absolute top-[-3rem] left-5">
-              Cleaning solutions that speak <b className="text-green-400 italic">Green</b>
+              Cleaning solutions that speak <b className="text-green-400 italic uppercase">Green</b>
             </motion.div>
           </div>
 
@@ -83,7 +83,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
               className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3rem] xl:text-[3.5rem] 2xl:text-[4rem] font-clash font-semibold lg:w-[65%] leading-none absolute top-[-4rem] left-5">
-              The secret to a cleaner environment starts with <b className="italic text-blue-500">our tools.</b>
+              The secret to a cleaner environment starts with <b className="italic text-blue-500 uppercase">our tools.</b>
             </motion.div>
           </div>
         </Slider>
