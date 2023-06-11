@@ -8,7 +8,7 @@ export default function MainAbout() {
             <h4 className='flex items-center gap-2 text-[1.2rem] italic'><span className='block h-1 w-10 bg-black'></span> About Us</h4>
             <div className='flex flex-col lg:flex-row justify-center'>
                 <div className='lg:border-b-[2px] lg:p-6 flex flex-col justify-center'>
-                    <h1 className='font-extrabold text-[2rem] sm:text-[2.5rem] lg:text-[3rem] leading-[3.5rem]'> <b className='text-[3.7rem]'>O</b>ur mission is to provide better equipments to the industry</h1>
+                    <h1 className='font-extrabold text-[2rem] sm:text-[2.5rem] lg:text-[3rem] leading-[3.5rem]'> <b className='text-[3.7rem]'>S</b>erving communities since <b className='text-royal_blue'>1996</b></h1>
                     <p
                         className="text-black/80 sm:text-[1.1rem] pt-8">
                         <b>SPLENDID CLEANING MATERIAL TRADING LLC</b> is one of the most acclaimed Janitorial supplies

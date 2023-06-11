@@ -84,34 +84,22 @@ export default function About() {
                     </div>
                 </motion.div>
 
-                <div className='px-4 lg:px-[7rem] flex flex-col lg:flex-row py-6'>
-                    <motion.h2
-                        initial={{ opacity: 0, x: -30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.4 }}
-                        className='text-black text-[2.2rem] md:text-[3rem] uppercase text-center flex flex-col justify-center font-bold leading-[3.5rem] pb-5'>
-                        Serving communities <div>since <b className='text-royal_blue'>1996</b></div>
-                    </motion.h2>
-                    <div className=' lg:w-[70%] flex flex-col gap-6'>
+                <div className='px-4 lg:px-[7rem] flex flex-col py-6'>     
+                        <h2 className='text-[1.5rem] md:text-[2.4rem] pb-4 font-bold '>Company Profile</h2>
                         <motion.p
                             initial={{ opacity: 0, x: 30 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, amount: 0.4 }}
                             className='text-black text-[1.1rem] font-semibold'>
-                            {/* Our team of experienced professionals has many years of experience in the industry,
-                            and we are passionate about helping our customers achieve their goals. We believe that a clean and well-maintained environment is essential for success,
-                            and we are dedicated to providing the products and services that help our customers achieve their goals. */}
                             Cleaning doesn’t have to be Tedious and boring if you have a right cleaning partner!!
                             By investing in proper tools and relying on professional cleaning materials, it can be exciting and fun.
                             SPLENDID has complete solution for a large variety of customers dulled by the humdrum of everyday cleaning.
                         </motion.p>
+                        <br />
                         <motion.p
                             initial={{ opacity: 0, x: 30 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, amount: 0.4 }}>
-                            {/* At SPLENDID we are committed to becoming a leading entity in global trading, through eff ective business strategies and key alliances.
-                            We prioritize customer-oriented and total quality management policies while embodying the values of trust, dedication, honesty, diligence, and dynamism.
-                            We strive to make a positive impact on society through proactive participation in socio-economic activities and environmental-friendly practices. Join us on our journey towards excellence and discover the unparalleled benefi ts of partnering with us. */}
                             SPLENDID CLEANING MATERIAL TRADING LLC, is one of the most acclaimed Janitorial supplies Company headquartered in UAE supplying cleaning and hygiene products to a multitude of industries.
                             Since inception we have been involved in major projects in the region. Exclusive association with the world's best manufacturers from ITALY, U.K, MALAYSIA etc enable us to boast of comprehensive janitorial supply range.
                             It can be a daunting task to sort through the commercial and industrial cleaning equipment choices available today.
@@ -121,7 +109,6 @@ export default function About() {
                             easy for our customers. The ever-flowing customer base includes some of the world's largest and most prestigious companies since it aims to form long-term working relationships with the customers.
                             Our customer base includes various Hotels, Hospitals, Schools, Trading Companies, Facility Management Companies, Housekeeping Companies, Retailers, Hypermarkets, Airports and Sea Ports etc.
                         </motion.p>
-                    </div>
                 </div>
 
                 <motion.div
