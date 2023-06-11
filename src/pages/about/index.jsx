@@ -21,7 +21,7 @@ export default function About() {
                         viewport={{ once: true, amount: 0.8 }}
                         transition={{ delay: .5 }}
                         className='text-black w-fit text-[2.2rem] md:text-[3rem] font-semibold leading-[4rem]'>
-                        Transform your living space <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500'>with our exceptional cleaning services</span>
+                        Transform your living space <span className='text-transparent font-bold bg-clip-text bg-gradient-to-r from-sky-500 to-indigo-500'>with our exceptional cleaning products</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, x: 30 }}

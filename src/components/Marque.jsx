@@ -10,6 +10,7 @@ function Marque() {
                 <Link href="https://www.ipcworldwide.com/in/">
                     <Image src='/brands/11.png' width={500} height={500} className='h-[4rem]  w-fit object-cover pl-8' />
                 </Link>
+                <Image src="/brands/9.png" alt="brand" width={500} height={500} className='h-[4rem] md:h-[5rem] w-fit object-cover pl-8' />
                 <Image src="/brands/2.png" alt="brand" width={500} height={500} className='h-[4rem] md:h-[6rem] w-fit object-cover pl-8' />
                 <Image src="/brands/3.png" alt="brand" width={500} height={500} className='h-[4rem] md:h-[6rem] w-fit object-cover pl-8' />
                 <Image src="/brands/4.png" alt="brand" width={500} height={500} className='h-[4rem] md:h-[6rem] w-fit object-cover pl-8' />

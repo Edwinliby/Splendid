@@ -1,134 +1,6 @@
 {
   "tabs": [
     {
-      "name": "Dispensers Products",
-      "sections": [
-        {
-          "title": "Dispensers Paper Products",
-          "desc": "We offer an excellent line of toilet tissues, paper towels. Plus, we have all the dispensers to stock your refills economically and hygienically. For the office environment we have a varity of tabletop dispensers and for business we offer convenient wall mounted systems.",
-          "product": [
-            {
-              "img": "/product/Dispensers _ paper products/1-C FOLD DISPENSER EUROMOP.jpeg",
-              "name": "sd1001"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/11 - CENTRAL PULL DISPENSER SUPER ZONE.jpeg",
-              "name": "sd1002"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/12 - TISSUE PAPER DISPENSER.png",
-              "name": "sd1003"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/14 - SOAP DISPENSER STAINLESS STEEL.jpg",
-              "name": "sd1004"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/18 - AUTO CUT ROLLS - 2 PLY.jpg",
-              "name": "sd1005"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/19 - C FOLD HAND TOWEL.jpg",
-              "name": "sd1006"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/2 - SOAP DISPENSER EUROMOP.jpeg",
-              "name": "sd1007"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/21 - INTERFOLD TOWEL - 1 PLY.jpg",
-              "name": "sd1008"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/22 - MAXI ROLL - 2 PLY.jpg",
-              "name": "sd1009"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/23 - TOILET ROLL PLAIN - 2 PLY.jpg",
-              "name": "sd1010"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/24 - WHITE TISSUE BOX - CUBICAL.jpg",
-              "name": "sd1011"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/5 - AUTOMATIC SANITIZER DISPENSER - EUROMOP.png",
-              "name": "sd1012"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/6 - HAND DRYER STAINLESS STEEL - EUROMOP.jpeg",
-              "name": "sd1013"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/7 - AUTOMATIC HAND DRYER - PLASTIC.jpeg",
-              "name": "sd1014"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/8 - AUTOMATIC AIR FRESHNER DISPENSER-SUPER ZONE.png",
-              "name": "sd1015"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/9 - FOAM SOAP LIQUID DISPENSER.png",
-              "name": "sd1016"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/16.jpg",
-              "name": "sd1017"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/3.jpg",
-              "name": "sd1018"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/4.jpg",
-              "name": "sd1019"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/10.png",
-              "name": "sd1020"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/13.jpg",
-              "name": "sd1021"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/15.jpg",
-              "name": "sd1022"
-            }
-          ]
-        },
-        {
-          "title": "Paper Products",
-          "product": [
-            {
-              "img": "/product/Dispensers _ paper products/18 - AUTO CUT ROLLS - 2 PLY.jpg",
-              "name": "sd-1001"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/19 - C FOLD HAND TOWEL.jpg",
-              "name": "sd-1002"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/21 - INTERFOLD TOWEL - 1 PLY.jpg",
-              "name": "sd-1003"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/22 - MAXI ROLL - 2 PLY.jpg",
-              "name": "sd-1004"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/23 - TOILET ROLL PLAIN - 2 PLY.jpg",
-              "name": "sd-1005"
-            },
-            {
-              "img": "/product/Dispensers _ paper products/24 - WHITE TISSUE BOX - CUBICAL.jpg",
-              "name": "sd-1006"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Floor Cleaning",
       "sections": [
         {
@@ -332,190 +204,128 @@
       ]
     },
     {
-      "name": "Garbage Bins",
+      "name": "Dispensers Products",
       "sections": [
         {
-          "title": "Garbage bin range",
-          "desc": "We supply a wide range of waste equipment, from pedal ad clinical bins to bags, sacks, and liners of all types. Our extensive range of bins caters for all kinds of businesses. If you're not sure which waste equipment is right for your setting, talk to our team today.",
+          "title": "Dispensers Paper Products",
+          "desc": "We offer an excellent line of toilet tissues, paper towels. Plus, we have all the dispensers to stock your refills economically and hygienically. For the office environment we have a varity of tabletop dispensers and for business we offer convenient wall mounted systems.",
           "product": [
             {
-              "img": "/product/Garbage bins/1 - 12L-STAINLESS STEEL BIN.jpg",
-              "name": "sw1001"
+              "img": "/product/Dispensers _ paper products/1-C FOLD DISPENSER EUROMOP.jpeg",
+              "name": "sd1001"
             },
             {
-              "img": "/product/Garbage bins/10 - 240L - TRASH BIN WITH PEDAL.jpg",
-              "name": "sw1002"
+              "img": "/product/Dispensers _ paper products/11 - CENTRAL PULL DISPENSER SUPER ZONE.jpeg",
+              "name": "sd1002"
             },
             {
-              "img": "/product/Garbage bins/11 - 240LGARBAGE BIN WITH IDDLE PEDAL.jpg",
-              "name": "sw1003"
+              "img": "/product/Dispensers _ paper products/12 - TISSUE PAPER DISPENSER.png",
+              "name": "sd1003"
             },
             {
-              "img": "/product/Garbage bins/12 - 240L GARBAGE BIN WITHOUT PEDAL - YELLOW.jpg",
-              "name": "sw1004"
+              "img": "/product/Dispensers _ paper products/14 - SOAP DISPENSER STAINLESS STEEL.jpg",
+              "name": "sd1004"
             },
             {
-              "img": "/product/Garbage bins/13 - STAINLESS STEEL BLACK TOP BIN.jpg",
-              "name": "sw1005"
+              "img": "/product/Dispensers _ paper products/18 - AUTO CUT ROLLS - 2 PLY.jpg",
+              "name": "sd1005"
             },
             {
-              "img": "/product/Garbage bins/14 - SWING TYPE GARBAGE BIN.jpg",
-              "name": "sw1006"
+              "img": "/product/Dispensers _ paper products/19 - C FOLD HAND TOWEL.jpg",
+              "name": "sd1006"
             },
             {
-              "img": "/product/Garbage bins/15 - ASHTRAY BINS.jpg",
-              "name": "sw1007"
+              "img": "/product/Dispensers _ paper products/2 - SOAP DISPENSER EUROMOP.jpeg",
+              "name": "sd1007"
             },
             {
-              "img": "/product/Garbage bins/17 - SANITARY.png",
-              "name": "sw1008"
+              "img": "/product/Dispensers _ paper products/21 - INTERFOLD TOWEL - 1 PLY.jpg",
+              "name": "sd1008"
             },
             {
-              "img": "/product/Garbage bins/18 - DUST BIN-LION STAR.jpg",
-              "name": "sw1009"
+              "img": "/product/Dispensers _ paper products/22 - MAXI ROLL - 2 PLY.jpg",
+              "name": "sd1009"
             },
             {
-              "img": "/product/Garbage bins/19 - STREET GARBAGE BIN WOODEN.jpg",
-              "name": "sw1010"
+              "img": "/product/Dispensers _ paper products/23 - TOILET ROLL PLAIN - 2 PLY.jpg",
+              "name": "sd1010"
             },
             {
-              "img": "/product/Garbage bins/2 - 20L-PLASTIC PEDAL BIN.jpg",
-              "name": "sw1011"
+              "img": "/product/Dispensers _ paper products/24 - WHITE TISSUE BOX - CUBICAL.jpg",
+              "name": "sd1011"
             },
             {
-              "img": "/product/Garbage bins/20 - WASTE CLASSIFICATION BINS.jpg",
-              "name": "sw1012"
+              "img": "/product/Dispensers _ paper products/5 - AUTOMATIC SANITIZER DISPENSER - EUROMOP.png",
+              "name": "sd1012"
             },
             {
-              "img": "/product/Garbage bins/21 - SECTION STAINLESS STEEL BIN.jpg",
-              "name": "sw1013"
+              "img": "/product/Dispensers _ paper products/6 - HAND DRYER STAINLESS STEEL - EUROMOP.jpeg",
+              "name": "sd1013"
             },
             {
-              "img": "/product/Garbage bins/22 - WASTE PAPER BASKET METAL.jpg",
-              "name": "sw1014"
+              "img": "/product/Dispensers _ paper products/7 - AUTOMATIC HAND DRYER - PLASTIC.jpeg",
+              "name": "sd1014"
             },
             {
-              "img": "/product/Garbage bins/23 - WASTE PAPER BASKET PLASTIC.jpg",
-              "name": "sw1015"
+              "img": "/product/Dispensers _ paper products/8 - AUTOMATIC AIR FRESHNER DISPENSER-SUPER ZONE.png",
+              "name": "sd1015"
             },
             {
-              "img": "/product/Garbage bins/24 - OUTDOOR WASTE DISPOSAL BINS - GALVANISED METAL.jpg",
-              "name": "sw1016"
+              "img": "/product/Dispensers _ paper products/9 - FOAM SOAP LIQUID DISPENSER.png",
+              "name": "sd1016"
             },
             {
-              "img": "/product/Garbage bins/4 - 30 LTR STAINLESS STEEL BIN.jpg",
-              "name": "sw1017"
+              "img": "/product/Dispensers _ paper products/16.jpg",
+              "name": "sd1017"
             },
             {
-              "img": "/product/Garbage bins/6 - FOOT CONTROL GARBAGE BIN 30,45,68 AND 87L.jpg",
-              "name": "sw1018"
+              "img": "/product/Dispensers _ paper products/3.jpg",
+              "name": "sd1018"
             },
             {
-              "img": "/product/Garbage bins/7 - CIRCULAR GARBAGE BIN WITH WHEEL 100L.jpeg",
-              "name": "sw1019"
+              "img": "/product/Dispensers _ paper products/4.jpg",
+              "name": "sd1019"
             },
             {
-              "img": "/product/Garbage bins/8 - 70 L GARBAGE BIN WITH OUT PEDAL.jpg",
-              "name": "sw1020"
+              "img": "/product/Dispensers _ paper products/10.png",
+              "name": "sd1020"
             },
             {
-              "img": "/product/Garbage bins/9 - FOOT CONTROL GARBAGE BIN-120L.jpg",
-              "name": "sw1021"
+              "img": "/product/Dispensers _ paper products/13.jpg",
+              "name": "sd1021"
+            },
+            {
+              "img": "/product/Dispensers _ paper products/15.jpg",
+              "name": "sd1022"
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "House Keeping",
-      "sections": [
+        },
         {
-          "title": "House keeping & Janitorials",
-          "desc": "We're made sure our range of house keeping essentials is one of the biggest and best in U.A.E. We're carefully selected products that not only perform to a high standerd but tha are durable enough to withstand heavy demands.",
+          "title": "Paper Products",
           "product": [
             {
-              "img": "/product/House keeping _ janitorial trolleys/1- TOP EVOLUTION MEGA TROLLEY-EUROOP.jpeg",
-              "name": "sh1001"
+              "img": "/product/Dispensers _ paper products/18 - AUTO CUT ROLLS - 2 PLY.jpg",
+              "name": "sd-1001"
             },
             {
-              "img": "/product/House keeping _ janitorial trolleys/11 - 32L SIDE PRESS SINGLE WRINGER TROLLEY.jpg",
-              "name": "sh1002"
+              "img": "/product/Dispensers _ paper products/19 - C FOLD HAND TOWEL.jpg",
+              "name": "sd-1002"
             },
             {
-              "img": "/product/House keeping _ janitorial trolleys/12 - SINGLE BUCKET MINI WRINGER.jpg",
-              "name": "sh1003"
+              "img": "/product/Dispensers _ paper products/21 - INTERFOLD TOWEL - 1 PLY.jpg",
+              "name": "sd-1003"
             },
             {
-              "img": "/product/House keeping _ janitorial trolleys/13 - 46L SIDE PRESS DOUBLE WRINGER TROLLEY.jpeg",
-              "name": "sh1004"
+              "img": "/product/Dispensers _ paper products/22 - MAXI ROLL - 2 PLY.jpg",
+              "name": "sd-1004"
             },
             {
-              "img": "/product/House keeping _ janitorial trolleys/14 - MULTI PURPOSE TROLLEY WITH COVER.jpg",
-              "name": "sh1005"
+              "img": "/product/Dispensers _ paper products/23 - TOILET ROLL PLAIN - 2 PLY.jpg",
+              "name": "sd-1005"
             },
             {
-              "img": "/product/House keeping _ janitorial trolleys/15 - STARACE TROLLEY EUROMOP.png",
-              "name": "sh1006"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/16 - JANITOR CART.jpg",
-              "name": "sh1007"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/17 - LEO TROLLEY EUROMOP.jpg",
-              "name": "sh1008"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/19 - QUADRATE LAUNDRY CART.jpeg",
-              "name": "sh1009"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/2 - ANTARES SECURITY TROLLEY A - EUROMOP.jpeg",
-              "name": "sh1010"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/21.jpg",
-              "name": "sh1012"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/22 - X SHAPED LAUNDRY CART.jpg",
-              "name": "sh1013"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/23 - WRINGER - EUROMOP.jpeg",
-              "name": "sh1014"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/24 - TROLLEY BUCKETS 6L,9L,25L - EUROMOP.png",
-              "name": "sh1015"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/3 - ECOMIX BUCKET ON WHEELS 25L - EUROMOP.jpeg",
-              "name": "sh1016"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/4 - MULTI FUNCTION JANITOR CART.png",
-              "name": "sh1017"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/5 - DOUBLE BUCKET TROLLEY 50L - EUROMOP.jpeg",
-              "name": "sh1018"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/6 -BRIX HOTEL MAXI 2.0 NEW - EUROMOP.jpg",
-              "name": "sh1019"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/7 - BRIX COMPACT - EUROMOP.jpg",
-              "name": "sh1020"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/8 - BRIX SCHOOL - EUROMOP.jpg",
-              "name": "sh1021"
-            },
-            {
-              "img": "/product/House keeping _ janitorial trolleys/9 - DOUBLE VAT 2X15L - EUROMOP.jpg",
-              "name": "sh1022"
+              "img": "/product/Dispensers _ paper products/24 - WHITE TISSUE BOX - CUBICAL.jpg",
+              "name": "sd-1006"
             }
           ]
         }
@@ -623,6 +433,196 @@
             {
               "img": "/product/window cleaning tools _ chemicals/22.png",
               "name": "sw1025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "House Keeping",
+      "sections": [
+        {
+          "title": "House keeping & Janitorials",
+          "desc": "We're made sure our range of house keeping essentials is one of the biggest and best in U.A.E. We're carefully selected products that not only perform to a high standerd but tha are durable enough to withstand heavy demands.",
+          "product": [
+            {
+              "img": "/product/House keeping _ janitorial trolleys/1- TOP EVOLUTION MEGA TROLLEY-EUROOP.jpeg",
+              "name": "sh1001"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/11 - 32L SIDE PRESS SINGLE WRINGER TROLLEY.jpg",
+              "name": "sh1002"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/12 - SINGLE BUCKET MINI WRINGER.jpg",
+              "name": "sh1003"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/13 - 46L SIDE PRESS DOUBLE WRINGER TROLLEY.jpeg",
+              "name": "sh1004"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/14 - MULTI PURPOSE TROLLEY WITH COVER.jpg",
+              "name": "sh1005"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/15 - STARACE TROLLEY EUROMOP.png",
+              "name": "sh1006"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/16 - JANITOR CART.jpg",
+              "name": "sh1007"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/17 - LEO TROLLEY EUROMOP.jpg",
+              "name": "sh1008"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/19 - QUADRATE LAUNDRY CART.jpeg",
+              "name": "sh1009"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/2 - ANTARES SECURITY TROLLEY A - EUROMOP.jpeg",
+              "name": "sh1010"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/21.jpg",
+              "name": "sh1012"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/22 - X SHAPED LAUNDRY CART.jpg",
+              "name": "sh1013"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/23 - WRINGER - EUROMOP.jpeg",
+              "name": "sh1014"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/24 - TROLLEY BUCKETS 6L,9L,25L - EUROMOP.png",
+              "name": "sh1015"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/3 - ECOMIX BUCKET ON WHEELS 25L - EUROMOP.jpeg",
+              "name": "sh1016"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/4 - MULTI FUNCTION JANITOR CART.png",
+              "name": "sh1017"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/5 - DOUBLE BUCKET TROLLEY 50L - EUROMOP.jpeg",
+              "name": "sh1018"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/6 -BRIX HOTEL MAXI 2.0 NEW - EUROMOP.jpg",
+              "name": "sh1019"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/7 - BRIX COMPACT - EUROMOP.jpg",
+              "name": "sh1020"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/8 - BRIX SCHOOL - EUROMOP.jpg",
+              "name": "sh1021"
+            },
+            {
+              "img": "/product/House keeping _ janitorial trolleys/9 - DOUBLE VAT 2X15L - EUROMOP.jpg",
+              "name": "sh1022"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waste Management",
+      "sections": [
+        {
+          "title": "Waste Management",
+          "desc": "We supply a wide range of waste equipment, from pedal ad clinical bins to bags, sacks, and liners of all types. Our extensive range of bins caters for all kinds of businesses. If you're not sure which waste equipment is right for your setting, talk to our team today.",
+          "product": [
+            {
+              "img": "/product/Garbage bins/1 - 12L-STAINLESS STEEL BIN.jpg",
+              "name": "sw1001"
+            },
+            {
+              "img": "/product/Garbage bins/10 - 240L - TRASH BIN WITH PEDAL.jpg",
+              "name": "sw1002"
+            },
+            {
+              "img": "/product/Garbage bins/11 - 240LGARBAGE BIN WITH IDDLE PEDAL.jpg",
+              "name": "sw1003"
+            },
+            {
+              "img": "/product/Garbage bins/12 - 240L GARBAGE BIN WITHOUT PEDAL - YELLOW.jpg",
+              "name": "sw1004"
+            },
+            {
+              "img": "/product/Garbage bins/13 - STAINLESS STEEL BLACK TOP BIN.jpg",
+              "name": "sw1005"
+            },
+            {
+              "img": "/product/Garbage bins/14 - SWING TYPE GARBAGE BIN.jpg",
+              "name": "sw1006"
+            },
+            {
+              "img": "/product/Garbage bins/15 - ASHTRAY BINS.jpg",
+              "name": "sw1007"
+            },
+            {
+              "img": "/product/Garbage bins/17 - SANITARY.png",
+              "name": "sw1008"
+            },
+            {
+              "img": "/product/Garbage bins/18 - DUST BIN-LION STAR.jpg",
+              "name": "sw1009"
+            },
+            {
+              "img": "/product/Garbage bins/19 - STREET GARBAGE BIN WOODEN.jpg",
+              "name": "sw1010"
+            },
+            {
+              "img": "/product/Garbage bins/2 - 20L-PLASTIC PEDAL BIN.jpg",
+              "name": "sw1011"
+            },
+            {
+              "img": "/product/Garbage bins/20 - WASTE CLASSIFICATION BINS.jpg",
+              "name": "sw1012"
+            },
+            {
+              "img": "/product/Garbage bins/21 - SECTION STAINLESS STEEL BIN.jpg",
+              "name": "sw1013"
+            },
+            {
+              "img": "/product/Garbage bins/22 - WASTE PAPER BASKET METAL.jpg",
+              "name": "sw1014"
+            },
+            {
+              "img": "/product/Garbage bins/23 - WASTE PAPER BASKET PLASTIC.jpg",
+              "name": "sw1015"
+            },
+            {
+              "img": "/product/Garbage bins/24 - OUTDOOR WASTE DISPOSAL BINS - GALVANISED METAL.jpg",
+              "name": "sw1016"
+            },
+            {
+              "img": "/product/Garbage bins/4 - 30 LTR STAINLESS STEEL BIN.jpg",
+              "name": "sw1017"
+            },
+            {
+              "img": "/product/Garbage bins/6 - FOOT CONTROL GARBAGE BIN 30,45,68 AND 87L.jpg",
+              "name": "sw1018"
+            },
+            {
+              "img": "/product/Garbage bins/7 - CIRCULAR GARBAGE BIN WITH WHEEL 100L.jpeg",
+              "name": "sw1019"
+            },
+            {
+              "img": "/product/Garbage bins/8 - 70 L GARBAGE BIN WITH OUT PEDAL.jpg",
+              "name": "sw1020"
+            },
+            {
+              "img": "/product/Garbage bins/9 - FOOT CONTROL GARBAGE BIN-120L.jpg",
+              "name": "sw1021"
             }
           ]
         }

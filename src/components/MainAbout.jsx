@@ -21,6 +21,7 @@ export default function MainAbout() {
                     <Link href="https://www.ipcworldwide.com/in/">
                         <Image src='/brands/11.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[5rem] object-contain absolute top-4 ' />
                     </Link>
+                    <Image src="/brands/9.png" alt="brand" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[4.5rem] object-contain absolute top-5 right-5' />
                     <Image src='/brands/2.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-20 right-0' />
                     <Image src='/brands/3.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[4rem] max-h-[6rem] object-contain absolute top-48 right-5' />
                     <Image src='/brands/ipcEuro.png' alt="brands" width={500} height={500} className='updown w-fit min-h-[2.5rem] max-h-[5rem] object-contain absolute top-36 ' />
