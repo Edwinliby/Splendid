@@ -43,7 +43,7 @@ export default function Hero() {
     speed: 500,
     autoplay: true,
     arrows: false,
-    autoplaySpeed: 4500,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1
   };
