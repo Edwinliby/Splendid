@@ -35,7 +35,7 @@ function Home() {
 
       <section>
         <Image
-          src="/Vector.png"
+          src="/veto.png"
           alt="logo"
           width={2500}
           height={2500}

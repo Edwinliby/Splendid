@@ -53,6 +53,10 @@ export default function Footer() {
                         <Link href="tel:+971 6 543 0000">+971 56 310 1817</Link>
                     </span>
                     <span className='flex gap-2 items-center mt-[.5rem]'>
+                        <FaPhoneAlt size={20} />
+                        <Link href="tel:+971 6 543 0000">06-5398390</Link>
+                    </span>
+                    <span className='flex gap-2 items-center mt-[.5rem]'>
                         <IoMail size={20} />
                         <Link href="mailto:">info@splendiduae.com</Link>
                     </span>

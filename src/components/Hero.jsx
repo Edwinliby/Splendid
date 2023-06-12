@@ -40,10 +40,10 @@ export default function Hero() {
   const bgsettings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1500,
     autoplay: true,
     arrows: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3500,
     slidesToShow: 1,
     slidesToScroll: 1
   };

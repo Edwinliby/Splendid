@@ -59,7 +59,7 @@ export default function Industry() {
                         className='object-cover h-[15rem] lg:h-[23rem]'
                     />
                     <div className='absolute flex flex-wrap xl:w-[50%] top-8 left-4 right-4 lg:top-[6rem] lg:left-[6rem] font-clash'>
-                        <h1 className='text-[2rem] lg:text-[4rem] text-white uppercase font-semibold'>Industry Served</h1>
+                        <h1 className='text-[2rem] lg:text-[4rem] text-white uppercase font-semibold'>Industries Served</h1>
                         <p className='text-white  text-[.8rem] lg:text-[1.1rem] tracking-wide lg:w-[85%] glass p-4 rounded-xl'>
                             At SPLENDID, we understand that high-quality commercial cleaning needs just the right systems and supplies.
                             If you want to find a supplier able to take on your facility’s specific cleaning challenges, you need one with industry-specific expertise.
