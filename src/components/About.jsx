@@ -73,7 +73,7 @@ export default function About() {
               <p className="text-black/80 sm:text-[1.1rem]">
                 {item.para}
               </p>
-              <Link href="/about" className="flex gap-3 items-center hover:text-royal_blue transition-all duration-500 ease-in-out">Know more 
+              <Link href="/products" className="flex gap-3 items-center hover:text-royal_blue transition-all duration-500 ease-in-out">Know more 
               <BsArrowRight size={25} className=" hover:translate-x-5 transition-all duration-500 ease-in-out" />
               </Link>
               <Image src={item.img} alt="logo" width={700} height={700} className="w-full h-[15rem] mt-4 lg:h-fit object-contain" />

@@ -52,13 +52,15 @@ function Products(props) {
                       key={pdt.name}
                       className=" shadow-2xl hover:shadow-main_primary/75 transition-all duration-500 ease-in-out">
                       <div>
-                        <Image
-                          src={pdt.img}
-                          alt={pdt.name}
-                          width={300}
-                          height={300}
-                          className="object-contain w-[18rem] h-[18rem] lg:w-[12rem] lg:h-[12rem] bg-white"
-                        />
+                        <a href={pdt.link} target="_blank">
+                          <Image
+                            src={pdt.img}
+                            alt={pdt.name}
+                            width={300}
+                            height={300}
+                            className="object-contain w-[18rem] h-[18rem] lg:w-[12rem] lg:h-[12rem] bg-white"
+                          />
+                        </a>
                       </div>
                       <div className="flex flex-col p-2 bg-white/50 ">
                         <h1 className=" text-black font-chakra font-semibold text-[1.2rem] uppercase">

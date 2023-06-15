@@ -64,7 +64,7 @@ export default function About() {
 
                     <div className=' '>
                         <p className='text-black text-[2rem] font-semibold'>
-                            A word from our<b className='text-red-500'>Managing Director</b>
+                            A word from our <b className='text-red-500'>Managing Director</b>
                         </p>
                         <p className='italic'>
                             <b>“</b> On behalf of the Board of Directors, I would like to thank our team for their incredible support and dedication.
