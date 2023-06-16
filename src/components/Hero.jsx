@@ -88,23 +88,23 @@ export default function Hero() {
   ];
 
   return (
-    <div className="h-screen w-full relative">
+    // <div className="h-screen w-full relative">
 
-      <div className="h-[90vh] w-full absolute top-[4.5rem] ">
-        <Slider {...bgsettings} className="m-4 ">
+      <div className=" w-full relative top-[4rem]">
+        <Slider {...bgsettings} className="mx-4 py-4 -z-10">
           <div className="relative">
             <Image
               src="/HeroImg.png"
               alt="Picture of the author"
               width={1000}
               height={1000}
-              className="object-cover h-[85vh] sm:h-[88vh] md:h-[85vh] w-full -z-10 rounded-lg border-4 border-white/50"
+              className="object-cover h-[95vh] w-full rounded-lg border-4 border-white/50"
             />
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
-              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3.5rem] font-montserrat font-bold lg:w-[50%] leading-tight absolute top-[-3rem] left-5">
+              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] font-montserrat font-bold lg:w-[50%] leading-tight absolute top-[-3rem] left-5">
               Cleaning solutions that speak <b className="text-green-400 italic uppercase">Green</b>
             </motion.div>
           </div>
@@ -115,32 +115,30 @@ export default function Hero() {
               alt="Picture of the author"
               width={1000}
               height={1000}
-              className="object-cover h-[85vh] sm:h-[88vh] md:h-[85vh] w-full opacity-75 rounded-lg border-4 border-white/50"
+              className="object-cover h-[95vh] w-full opacity-75 rounded-lg border-4 border-white/50"
             />
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}
-              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3rem] xl:text-[3.2rem] 2xl:text-[3.5rem] font-montserrat font-bold lg:w-[65%] leading-none absolute top-[-4rem] left-5">
+              className="text-black/75 pt-[5rem] z-10 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] font-montserrat font-bold lg:w-[65%] leading-none absolute top-[-4rem] left-5">
               The secret to a cleaner environment starts with <b className="italic text-blue-500 uppercase">our tools.</b>
             </motion.div>
           </div>
         </Slider>
-      </div>
 
-      <div className="flex flex-col justify-end h-screen p-7 sm:py-12 md:py-0 lg:p-10 relative">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2 }}
-          className="z-10 flex flex-col gap-1">
+          className=" flex flex-col justify-end absolute p-8 mb-10 w-full bottom-0">
           <div className="flex items-center gap-3">
-            <span className="font-clash text-[1.5rem] md:text-[2rem] pl-1 font-medium">
+            <span className="font-montserrat text-[1.5rem] md:text-[1.8rem] pl-1 font-medium">
               Explore our products
             </span>
             <BsArrowRight size={35} className=" hover:translate-x-5 transition-all duration-500 ease-in-out" />
           </div>
-          <Slider {...settings} className="md:w-[50%]">
+          <Slider {...settings} className="w-full md:w-[50%]">
             {images.map((image, index) => (
               <div key={index} className="flex justify-center items-center">
                 <Link href="/products"><Image src={image.url} alt="shape-1" width={500} height={500} className="px-2" /></Link>
@@ -148,7 +146,7 @@ export default function Hero() {
             ))}
           </Slider>
         </motion.div>
-      </div>
-    </div>
+        </div>
+    // </div>
   );
 }
