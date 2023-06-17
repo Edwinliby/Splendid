@@ -38,13 +38,13 @@ export default function About() {
 
       <div className="relative lg:sticky z-[2] bg-transparent top-0 left-0 flex flex-col lg:w-[70%] h-fit lg:h-[100vh] justify-center p-4 lg:pl-16 gap-4">
         <div className='blob1 hidden lg:block absolute top-16 left-12 w-[10rem] h-[10rem]'></div>
-        <div className="flex flex-col justify-center items-center gap-4">
-          <h1 className="flex font-clash items-center font-medium text-[2.5rem] gap-3">
-            What is{" "}
-            <Image src="/BigLogo.png" alt="logo" width={1500} height={1500} className="w-auto h-[4.5rem]" />
+        <div className="flex lg:flex-col  justify-center items-center gap-4">
+          <h1 className="flex font-clash items-center font-medium text-[1.8rem] md:text-[2.5rem] gap-3 uppercase">
+            Who are we{" "}
+            {/* <Image src="/BigLogo.png" alt="logo" width={1500} height={1500} className="w-auto h-[4.5rem]" /> */}
           </h1>
           <Link href="/about"
-            className="bg-[#FF9D42] hidden lg:block text-white w-fit z-[2] border-[2.5px] hover:border-gray/50 transition-all duration-300 ease-in-out font-medium font-montserrat text-[1rem] px-4 py-2 rounded-full">
+            className="bg-[#FF9D42] text-center text-white w-fit z-[2] border-[2.5px] hover:border-gray/50 transition-all duration-300 ease-in-out font-medium font-montserrat text-[.7rem] md:text-[1rem] px-4 py-2 rounded-full">
             More Details
           </Link>
         </div>
