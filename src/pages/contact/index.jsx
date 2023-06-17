@@ -7,6 +7,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 import { GrMail } from 'react-icons/gr'
 import { IoLocationSharp } from 'react-icons/io5'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import {GiRotaryPhone} from 'react-icons/gi'
 
 export default function Contact() {
     return (
@@ -29,6 +30,9 @@ export default function Contact() {
                         <div className='flex flex-col gap-8 py-6'>
                             <p className='flex gap-4'>
                                 <BsFillTelephoneFill size={20} className='text-orange-400' /> <Link href="tel:+971 6 543 0000">+971 56 310 1817</Link>
+                            </p>
+                            <p className='flex gap-4'>
+                                <GiRotaryPhone size={20} className='text-orange-400' /> <Link href="tel:+971 6 543 0000">06-5398390</Link>
                             </p>
                             <p className='flex gap-4'>
                                 <GrMail size={20} className='text-orange-400' /> <Link href="mailto:">info@splendiduae.com</Link>

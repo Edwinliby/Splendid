@@ -113,7 +113,7 @@ export default function About() {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='px-4 lg:px-[7rem] flex flex-col justify-between'>
+                    className='px-4 lg:px-[7rem] pb-8 flex flex-col justify-between'>
                     <b className='text-[1.5rem] md:text-[2.4rem] pb-4 '>Our Global Trade Partners</b>
                     <p>
                         <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC EUROMOP</a> (Italy), <a href="https://www.ipcworldwide.com/in/" target='_blank' className='font-semibold'>IPC PULEX</a> (Italy), <a href="https://www.cavallo.it/" target='_blank' className='font-semibold'>Cavallo</a> ( Italy ),ACS Industries inc (USA) Nazomi (Malaysia) , Scent Pur (Malaysia), Baiyun Cleaning (Far East), New Made Cleaning (Far East),KSI ( Taiwan ),AOLQ (Far East)
@@ -124,7 +124,7 @@ export default function About() {
                     </p>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.3 }}
@@ -153,7 +153,7 @@ export default function About() {
                             className="w-[15rem] h-[15rem] rounded-full object-cover"
                         />
                     </div>
-                </motion.div>
+                </motion.div> */}
 
             </main>
 

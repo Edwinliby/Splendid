@@ -7,7 +7,7 @@ function Marque() {
     return (
         <div className='bg-white w-[90%] z-[10] rounded-2xl shadow-lg shadow-main_primary/50 mb-8'>
             <Marquee pauseOnHover="true" gradient="" speed={60} className='bg-white w-[80%] rounded-xl lg:rounded-2xl'>
-                <Link href="https://www.ipcworldwide.com/in/">
+                <Link href="https://www.ipcworldwide.com">
                     <Image src='/brands/11.png' width={500} height={500} className='h-[4rem]  w-fit object-cover pl-8' />
                 </Link>
                 <Link href="https://www.cavallo.it/">

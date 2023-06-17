@@ -6,6 +6,7 @@ import { ImLocation2 } from 'react-icons/im'
 import { IoMail } from 'react-icons/io5'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 import { FiArrowDownRight } from 'react-icons/fi'
+import { GiRotaryPhone } from 'react-icons/gi'
 
 export default function Footer() {
     function scrollToTop() {
@@ -53,7 +54,7 @@ export default function Footer() {
                         <Link href="tel:+971 6 543 0000">+971 56 310 1817</Link>
                     </span>
                     <span className='flex gap-2 items-center mt-[.5rem]'>
-                        <FaPhoneAlt size={20} />
+                        <GiRotaryPhone size={20} />
                         <Link href="tel:+971 6 543 0000">06-5398390</Link>
                     </span>
                     <span className='flex gap-2 items-center mt-[.5rem]'>
