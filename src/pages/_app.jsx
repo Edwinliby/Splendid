@@ -11,6 +11,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import { motion, AnimatePresence } from 'framer-motion'
 import Loader from "@/components/Loader";
 import WhatsappBtn from "@/components/WhatsappBtn";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const font_montserrat = Montserrat({
   subsets: ["latin"],
@@ -89,10 +91,10 @@ export default function MyApp({ Component, pageProps, router }) {
         >
           <main className={`${font_neue} ${font_ibm.variable} ${font_bebas.variable}  ${font_montserrat.variable}   ${font_clash.variable}`}>
             <Component {...pageProps} />
+            <Analytics />
           </main>
         </motion.div>
       </AnimatePresence>
-
       <WhatsappBtn />
     </>
   );

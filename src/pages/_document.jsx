@@ -1,6 +1,7 @@
 import React from "react";
 import Script from "next/script";
 import { Html, Head, Main, NextScript } from "next/document"
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Document() {
   return (
@@ -23,6 +24,7 @@ export default function Document() {
         </noscript>
         <Main />
         <NextScript />
+        <Analytics />
       </body>
     </Html>
   );
