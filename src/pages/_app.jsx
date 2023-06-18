@@ -51,7 +51,7 @@ export default function MyApp({ Component, pageProps, router }) {
   }, []);
 
   return (
-    // loading ? <Loader /> :
+    loading ? <Loader /> :
     <>
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
