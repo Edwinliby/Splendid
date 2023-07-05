@@ -18,7 +18,7 @@ export default function Blog() {
                         <span className="text-black/50 text-[5rem] xl:text-[7rem]">BLOGS</span>
                     </div>
 
-                    <div className="flex flex-col gap-4 xl:p-2">
+                    <div className="flex flex-col gap-4 p-2">
                         <div className="font-montserrat">
                             <div className="border-t-2 border-b-2 border-gray/20">
                                 <input
@@ -99,7 +99,7 @@ export default function Blog() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-4 xl:p-2">
+                    <div className="flex flex-col gap-4 p-2">
                         <div className="font-montserrat">
                             <div className="border-t-2 border-b-2 border-gray/20">
                                 <input
@@ -189,7 +189,7 @@ export default function Blog() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-4 xl:p-2">
+                    <div className="flex flex-col gap-4 p-2">
                         <div className="font-montserrat">
                             <div className="border-t-2 border-b-2 border-gray/20">
                                 <input
@@ -274,7 +274,7 @@ export default function Blog() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-4 xl:p-2">
+                    <div className="flex flex-col gap-4 p-2">
                         <div className="font-montserrat">
                             <div className="border-t-2 border-b-2 border-gray/20">
                                 <input
@@ -367,7 +367,7 @@ export default function Blog() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-4 xl:p-2">
+                    <div className="flex flex-col gap-4 p-2">
                         <div className="font-montserrat">
                             <div className="border-t-2 border-b-2 border-gray/20">
                                 <input

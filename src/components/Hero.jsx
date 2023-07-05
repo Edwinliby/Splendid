@@ -121,7 +121,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5 }}
-            className="text-black/75 pt-[5rem] z-10 text-[1.9rem] md:text-[3rem] lg:text-[3rem] font-montserrat font-bold lg:w-[65%] leading-none absolute top-[-3.5rem] lg:top-[-3rem] left-4 lg:left-6">
+            className="text-black/75 pt-[5rem] z-10 text-[1.9rem] md:text-[3rem] lg:text-[3rem] font-montserrat font-bold lg:w-[65%] leading-10 lg:leading-none absolute top-[-3.5rem] lg:top-[-3rem] left-4 lg:left-6">
             The secret to a cleaner environment starts with <b className="italic text-blue-500 uppercase">our tools.</b>
           </motion.div>
         </div>
