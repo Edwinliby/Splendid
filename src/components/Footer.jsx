@@ -35,10 +35,10 @@ export default function Footer() {
                     and boring if you have a right cleaning partner!
                 </p>
                 <div className='flex w-full gap-7 items-center justify-start'>
-                    <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaFacebookF size={35} /></Link>
-                    <Link href="https://twitter.com/UaeSplendid" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaTwitter size={35} /></Link>
-                    <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaInstagram size={35} /></Link>
-                    <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full border-[1.5px] border-main_primary p-2 text-royal_blue'><FaLinkedin size={35} /></Link>
+                    <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaFacebookF size={35} /></Link>
+                    <Link href="https://twitter.com/UaeSplendid" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaTwitter size={35} /></Link>
+                    <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaInstagram size={35} /></Link>
+                    <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaLinkedin size={35} /></Link>
                 </div>
             </div>
 
@@ -49,15 +49,15 @@ export default function Footer() {
                         <ImLocation2 size={20} />
                         <p>Splendid Cleaning Material Trading LLC <br /> Industrial area #4, P.O.Box : 67619 <br /> Sharjah, UAE</p>
                     </span>
-                    <span className='flex gap-2 items-center mt-[.5rem]'>
+                    <span className='flex gap-2 items-center mt-[.5rem] hover:text-main_primary transition-all duration-300 ease-in-out'>
                         <FaPhoneAlt size={20} />
                         <Link href="tel:+971 6 543 0000">+971 56 310 1817</Link>
                     </span>
-                    <span className='flex gap-2 items-center mt-[.5rem]'>
+                    <span className='flex gap-2 items-center mt-[.5rem] hover:text-main_primary transition-all duration-300 ease-in-out'>
                         <GiRotaryPhone size={20} />
                         <Link href="tel:+971 6 543 0000">06-5398390</Link>
                     </span>
-                    <span className='flex gap-2 items-center mt-[.5rem]'>
+                    <span className='flex gap-2 items-center mt-[.5rem] hover:text-main_primary transition-all duration-300 ease-in-out'>
                         <IoMail size={20} />
                         <Link href="mailto:">info@splendiduae.com</Link>
                     </span>

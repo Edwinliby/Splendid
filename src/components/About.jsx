@@ -70,7 +70,7 @@ export default function About() {
                   {item.head}
                 </h1>
               </div>
-              <p className="text-black/80 sm:text-[1.1rem]">
+              <p className="text-black/80 sm:text-[1.1rem] text-justify">
                 {item.para}
                 <br />
                 <br />

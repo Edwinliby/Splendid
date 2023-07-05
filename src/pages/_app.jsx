@@ -65,7 +65,7 @@ export default function MyApp({ Component, pageProps, router }) {
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-MWM2MXT');`}}>
         </Script>
-        
+
       </Head>
 
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWM2MXT"

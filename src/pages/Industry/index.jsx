@@ -60,7 +60,7 @@ export default function Industry() {
                     />
                     <div className='absolute flex flex-wrap xl:w-[50%] top-8 left-4 right-4 lg:top-[6rem] lg:left-[6rem] font-clash'>
                         <h1 className='text-[2rem] lg:text-[4rem] text-white uppercase font-semibold'>Industries Served</h1>
-                        <p className='text-white  text-[.8rem] lg:text-[1.1rem] tracking-wide lg:w-[85%] glass p-4 rounded-xl'>
+                        <p className='text-white  text-[.8rem] lg:text-[1.1rem] tracking-wide lg:w-[85%] glass p-4 rounded-xl text-justify'>
                             At SPLENDID, we understand that high-quality commercial cleaning needs just the right systems and supplies.
                             If you want to find a supplier able to take on your facility’s specific cleaning challenges, you need one with industry-specific expertise.
                         </p>
@@ -83,14 +83,14 @@ export default function Industry() {
 
                 <div className='flex flex-col font-montserrat gap-6 justify-center p-4 lg:mx-[4rem] lg:px-[3rem] mb-8'>
 
-                    <p className='text-[1.1rem] py-4'><b>SPLENDID</b> is a leading provider of high-quality commercial cleaning solutions, with industry-specific expertise and a 'value-added' approach.
+                    <p className='text-[1.1rem] py-4 text-justify'><b>SPLENDID</b> is a leading provider of high-quality commercial cleaning solutions, with industry-specific expertise and a 'value-added' approach.
                         We work with a diverse range of industries and segments, offering tailored cleaning solutions to meet unique requirements. Our core markets include Hospitality,
                         Education, Health care, Facility Management, and Commercial sectors. Contact us today to experience the SPLENDID difference.
                     </p>
 
                     <div id='Hospitality'>
                         <h2 className='font-bold text-[2.2rem]'>Hospitality</h2>
-                        <p className='pt-2'>
+                        <p className='pt-2 text-justify'>
                             SPLENDID recognizes that maintaining a clean and hygienic hotel environment is a daunting task, especially with diverse guest preferences.
                             We offer comprehensive hotel housekeeping cleaning products and disinfectant solutions, coupled with unparalleled service and expert training,
                             to provide the best public space and hotel cleaning experience.
@@ -112,13 +112,13 @@ export default function Industry() {
 
                     <div id='Education'>
                         <h2 className='font-bold text-[2.2rem]'>Education</h2>
-                        <p className='pt-2'>
+                        <p className='pt-2 text-justify'>
                             SPLENDID recognizes the importance of using environmentally friendly cleaning products in the educational sector.
                             <img src="https://www.csginc.com/wp-content/uploads/2022/05/school-img.jpg"
                                 alt="Picture of the author"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] md:float-right'
+                                className='object-cover h-[12rem] mt-4 ml-4 rounded-md w-[23rem] md:float-right'
                             />
                             Our range of eco-friendly cleaning solutions and microfiber cleaning tools produce better outcomes than traditional products while improving indoor air quality,
                             resulting in a reduction in absenteeism caused by asthma and allergies. <br /> <br />
@@ -133,7 +133,7 @@ export default function Industry() {
 
                     <div id='HealthCare'>
                         <h2 className='font-bold text-[2.2rem]'>Health care</h2>
-                        <p className='pt-2'>
+                        <p className='pt-2 text-justify'>
                             At SPLENDID, we recognize that maintaining a clean and safe environment is crucial for healthcare facilities.
                             Our goal is to provide top-quality cleaning products and services that are tailored to the unique needs of each facility.
                             <img src="https://jncsinc.com/wp-content/uploads/2020/08/Medical-and-Healthcare-Cleaning.jpg"
@@ -155,13 +155,13 @@ export default function Industry() {
 
                     <div id='Commercial'>
                         <h2 className='font-bold text-[2.2rem]'>Commercial</h2>
-                        <p className='pt-2'>
+                        <p className='pt-2 text-justify'>
                             Commercial cleaning is a complex process that involves various cleaning methods, chemicals, and equipment to achieve excellent results.
                             <img src="https://www.cleanlink.com/resources/editorial/2017/janitor-highrise-21145.jpg"
                                 alt="Picture of commercial cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mr-4 rounded-md w-[23rem] md:float-right'
+                                className='object-cover h-[12rem] mt-4 ml-4 rounded-md w-[23rem] md:float-right'
                             />
                             It covers a wide range of tasks, including general cleaning, floor cleaning, window cleaning,
                             deep cleaning of sanitary facilities and kitchens, litter picking, and graffiti removal.<br /> <br />
@@ -173,7 +173,7 @@ export default function Industry() {
 
                     <div id="FacilityManagement">
                         <h2 className='font-bold text-[2.2rem]'>Facility Management</h2>
-                        <p className='pt-2'>
+                        <p className='pt-2 text-justify'>
                             Maintaining a clean and safe commercial building is crucial for the health and well-being of employees and visitors.
                             At SPLENDID, we understand the importance of using the right cleaning chemicals, products and equipment to achieve this goal. <br /> <br />
                             <img src="https://www.ipserv.co.uk/wp-content/uploads/2021/06/07-C-Office-Cleaning-800x450-1.jpg"

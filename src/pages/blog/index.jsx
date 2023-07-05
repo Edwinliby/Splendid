@@ -13,7 +13,7 @@ export default function Blog() {
             <Header />
             <main className='w-full h-screen pt-[4.5rem]'>
 
-                <div className="px-2 py-4 xl:px-20">
+                <div className="px-2 py-4 xl:px-20 mb-8">
                     <div className="flex justify-start w-full font-clash font-bold">
                         <span className="text-black/50 text-[5rem] xl:text-[7rem]">BLOGS</span>
                     </div>
@@ -28,12 +28,12 @@ export default function Blog() {
                                 />
                                 <label
                                     htmlFor="collapsible1"
-                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-7">
+                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-4 lg:p-7">
                                     <b>1.</b> Essential Cleaning Equipment for a Spotless Environment
                                 </label>
 
-                                <div className="collapsible-content">
-                                    <div className='relative h-fit flex flex-col mx-4 md:mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
+                                <div className="collapsible-content text-justify">
+                                    <div className='relative h-fit flex flex-col mx-2 md:mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
                                         <p>Maintaining cleanliness and hygiene in residential and commercial spaces is essential for creating a healthy and inviting environment.
                                             To achieve optimal results, investing in high-quality cleaning equipment is crucial. In this blog, we will provide a comprehensive list of essential cleaning equipment, highlighting their specific uses and benefits.
                                             Discover how Splendid Cleaning Equipment can help you achieve a spotless environment.
@@ -109,12 +109,12 @@ export default function Blog() {
                                 />
                                 <label
                                     htmlFor="collapsible2"
-                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-7">
+                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-4 lg:p-7">
                                     <b>2.</b> Ultimate Guide to Window Cleaning Equipment: Tools and Techniques
                                 </label>
 
-                                <div className="collapsible-content">
-                                    <div className='relative h-fit flex flex-col mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
+                                <div className="collapsible-content text-justify">
+                                    <div className='relative h-fit flex flex-col mx-2 md:mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
                                         <p>When it comes to achieving sparkling, streak-free windows, having the right window cleaning equipment is crucial.
                                             Whether you're a professional cleaner or a homeowner striving for pristine views, understanding the tools and techniques available can make all the difference.
                                             In this comprehensive guide, we will explore various window cleaning equipment,
@@ -199,12 +199,12 @@ export default function Blog() {
                                 />
                                 <label
                                     htmlFor="collapsible3"
-                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-7">
+                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-4 lg:p-7">
                                     <b>3.</b> Must-Have Cleaning Equipment: Building Your Cleaning Arsenal
                                 </label>
 
-                                <div className="collapsible-content">
-                                    <div className='relative h-fit flex flex-col mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
+                                <div className="collapsible-content text-justify">
+                                    <div className='relative h-fit flex flex-col mx-2 md:mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
                                         <p>Having the right cleaning equipment is essential for maintaining cleanliness and hygiene in any space.
                                             Whether you're a professional cleaner or an individual looking to upgrade your cleaning routine, having a well-equipped cleaning arsenal is crucial.
                                             In this blog, we will provide a curated list of must-have cleaning equipment, along with their specific uses and features.
@@ -284,12 +284,12 @@ export default function Blog() {
                                 />
                                 <label
                                     htmlFor="collapsible4"
-                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-7">
+                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-4 lg:p-7">
                                     <b>4.</b> Cleaning Industry in the UAE: Trends and Insights
                                 </label>
 
-                                <div className="collapsible-content">
-                                    <div className='relative h-fit flex flex-col mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
+                                <div className="collapsible-content text-justify">
+                                    <div className='relative h-fit flex flex-col mx-2 md:mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
                                         <p>The cleaning industry in the UAE has witnessed significant growth and transformation in recent years.
                                             As cleanliness and hygiene become increasingly important, both individuals and businesses are recognizing the value of professional cleaning services.
                                             In this blog, we will explore the current state of the cleaning industry in the UAE, its growth prospects, and emerging trends.
@@ -377,12 +377,12 @@ export default function Blog() {
                                 />
                                 <label
                                     htmlFor="collapsible5"
-                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-7">
+                                    className="lbl-toggle block cursor-pointer font-semibold text-black/80 text-xl md:text-2xl p-4 lg:p-7">
                                     <b>5.</b> Simplify Mopping with a Bucket and Mop Wringer Combo: Benefi ts and Tips
                                 </label>
 
-                                <div className="collapsible-content">
-                                    <div className='relative h-fit flex flex-col mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
+                                <div className="collapsible-content text-justify">
+                                    <div className='relative h-fit flex flex-col mx-2 md:mx-[4rem] justify-center gap-4 my-8 font-montserrat'>
                                         <p>Mopping is an essential part of maintaining cleanliness in residential and commercial spaces.
                                             To make the mopping process more efficient and convenient, using a bucket with a built-in mop wringer is a game-changer.
                                             In this blog, we will explore the advantages of using a bucket and mop wringer combo, highlighting its benefits and features.

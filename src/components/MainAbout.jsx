@@ -10,7 +10,7 @@ export default function MainAbout() {
                 <div className='lg:border-b-[2px] lg:p-6 flex flex-col justify-center'>
                     <h1 className='font-extrabold text-[2rem] sm:text-[2.5rem] lg:text-[3rem] leading-[3.5rem]'> <b className='text-[3.7rem]'>S</b>erving communities since <b className='text-royal_blue'>1996</b></h1>
                     <p
-                        className="text-black/80 sm:text-[1.1rem] pt-8">
+                        className="text-black/80 sm:text-[1.1rem] pt-8 text-justify">
                         <b>SPLENDID CLEANING MATERIAL TRADING LLC</b> is one of the most acclaimed Janitorial supplies
                         Companies headquartered in UAE supplying cleaning and hygiene products to a multitude of industries.
                         Since inception, we have been involved in major projects in the region.
