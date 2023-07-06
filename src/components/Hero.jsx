@@ -88,14 +88,13 @@ export default function Hero() {
   ];
 
   return (
-    // <div className="h-screen w-full relative">
-
     <div className=" w-full relative top-[4rem]">
       <Slider {...bgsettings} className="mx-4 py-4 -z-10">
         <div className="relative">
           <Image
             src="/HeroImg.png"
-            alt="Picture of the author"
+            loading="eager"
+            alt="home page picture-1"
             width={1000}
             height={1000}
             className="object-cover h-[95vh] w-full rounded-lg border-4 border-white/50"
@@ -112,7 +111,8 @@ export default function Hero() {
         <div className="relative">
           <Image
             src="/heroimg2.png"
-            alt="Picture of the author"
+            alt="home page picture-2"
+            loading="eager"
             width={1000}
             height={1000}
             className="object-cover h-[95vh] w-full opacity-75 rounded-lg border-4 border-white/50"
@@ -147,6 +147,5 @@ export default function Hero() {
         </Slider>
       </motion.div>
     </div>
-    // </div>
   );
 }

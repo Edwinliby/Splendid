@@ -92,7 +92,6 @@ export default function Contact() {
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7212.216281238144!2d55.403385!3d25.334152!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f594e2e0465f9%3A0x411403f1af2c520!2sSplendid%20Cleaning%20Material%20Trading%20LLC!5e0!3m2!1sen!2sae!4v1684681624627!5m2!1sen!2sae"
                     width="600" height="450"
-                    loading="lazy"
                     className='w-full h-[25rem] rounded-lg px-4 lg:px-[6rem]'>
                 </iframe>
             </main>
