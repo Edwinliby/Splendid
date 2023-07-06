@@ -60,7 +60,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ delay: .5 }}
-              className="h-fit lg:h-[100vh] p-4 flex flex-col justify-evenly">
+              className="h-fit lg:h-[100vh] p-4 ">
               <div className="flex items-center gap-6">
                 <div className="flex relative">
                   <div className="w-9 h-8 bg-black rounded-full border-[2px] border-black/50"></div>

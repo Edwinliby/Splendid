@@ -58,7 +58,7 @@ export default function Industry() {
                         height={1080}
                         className='object-cover h-[15rem] lg:h-[23rem]'
                     />
-                    <div className='absolute flex flex-wrap xl:w-[50%] top-8 left-4 right-4 lg:top-[6rem] lg:left-[6rem] font-clash'>
+                    <div className='absolute flex flex-wrap top-8 left-4 right-4 lg:top-[6rem] lg:left-[6rem] font-clash'>
                         <h1 className='text-[2rem] lg:text-[4rem] text-white uppercase font-semibold'>Industries Served</h1>
                         <p className='text-white  text-[.8rem] lg:text-[1.1rem] tracking-wide lg:w-[85%] glass p-4 rounded-xl text-justify'>
                             At SPLENDID, we understand that high-quality commercial cleaning needs just the right systems and supplies.
@@ -99,7 +99,7 @@ export default function Industry() {
                                 alt="Picture of the author"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mb-4 mr-4 rounded-md w-[23rem] md:float-left'
+                                className='object-cover h-[15rem] mt-4 mb-4 mr-4 rounded-md md:float-left'
                             />
                             Our wide range of housekeeping and janitorial supplies is specially designed to help you achieve the best results.
                             <br /> <br />
@@ -118,7 +118,7 @@ export default function Industry() {
                                 alt="Picture of the author"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mb-4 lg:ml-4 rounded-md w-[23rem] md:float-right'
+                                className='object-cover h-[15rem] mt-4 mb-4 lg:ml-4 rounded-md md:float-right'
                             />
                             Our range of eco-friendly cleaning solutions and microfiber cleaning tools produce better outcomes than traditional products while improving indoor air quality,
                             resulting in a reduction in absenteeism caused by asthma and allergies. <br /> <br />
@@ -140,7 +140,7 @@ export default function Industry() {
                                 alt="Picture of the Health care cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mb-4 lg:mb-0 mr-4 rounded-md w-[23rem] md:float-left'
+                                className='object-cover h-[15rem] mt-4 mb-4 lg:mb-0 mr-4 rounded-md md:float-left'
                             />
                             We understand that hospitals have strict requirements for cleanliness and infection prevention and control.
                             Therefore, we offer a range of products that are specially formulated for hospitals, including Brix trolleys,
@@ -161,7 +161,7 @@ export default function Industry() {
                                 alt="Picture of commercial cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mt-4 mb-4 lg:ml-4 rounded-md w-[23rem] md:float-right'
+                                className='object-cover h-[15rem] mt-4 mb-4 lg:ml-4 rounded-md md:float-right'
                             />
                             It covers a wide range of tasks, including general cleaning, floor cleaning, window cleaning,
                             deep cleaning of sanitary facilities and kitchens, litter picking, and graffiti removal.<br /> <br />
@@ -180,7 +180,7 @@ export default function Industry() {
                                 alt="Picture of the Facility Management cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[12rem] mb-4 mr-4 rounded-md w-[23rem] md:float-left'
+                                className='object-cover h-[15rem] mb-4 mr-4 rounded-md md:float-left'
                             />
                             We offer a wide range of facility maintenance supplies that include cleaning and disinfecting products for common areas and high-touch surfaces,
                             as well as premium chemicals, tools and equipment for floor care programs. With our extensive experience in meeting the facility service needs of various industries such as retail spaces,
