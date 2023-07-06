@@ -39,7 +39,7 @@ export default function About() {
       <div className="relative lg:sticky z-[2] bg-transparent top-0 left-0 flex flex-col lg:w-[70%] h-fit lg:h-[100vh] justify-center p-4 lg:pl-16 gap-4">
         <div className='blob1 hidden lg:block absolute top-16 left-12 w-[10rem] h-[10rem]'></div>
         <div className="flex lg:flex-col  justify-center items-center gap-4">
-          <h1 className="flex font-clash items-center font-medium text-[1.9rem] md:text-[2.5rem] gap-3">
+          <h1 className="flex font-clash items-center font-medium text-[1.6rem] sm:text-[1.9rem] md:text-[2.5rem] gap-3">
             What is{" "}
             <Image src="/BigLogo.png" alt="logo" width={1500} height={1500} className="w-auto h-[4.5rem]" />
           </h1>
@@ -63,10 +63,10 @@ export default function About() {
               className="h-fit lg:h-[100vh] p-4 ">
               <div className="flex items-center gap-6">
                 <div className="flex relative">
-                  <div className="w-9 h-8 bg-black rounded-full border-[2px] border-black/50"></div>
-                  <div className="absolute left-4 w-9 h-8 rounded-full border-[2px] border-black/50"></div>
+                  <div className="w-7 h-6 sm:w-9 sm:h-8 bg-black rounded-full border-[2px] border-black/50"></div>
+                  <div className="absolute left-4 w-7 h-6 sm:w-9 sm:h-8 rounded-full border-[2px] border-black/50"></div>
                 </div>
-                <h1 className="flex font-clash items-center text-royal_blue font-medium text-[1.5rem] md:text-[2.3rem] gap-2">
+                <h1 className="flex font-clash items-center text-royal_blue font-medium text-[1.2rem] sm:text-[1.5rem] md:text-[2.3rem] gap-2">
                   {item.head}
                 </h1>
               </div>

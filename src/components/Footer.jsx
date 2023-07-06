@@ -35,10 +35,10 @@ export default function Footer() {
                     and boring if you have a right cleaning partner!
                 </p>
                 <div className='flex w-full gap-7 items-center justify-start'>
-                    <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaFacebookF size={35} /></Link>
-                    <Link href="https://twitter.com/UaeSplendid" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaTwitter size={35} /></Link>
-                    <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaInstagram size={35} /></Link>
-                    <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-royal_blue'><FaLinkedin size={35} /></Link>
+                    <Link href="https://www.facebook.com/profile.php?id=100090676724827" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-[1.5rem] sm:text-[2rem] text-royal_blue'><FaFacebookF /></Link>
+                    <Link href="https://twitter.com/UaeSplendid" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-[1.5rem] sm:text-[2rem] text-royal_blue'><FaTwitter /></Link>
+                    <Link href="https://instagram.com/splendid_uae?igshid=YmMyMTA2M2Y" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-[1.5rem] sm:text-[2rem] text-royal_blue'><FaInstagram /></Link>
+                    <Link href="https://www.linkedin.com/company/splendiduae/" className='rounded-full border-[1.5px] border-main_primary hover:scale-110 transition-all duration-300 ease-in-out p-2 text-[1.5rem] sm:text-[2rem] text-royal_blue'><FaLinkedin /></Link>
                 </div>
             </div>
 

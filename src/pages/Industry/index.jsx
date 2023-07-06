@@ -59,8 +59,8 @@ export default function Industry() {
                         className='object-cover h-[15rem] lg:h-[23rem]'
                     />
                     <div className='absolute flex flex-wrap top-8 left-4 right-4 lg:top-[6rem] lg:left-[6rem] font-clash'>
-                        <h1 className='text-[2rem] lg:text-[4rem] text-white uppercase font-semibold'>Industries Served</h1>
-                        <p className='text-white  text-[.8rem] lg:text-[1.1rem] tracking-wide lg:w-[85%] glass p-4 rounded-xl text-justify'>
+                        <h1 className='text-[1.3rem] sm:text-[2rem] lg:text-[4rem] text-white uppercase font-semibold'>Industries Served</h1>
+                        <p className='text-white text-[.71rem] sm:text-[.8rem] lg:text-[1.1rem] tracking-wide lg:w-[85%] glass p-4 rounded-xl text-justify'>
                             At SPLENDID, we understand that high-quality commercial cleaning needs just the right systems and supplies.
                             If you want to find a supplier able to take on your facility’s specific cleaning challenges, you need one with industry-specific expertise.
                         </p>
@@ -118,7 +118,7 @@ export default function Industry() {
                                 alt="Picture of the author"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[15rem] mt-4 mb-4 lg:ml-4 rounded-md md:float-right'
+                                className='object-cover h-[15rem] mt-4 mb-4 md:ml-4 rounded-md md:float-right'
                             />
                             Our range of eco-friendly cleaning solutions and microfiber cleaning tools produce better outcomes than traditional products while improving indoor air quality,
                             resulting in a reduction in absenteeism caused by asthma and allergies. <br /> <br />
@@ -161,7 +161,7 @@ export default function Industry() {
                                 alt="Picture of commercial cleaning"
                                 width={500}
                                 height={500}
-                                className='object-cover h-[15rem] mt-4 mb-4 lg:ml-4 rounded-md md:float-right'
+                                className='object-cover h-[15rem] mt-4 mb-4 md:ml-4 rounded-md md:float-right'
                             />
                             It covers a wide range of tasks, including general cleaning, floor cleaning, window cleaning,
                             deep cleaning of sanitary facilities and kitchens, litter picking, and graffiti removal.<br /> <br />
@@ -194,7 +194,7 @@ export default function Industry() {
                 </div>
 
                 <Footer />
-                <span className="w-full bg-white text-black/60 flex justify-between text-[.8rem] xl:pl-6 py-3 pl-4 pr-8 xl:pr-10">
+                <span className="w-full bg-white text-black/60 flex justify-between text-[.6rem] sm:text-[.8rem] xl:pl-6 py-3 px-2 sm:pl-4 sm:pr-8 xl:pr-10">
                     <p>Developed by <a href="https://linktr.ee/Volshauz?ltsid=207b9289-a777-4717-8a69-f1ab494861f2" target="_blank"><b>Volshauz</b></a></p>
                     <p>2023 ©️ All rights reserved</p>
                 </span>
