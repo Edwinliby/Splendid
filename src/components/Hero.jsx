@@ -92,7 +92,7 @@ export default function Hero() {
       <Slider {...bgsettings} className="mx-4 py-4 -z-10">
         <div className="relative">
           <Image
-            src="/h1.png"
+            src="/h1.jpg"
             loading="eager"
             alt="home page picture-1"
             width={1000}
