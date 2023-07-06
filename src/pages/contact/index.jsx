@@ -11,7 +11,7 @@ import { GiRotaryPhone } from 'react-icons/gi'
 
 export default function Contact() {
     return (
-        <div className='bg-[url("/contact.jpg")] bg-cover bg-no-repeat'>
+        <div className='bg-[url("https://e8s3v3w7.rocketcdn.me/wp-content/uploads/2017/11/vae-sharjah-das-emirat-der-museen-und-macc88rkte-wurde-2014-zur-islamischen-kulturhauptstadt-erklacc88rt-vae-alex7370-shutterstock.jpg")] bg-cover bg-no-repeat'>
             <Head>
                 <title>Splendid-Contact</title>
             </Head>
@@ -62,23 +62,23 @@ export default function Contact() {
                             <div className='flex flex-col gap-10 w-full text-white'>
                                 <div className='flex flex-col w-full lg:w-[50%]'>
                                     <label htmlFor='name'>Name</label>
-                                    <input type='text' name='name' id='name' placeholder='Enter your name' required className='bg-transparent border-b border-white/40 p-2' />
+                                    <input type='text' name='name' id='name' placeholder='Enter your name' required className='bg-transparent border-b border-white/40 p-2 placeholder:text-white/60' />
                                 </div>
                                 <div className='flex flex-wrap flex-col gap-6'>
                                     <div className='flex flex-col w-full lg:w-[50%]'>
                                         <label htmlFor='name'>Email</label>
-                                        <input type='email' name='name' id='email' placeholder='Enter email here' required className='bg-transparent border-b border-white/40 p-2' />
+                                        <input type='email' name='name' id='email' placeholder='Enter email here' required className='bg-transparent border-b border-white/40 placeholder:text-white/60 p-2' />
                                     </div>
 
                                     <div className='flex flex-col w-full lg:w-[50%]'>
                                         <label htmlFor='name'>Phone Number</label>
-                                        <input type='tel' name='name' id='phno' placeholder='Enter ph:no here' required className='bg-transparent border-b border-white/40 p-2' />
+                                        <input type='tel' name='name' id='phno' placeholder='Enter ph:no here' required className='bg-transparent border-b border-white/40 placeholder:text-white/60 p-2' />
                                     </div>
                                 </div>
 
                                 <div className='flex flex-col '>
                                     <label htmlFor='name'>Message</label>
-                                    <textarea name='name' id='message' placeholder='Write your messgae here ...' required className='bg-transparent border-b border-white/40 p-2' />
+                                    <textarea name='name' id='message' placeholder='Write your messgae here ...' required className='bg-transparent border-b border-white/40 placeholder:text-white/60 p-2' />
                                 </div>
 
                                 <div className=' flex justify-end'>

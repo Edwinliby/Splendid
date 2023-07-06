@@ -14,7 +14,7 @@ function Home() {
   return (
     <div className='h-screen w-full scroll-smooth'>
       <Head>
-        <title>Splendid</title>
+        <title>Splendid Cleaning Materials Trading LLC</title>
       </Head>
 
       <Header />
