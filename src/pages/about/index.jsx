@@ -35,7 +35,7 @@ export default function About() {
 
                     <div className=' '>
                         <p className='text-black text-[2rem] font-semibold'>
-                            A word from our <b className='text-red-500'>Managing Director</b>
+                            A word from our <b className='text-red-500'>Founder & CEO</b>
                         </p>
                         <p className='italic text-justify'>
                             <b>“</b> On behalf of the Board of Directors, I would like to thank our team for their incredible support and dedication.
@@ -100,8 +100,8 @@ export default function About() {
 
             <Footer />
             <span className="w-full bg-white text-black/60 flex justify-between text-[.6rem] sm:text-[.8rem] xl:pl-6 py-3 px-2 sm:pl-4 sm:pr-8 xl:pr-10">
-                <p>Developed by <a href="https://linktr.ee/Volshauz?ltsid=207b9289-a777-4717-8a69-f1ab494861f2" target="_blank"><b>Volshauz</b></a></p>
-                <p>2023 ©️ All rights reserved</p>
+                <p>Developed by <a href="https://www.volshauz.com/" target="_blank"><b>Volshauz</b></a></p>
+                <p>2024 ©️ All rights reserved</p>
             </span>
         </div>
     )
